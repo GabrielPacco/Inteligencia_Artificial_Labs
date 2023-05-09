@@ -1,0 +1,45 @@
+BFS Nodo seleccionado: ARE
+Gabriel Pacco Huaraca
+Paso 1
+frontier = {LAM}
+reached = {LAM}
+Paso 2
+frontier = {CUS}
+reached = {LAM, CUS}
+Paso 3
+frontier = {CUS, PUN}
+reached = {LAM, CUS, PUN}
+Paso 4
+frontier = {PIU}
+reached = {LAM, CUS, PUN, PIU}
+Paso 5
+frontier = {PIU, ANC}
+reached = {LAM, CUS, PUN, PIU, ANC}
+Paso 6
+frontier = {PIU, ANC, PAS}
+reached = {LAM, CUS, PUN, PIU, ANC, PAS}
+Paso 7
+frontier = {PIU, ANC, PAS, AMA}
+reached = {LAM, CUS, PUN, PIU, ANC, PAS, AMA}
+Paso 8
+frontier = {ICA}
+reached = {LAM, CUS, PUN, PIU, ANC, PAS, AMA, ICA}
+Paso 9
+frontier = {ICA, HUAN}
+reached = {LAM, CUS, PUN, PIU, ANC, PAS, AMA, ICA, HUAN}
+Paso 10
+frontier = {ICA, HUAN, MOQ}
+reached = {LAM, CUS, PUN, PIU, ANC, PAS, AMA, ICA, HUAN, MOQ}
+Paso 11
+frontier = {ICA, HUAN, MOQ, HUA}
+reached = {LAM, CUS, PUN, PIU, ANC, PAS, AMA, ICA, HUAN, MOQ, HUA}
+Paso 12
+frontier = {ICA, HUAN, MOQ, HUA, JUN}
+reached = {LAM, CUS, PUN, PIU, ANC, PAS, AMA, ICA, HUAN, MOQ, HUA, JUN}
+Paso 13
+frontier = {ICA, HUAN, MOQ, HUA, JUN, LIM}
+reached = {LAM, CUS, PUN, PIU, ANC, PAS, AMA, ICA, HUAN, MOQ, HUA, JUN, LIM}
+Paso 14
+frontier = {ICA, HUAN, MOQ, HUA, JUN, LIM, TAC}
+reached = {LAM, CUS, PUN, PIU, ANC, PAS, AMA, ICA, HUAN, MOQ, HUA, JUN, LIM, TAC}
+Nodo encontrado -> ARE

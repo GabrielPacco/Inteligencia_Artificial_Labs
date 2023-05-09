@@ -1,15 +1,17 @@
-digraph {
-  A [label="AAA"]
-  B [label="BBB"]
-  C [label="CCC"]
-  D [label="DDD"]
-  E [label="EEE"]
-  F [label="FFF"]
-  G [label="GGG"]
-  A -> B
-  A -> C
-  B -> D
-  B -> E
-  C -> F
-  C -> G
+digraph g {
+"LAM" -> "CUS";
+"LAM" -> "PUN";
+"CUS" -> "PIU";
+"CUS" -> "ANC";
+"PUN" -> "PAS";
+"PUN" -> "AMA";
+"PIU" -> "ICA";
+"PIU" -> "HUAN";
+"ANC" -> "MOQ";
+"ANC" -> "HUA";
+"PAS" -> "JUN";
+"PAS" -> "LIM";
+"AMA" -> "TAC";
+"AMA" -> "ARE";
+"ICA" -> "APU";
 }

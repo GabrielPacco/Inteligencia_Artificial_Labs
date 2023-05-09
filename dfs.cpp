@@ -11,11 +11,13 @@ public:
     string value;
     Node *left;
     Node *right;
+    int level;
 
-    Node(string value) {
+    Node(string value, int level) {
         this->value = value;
         this->left = nullptr;
         this->right = nullptr;
+        this->level = level;
     }
 };
 
@@ -29,7 +31,7 @@ public:
 
     void insert(string value) {
         if (this->root == nullptr) {
-            this->root = new Node(value);
+            this->root = new Node(value, 0);
         } else {
             queue<Node*> q;
             q.push(this->root);
@@ -41,14 +43,14 @@ public:
                 if (temp->left != nullptr) {
                     q.push(temp->left);
                 } else {
-                    temp->left = new Node(value);
+                    temp->left = new Node(value, temp->level + 1);
                     return;
                 }
 
                 if (temp->right != nullptr) {
                     q.push(temp->right);
                 } else {
-                    temp->right = new Node(value);
+                    temp->right = new Node(value, temp->level + 1);
                     return;
                 }
             }
@@ -85,59 +87,39 @@ public:
         system("dot -Tpng tree.dot -o tree.png");
     }
 
-    bool bfs(string goal) {
-        vector<string> frontier;
-        vector<string> reached;
+    bool dfs(Node *node, string goal, vector<pair<string, int>> &frontier, vector<pair<string, int>> &reached) {
+        if (node == nullptr) return false;
 
-        queue<Node*> q;
-        q.push(this->root);
+        frontier.push_back(make_pair(node->value, node->level));
+        reached.push_back(make_pair(node->value, node->level));
 
-        int step = 1;
-        ofstream file("bfs.txt", ios::app);
-        file << "BFS Nodo seleccionado: " << goal << endl;
-        file << "Gabriel Pacco Huaraca" << endl;
-        file.close();
-        while (!q.empty()) {
-            int size = q.size();
+        ofstream file("dfs.txt", ios::app);
 
-            for (int i = 0; i < size; i++) {
-                Node *temp = q.front();
-                q.pop();
-
-                frontier.push_back(temp->value);
-                reached.push_back(temp->value);
-
-                ofstream file("bfs.txt", ios::app);
-                if (temp->value == goal){
-                    file << "Nodo encontrado -> " << goal << endl;
-                    return true;
-                } 
-                
-                file << "Paso " << step++ << endl;
-                file << "frontier = {";
-                for (int i = 0; i < frontier.size(); i++) {
-                    file << frontier[i];
-                    if (i != frontier.size() - 1) file << ", ";
-                }
-                file << "}" << endl;
-                file << "reached = {";
-                for (int i = 0; i < reached.size(); i++) {
-                    file << reached[i];
-                    if (i != reached.size() - 1) file << ", ";
-                }
-                file << "}\n";
-                file.close();
-
-                if (temp->left != nullptr) {
-                    q.push(temp->left);
-                }
-
-                if (temp->right != nullptr) {
-                    q.push(temp->right);
-                }
-            }
-            frontier.clear();
+        if (node->value == goal){
+            file << "Nodo encontrado -> " << goal << endl;
+            return true;
         }
+
+        file << "Paso " << reached.size() << endl;
+        file << "frontier = {";
+        for (int i = 0; i < frontier.size(); i++) {
+            file << frontier[i].first << "(-" << frontier[i].second << ")";
+            if (i != frontier.size() - 1) file << ", ";
+        }
+        file << "}" << endl;
+        file << "reached = {";
+        for (int i = 0; i < reached.size(); i++) {
+            file << reached[i].first << "(-" << reached[i].second << ")";
+            if (i != reached.size() - 1) file << ", ";
+        }
+        file << "}\n";
+        file.close();
+
+        if (dfs(node->left, goal, frontier, reached)) return true;
+        if (dfs(node->right, goal, frontier, reached)) return true;
+
+        frontier.pop_back();
+
         return false;
     }
 };
@@ -165,10 +147,15 @@ int main() {
     tree.exportDot();
     tree.generateImage();
 
-    ofstream file("bfs.txt");
+    vector<pair<string, int>> frontier;
+    vector<pair<string, int>> reached;
+    
+    ofstream file("dfs.txt");
+    file << "DFS Nodo seleccionado: " << "ARE" << endl;
+    file << "Gabriel Pacco Huaraca" << endl;
     file.close();
 
-    bool found = tree.bfs("ARE");
+    bool found = tree.dfs(tree.root, "ARE", frontier, reached);
 
     cout << "Nodo encontrado: " << (found ? "Si" : "No") << endl;
 

@@ -1,0 +1,48 @@
+DFS Nodo seleccionado: ARE
+Gabriel Pacco Huaraca
+Paso 1
+frontier = {LAM(-0)}
+reached = {LAM(-0)}
+Paso 2
+frontier = {LAM(-0), CUS(-1)}
+reached = {LAM(-0), CUS(-1)}
+Paso 3
+frontier = {LAM(-0), CUS(-1), PIU(-2)}
+reached = {LAM(-0), CUS(-1), PIU(-2)}
+Paso 4
+frontier = {LAM(-0), CUS(-1), PIU(-2), ICA(-3)}
+reached = {LAM(-0), CUS(-1), PIU(-2), ICA(-3)}
+Paso 5
+frontier = {LAM(-0), CUS(-1), PIU(-2), ICA(-3), APU(-4)}
+reached = {LAM(-0), CUS(-1), PIU(-2), ICA(-3), APU(-4)}
+Paso 6
+frontier = {LAM(-0), CUS(-1), PIU(-2), HUAN(-3)}
+reached = {LAM(-0), CUS(-1), PIU(-2), ICA(-3), APU(-4), HUAN(-3)}
+Paso 7
+frontier = {LAM(-0), CUS(-1), ANC(-2)}
+reached = {LAM(-0), CUS(-1), PIU(-2), ICA(-3), APU(-4), HUAN(-3), ANC(-2)}
+Paso 8
+frontier = {LAM(-0), CUS(-1), ANC(-2), MOQ(-3)}
+reached = {LAM(-0), CUS(-1), PIU(-2), ICA(-3), APU(-4), HUAN(-3), ANC(-2), MOQ(-3)}
+Paso 9
+frontier = {LAM(-0), CUS(-1), ANC(-2), HUA(-3)}
+reached = {LAM(-0), CUS(-1), PIU(-2), ICA(-3), APU(-4), HUAN(-3), ANC(-2), MOQ(-3), HUA(-3)}
+Paso 10
+frontier = {LAM(-0), PUN(-1)}
+reached = {LAM(-0), CUS(-1), PIU(-2), ICA(-3), APU(-4), HUAN(-3), ANC(-2), MOQ(-3), HUA(-3), PUN(-1)}
+Paso 11
+frontier = {LAM(-0), PUN(-1), PAS(-2)}
+reached = {LAM(-0), CUS(-1), PIU(-2), ICA(-3), APU(-4), HUAN(-3), ANC(-2), MOQ(-3), HUA(-3), PUN(-1), PAS(-2)}
+Paso 12
+frontier = {LAM(-0), PUN(-1), PAS(-2), JUN(-3)}
+reached = {LAM(-0), CUS(-1), PIU(-2), ICA(-3), APU(-4), HUAN(-3), ANC(-2), MOQ(-3), HUA(-3), PUN(-1), PAS(-2), JUN(-3)}
+Paso 13
+frontier = {LAM(-0), PUN(-1), PAS(-2), LIM(-3)}
+reached = {LAM(-0), CUS(-1), PIU(-2), ICA(-3), APU(-4), HUAN(-3), ANC(-2), MOQ(-3), HUA(-3), PUN(-1), PAS(-2), JUN(-3), LIM(-3)}
+Paso 14
+frontier = {LAM(-0), PUN(-1), AMA(-2)}
+reached = {LAM(-0), CUS(-1), PIU(-2), ICA(-3), APU(-4), HUAN(-3), ANC(-2), MOQ(-3), HUA(-3), PUN(-1), PAS(-2), JUN(-3), LIM(-3), AMA(-2)}
+Paso 15
+frontier = {LAM(-0), PUN(-1), AMA(-2), TAC(-3)}
+reached = {LAM(-0), CUS(-1), PIU(-2), ICA(-3), APU(-4), HUAN(-3), ANC(-2), MOQ(-3), HUA(-3), PUN(-1), PAS(-2), JUN(-3), LIM(-3), AMA(-2), TAC(-3)}
+Nodo encontrado -> ARE

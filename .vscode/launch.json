@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/windows/Downloads/Lab_01_IA",
-      "program": "c:/Users/windows/Downloads/Lab_01_IA/build/Debug/outDebug",
+      "cwd": "c:/Users/gabri/Downloads/Lab_01_IA",
+      "program": "c:/Users/gabri/Downloads/Lab_01_IA/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
