@@ -1,1 +1,1 @@
-# Lab_01_IA
+# Laboratorios de Inteligencia Artificial
