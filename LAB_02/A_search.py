@@ -1,106 +1,77 @@
+import matplotlib.pyplot as plt
 from queue import PriorityQueue
 
-class Estado:
-    def _init_(self, tablero, g, h, movimiento_anterior):
-        self.tablero = tablero
-        self.g = g # costo acumulado
-        self.h = h # estimación heurística
-        self.movimiento_anterior = movimiento_anterior
+class Puzzle:
+    def __init__(self, initial, goal):
+        self.initial = initial
+        self.goal = goal
+        self.n = int(len(initial) ** 0.5)
 
-    def f(self):
-        return self.g + self.h
+    def h(self, state):
+        # heuristic function: number of misplaced tiles
+        return sum(s != g for s, g in zip(state, self.goal))
 
-    def _lt_(self, otro):
-        return self.f() < otro.f()
+    def astar(self):
+        open_list = PriorityQueue()
+        open_list.put((0, self.initial))
+        came_from = {tuple(self.initial): None}
+        cost_so_far = {tuple(self.initial): 0}
 
-    def _eq_(self, otro):
-        return self.tablero == otro.tablero
-
-def pos_cero(tablero):
-    for i in range(3):
-        for j in range(3):
-            if tablero[i][j] == 0:
-                return i, j
-
-def generar_movimientos(tablero):
-    movimientos = []
-    i, j = pos_cero(tablero)
-    if i > 0:
-        arriba = [fila[:] for fila in tablero]
-        arriba[i][j], arriba[i-1][j] = arriba[i-1][j], arriba[i][j]
-        movimientos.append(Estado(arriba, 1, h(arriba), "Abajo"))
-    if i < 2:
-        abajo = [fila[:] for fila in tablero]
-        abajo[i][j], abajo[i+1][j] = abajo[i+1][j], abajo[i][j]
-        movimientos.append(Estado(abajo, 1, h(abajo), "Arriba"))
-    if j > 0:
-        izquierda = [fila[:] for fila in tablero]
-        izquierda[i][j], izquierda[i][j-1] = izquierda[i][j-1], izquierda[i][j]
-        movimientos.append(Estado(izquierda, 1, h(izquierda), "Derecha"))
-    if j < 2:
-        derecha = [fila[:] for fila in tablero]
-        derecha[i][j], derecha[i][j+1] = derecha[i][j+1], derecha[i][j]
-        movimientos.append(Estado(derecha, 1, h(derecha), "Izquierda"))
-    return movimientos
-
-def h(tablero):
-    # heurística: distancia Manhattan
-    distancia = 0
-    for i in range(3):
-        for j in range(3):
-            if tablero[i][j] == 0:
-                continue
-            x, y = divmod(tablero[i][j]-1, 3)
-            distancia += abs(x-i) + abs(y-j)
-    return distancia
-
-
-def a_estrella(inicial, final):
-    abierta = PriorityQueue()
-    abierta.put(inicial)
-    cerrada = set()
-    i = 1
-    with open("a.txt", "w") as archivo:
-        archivo.write("Nombre: a\nBúsqueda: A*\nEstado inicial: " + str(inicial.tablero) + "\nEstado final: " + str(final.tablero) + "\n\n")
-        while not abierta.empty():
-            actual = abierta.get()
-            archivo.write("Iteración " + str(i) + "\n")
-            archivo.write("Abierta: ")
-            for estado in abierta.queue:
-                archivo.write(str(estado.tablero) + " ")
-            archivo.write("\nCerrada: ")
-            for estado in cerrada:
-                archivo.write(str(estado.tablero) + " ")
-            archivo.write("\nActual: " + str(actual.tablero) + " (f=" + str(actual.f()) + ", g=" + str(actual.g) + ", h=" + str(actual.h) + ", movimiento=" + str(actual.movimiento_anterior) + ")\n")
-            cerrada.add(actual)
-            if actual == final:
-                archivo.write("\nSolución encontrada:\n")
-                camino = []
-                while actual.movimiento_anterior:
-                    camino.append((actual.movimiento_anterior, actual.tablero))
-                    actual = actual.movimiento_anterior
-                camino.reverse()
-                for movimiento, tablero in camino:
-                    archivo.write(movimiento + "\n" + str(tablero) + "\n")
+        while not open_list.empty():
+            _, current = open_list.get()
+            current_tuple = tuple(current)
+            if current == self.goal:
                 break
-            for movimiento in generar_movimientos(actual.tablero):
-                if movimiento in cerrada:
-                    continue
-                if movimiento not in abierta.queue:
-                    abierta.put(movimiento)
-                elif movimiento.g < actual.g:
-                    abierta.queue.remove(movimiento)
-                    abierta.put(movimiento)
-            i += 1
-            archivo.write("\n")
-        archivo.write("Nodos expandidos: " + str(i) + "\n")
-        archivo.write("Nodos visitados: " + str(len(cerrada)) + "\n")
-        archivo.write("Profundidad de la solución: " + str(len(camino)) + "\n")
-        archivo.write("Costo de la solución: " + str(final.g) + "\n")
-        archivo.write("Factor de ramificación efectivo: " + str(i**(1/len(cerrada))) + "\n")
+
+            empty_index = current.index(0)
+            x, y = empty_index % self.n, empty_index // self.n
+
+            for dx, dy in ((-1, 0), (1, 0), (0, -1), (0, 1)):
+                new_x, new_y = x + dx, y + dy
+                if 0 <= new_x < self.n and 0 <= new_y < self.n:
+                    neighbor = current.copy()
+                    neighbor_index = new_y * self.n + new_x
+                    neighbor[empty_index], neighbor[neighbor_index] = neighbor[neighbor_index], neighbor[empty_index]
+                    neighbor_tuple = tuple(neighbor)
+
+                    new_cost = cost_so_far[current_tuple] + 1
+                    if neighbor_tuple not in cost_so_far or new_cost < cost_so_far[neighbor_tuple]:
+                        cost_so_far[neighbor_tuple] = new_cost
+                        priority = new_cost + self.h(neighbor)
+                        open_list.put((priority, neighbor))
+                        came_from[neighbor_tuple] = current_tuple
+
+        return came_from, cost_so_far[current_tuple]
+
+    def display_solution(self):
+        came_from, _ = self.astar()
+
+        # reconstruct path
+        current = tuple(self.goal)
+        path = [current]
+        while current != tuple(self.initial):
+            current = came_from[current]
+            path.append(current)
+
+        # plot path
+        fig, axs = plt.subplots(1, len(path), figsize=(len(path) * 2, 2))
+
+        for i in range(len(path)):
+            state = path[len(path) - i - 1]
+            data = [[int(c) for c in state[j:j+self.n]] for j in range(0,len(state),self.n)]
+            axs[i].pcolor(data, cmap='Greens', edgecolors='k', linewidths=1)
+
+            # add numbers to tiles
+            for j in range(len(state)):
+                if state[j] != 0:
+                    axs[i].text(j % self.n + 0.5, j // self.n + 0.5, int(state[j]), ha='center', va='center', color='black')
+
+            axs[i].axis('off')
+
+        plt.show()
 
 
-if __name__ == "_main_":
-    inicial = Estado([[1, 3, 4], [8, 6, 2], [7, 0, 5]], 0, h([[1, 3, 4], [8, 6, 2], [7, 0, 5]]), None)
-    final = Estado([[1, 2, 3], [4, 5, 6], [7, 8, 0]], 0, h([[1, 2, 3], [4, 5, 6], [7, 8, 0]]), None)
-    a_estrella(inicial, final)
+initial_state = [2 ,8 ,3 ,1 ,6 ,4 ,7 ,0 ,5]
+goal_state = [1 ,2 ,3 ,8 ,0 ,4 ,7 ,6 ,5]
+puzzle = Puzzle(initial_state, goal_state)
+puzzle.display_solution()
