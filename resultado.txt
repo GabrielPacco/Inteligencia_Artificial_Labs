@@ -1,0 +1,6180 @@
+L->E->C->O->A->P->B->I->R->G
+L->E->C->O->A->P->B->I->R->G
+L->E->C->O->A->P->B->I->R->G
+L->E->C->O->A->P->B->I->R->G
+L->E->C->O->A->P->B->I->R->G
+L->E->C->O->A->P->B->I->R->G
+L->E->C->O->A->P->B->I->R->G
+L->E->C->O->A->P->B->I->R->G
+L->E->C->O->A->P->B->I->R->G
+B->E->L->O->A->P->C->I->R->G
+I->P->A->O->R->E->B->C->L->G
+I->E->R->O->A->P->B->C->L->G
+L->E->C->O->A->P->B->I->R->G
+L->E->C->O->A->P->B->I->R->G
+L->E->C->O->A->P->B->I->R->G
+L->E->C->O->A->P->B->I->R->B
+E->L->C->O->A->P->B->I->R->G
+L->B->P->O->A->E->C->I->R->G
+L->E->C->O->A->P->B->I->R->G
+I->E->R->G->A->P->B->C->L->G
+
+**** Iteración 1 ****
+Creación de Mating Pool:
+85	=>	1	=>	ICRBLPOAGE
+111	=>	2	=>	IRCGPEBLOA
+108	=>	3	=>	CAIBERPLOG
+109	=>	4	=>	OABIERPLGC
+127	=>	5	=>	CAIBPRGLEO
+101	=>	6	=>	AICEBRPLOG
+108	=>	7	=>	IOABRPLECG
+109	=>	8	=>	OBIRPECLGA
+78	=>	9	=>	OGEAILCPBR
+98	=>	10	=>	GOILAPRCBE
+
+Selección de Padres:
+2 - 1 => 1 - 1 => IRCGPEBLOA - ICRBLPOAGE
+5 - 5 => 3 - 3 => CAIBPRGLEO - CAIBPRGLEO
+9 - 3 => 5 - 2 => OGEAILCPBR - CAIBERPLOG
+7 - 9 => 4 - 5 => IOABRPLECG - OGEAILCPBR
+2 - 4 => 1 - 2 => IRCGPEBLOA - OABIERPLGC
+
+Cruzamiento:
+1 2 => 1 2
+ICRBLPGEOA - IRCGPEBLOA
+3 4 => 2 3
+ABIERCPLOG - AIBEROPLGC
+5 6 => 3 4
+CAIBPERLOG - AICEBPRGLO
+7 8 => 4 5
+OIABRPECLG - OAIRPBLECG
+9 10 => 5 6
+OGEAILPRCB - GOILAPECBR
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	ICRBLPOAGE
+2)	IRCGPEBLOA
+3)	CAIBERPLOG
+4)	OABIERPLGC
+5)	CAIBPRGLEO
+6)	AICEBRPLOG
+7)	IOABRPLECG
+8)	OBIRPECAGL
+9)	OGEAILCPBR
+10)	GOILAPRCBE
+
+**** Iteración 2 ****
+Creación de Mating Pool:
+92	=>	1	=>	CABIEPRGLO
+127	=>	2	=>	OAIBPERLGC
+122	=>	3	=>	CAIBPRGLOE
+105	=>	4	=>	IRCGPBOLEA
+133	=>	5	=>	OAILBERPGC
+98	=>	6	=>	GOBILAPRCE
+111	=>	7	=>	OILAPRBEGC
+123	=>	8	=>	IOARPLGCBE
+102	=>	9	=>	ICGPERBLOA
+101	=>	10	=>	CAIBPERLOG
+
+Selección de Padres:
+7 - 1 => 4 - 1 => OILAPRBEGC - CABIEPRGLO
+5 - 1 => 3 - 1 => OAILBERPGC - CABIEPRGLO
+3 - 7 => 2 - 4 => CAIBPRGLOE - OILAPRBEGC
+8 - 10 => 4 - 5 => IOARPLGCBE - CAIBPERLOG
+3 - 6 => 2 - 3 => CAIBPRGLOE - GOBILAPRCE
+
+Cruzamiento:
+1 2 => 1 2
+OAIBPERGLC - CABIEPRLGO
+3 4 => 2 3
+ICEBPRGLOA - CAIGPBOLER
+5 6 => 3 4
+GAILBERPOC - EOBILAPRGC
+7 8 => 4 5
+IOLAPRBEGC - OIARPLGCBE
+9 10 => 5 6
+CIGPERBLOA - CAIBPERLOG
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	CABIEPRGLO
+2)	OAIBPERLGC
+3)	GAIBPRCLOE
+4)	IRCGPBOLEA
+5)	OAILBERPGC
+6)	GOBRLAPICE
+7)	OILAPRBEGC
+8)	IOARPLGCBE
+9)	ICGPERBLOA
+10)	CAIBPERLOG
+
+**** Iteración 3 ****
+Creación de Mating Pool:
+76	=>	1	=>	GAIPERBCLO
+102	=>	2	=>	ICGBPRELOA
+118	=>	3	=>	OAIBPRLEGC
+113	=>	4	=>	OIAPRBELGC
+102	=>	5	=>	ORAPILGCBE
+87	=>	6	=>	ORLGBAPICE
+97	=>	7	=>	ACIBPERLOG
+84	=>	8	=>	AGIBPRCLOE
+127	=>	9	=>	OAIBPERLGC
+95	=>	10	=>	GAIBPRCLOE
+
+Selección de Padres:
+2 - 8 => 1 - 4 => ICGBPRELOA - AGIBPRCLOE
+2 - 2 => 1 - 1 => ICGBPRELOA - ICGBPRELOA
+10 - 10 => 5 - 5 => GAIBPRCLOE - GAIBPRCLOE
+4 - 5 => 2 - 3 => OIAPRBELGC - ORAPILGCBE
+3 - 3 => 2 - 2 => OAIBPRLEGC - OAIBPRLEGC
+
+Cruzamiento:
+1 2 => 1 2
+ICGPERBLOA - GAIBPRECLO
+3 4 => 2 3
+OIABPRLEGC - OAIPRBELGC
+5 6 => 3 4
+ORAPILGBCE - ORLGBAPICE
+7 8 => 4 5
+AGIBPERLCO - AEIBPRCLOG
+9 10 => 5 6
+GAIBPRCLOE - OAIBPERLGC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	GAIPERBCLO
+2)	ICGBPRELOA
+3)	OAIBPRLEGC
+4)	OIAPRBELGC
+5)	ORAPILGCBE
+6)	ORLGBAPICE
+7)	ACIBPERLOG
+8)	AGIBPRCLOE
+9)	OAIBPERLGC
+10)	GAIBPRCLOE
+
+**** Iteración 4 ****
+Creación de Mating Pool:
+92	=>	1	=>	AIGBPRELOC
+109	=>	2	=>	REAPILGCBO
+103	=>	3	=>	AIBPCORLGE
+88	=>	4	=>	AIBPERCLOG
+102	=>	5	=>	ICGBPRELOA
+118	=>	6	=>	OAIBPRLEGC
+100	=>	7	=>	GRBLOAPICE
+58	=>	8	=>	GAPIERBCLO
+84	=>	9	=>	AIPCRBELGO
+90	=>	10	=>	OIAPERBCLG
+
+Selección de Padres:
+4 - 9 => 2 - 5 => AIBPERCLOG - AIPCRBELGO
+4 - 5 => 2 - 3 => AIBPERCLOG - ICGBPRELOA
+1 - 10 => 1 - 5 => AIGBPRELOC - OIAPERBCLG
+3 - 10 => 2 - 5 => AIBPCORLGE - OIAPERBCLG
+7 - 2 => 4 - 1 => GRBLOAPICE - REAPILGCBO
+
+Cruzamiento:
+1 2 => 1 2
+RAPIGCELOB - AIPRELGCBO
+3 4 => 2 3
+AIBPERCLGO - AIBPCRGLOE
+5 6 => 3 4
+OCGBAIPRLE - CAIBGPRELO
+7 8 => 4 5
+GAERBCPILO - GRLOAPBCIE
+9 10 => 5 6
+OIACRBELGP - AIGPERBCLO
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	AIGBPRELOC
+2)	OEAPILGCBR
+3)	AIBPCORLGE
+4)	AIBPERCLOG
+5)	ICGBPRELOA
+6)	OAIBPRLEGC
+7)	GRBLOAPICE
+8)	GAPIERBCLO
+9)	AIPCRBELGO
+10)	OIAPERBCLG
+
+**** Iteración 5 ****
+Creación de Mating Pool:
+118	=>	1	=>	OAIBPRLEGC
+118	=>	2	=>	OAIBPRLEGC
+104	=>	3	=>	ORBPILGCAE
+87	=>	4	=>	EABPCORLGI
+69	=>	5	=>	OAPCRBELIG
+100	=>	6	=>	RBAPILGCEO
+92	=>	7	=>	OIPCRBELGA
+105	=>	8	=>	ACGBPRELOI
+82	=>	9	=>	APIEROBCLG
+79	=>	10	=>	IAPERGBCLO
+
+Selección de Padres:
+9 - 8 => 5 - 4 => APIEROBCLG - ACGBPRELOI
+4 - 2 => 2 - 1 => EABPCORLGI - OAIBPRLEGC
+8 - 6 => 4 - 3 => ACGBPRELOI - RBAPILGCEO
+6 - 4 => 3 - 2 => RBAPILGCEO - EABPCORLGI
+9 - 3 => 5 - 2 => APIEROBCLG - ORBPILGCAE
+
+Cruzamiento:
+1 2 => 1 2
+OAIBPRLEGC - OAIBPRLEGC
+3 4 => 2 3
+BPORLIGCAE - OBPCAERLGI
+5 6 => 3 4
+RBAPGCELIO - OAPRBLGCEI
+7 8 => 4 5
+POICRBELGA - CGABPRELOI
+9 10 => 5 6
+IAPEROBCLG - APIERGBCLO
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	OAIBPRLEGC
+2)	OAIBPRLEGC
+3)	ORBPILGCAE
+4)	EABPCORLGI
+5)	OAPCRBELIG
+6)	RBAPILGCEO
+7)	OIPCRBELGA
+8)	ACGBPRELOI
+9)	APIEROBCLG
+10)	IAPERGBCLO
+
+**** Iteración 6 ****
+Creación de Mating Pool:
+102	=>	1	=>	CBPROIELGA
+66	=>	2	=>	PCRBGAELOI
+138	=>	3	=>	AIBPRLGCEO
+98	=>	4	=>	BAPIORLEGC
+114	=>	5	=>	BORPILGCAE
+84	=>	6	=>	BAEPCORLGI
+90	=>	7	=>	BAPIGRLECO
+119	=>	8	=>	OAIBPLGCRE
+93	=>	9	=>	ABPORLIEGC
+97	=>	10	=>	OABPRECLGI
+
+Selección de Padres:
+7 - 4 => 4 - 2 => BAPIGRLECO - BAPIORLEGC
+9 - 3 => 5 - 2 => ABPORLIEGC - AIBPRLGCEO
+3 - 10 => 2 - 5 => AIBPRLGCEO - OABPRECLGI
+9 - 2 => 5 - 1 => ABPORLIEGC - PCRBGAELOI
+8 - 3 => 4 - 2 => OAIBPLGCRE - AIBPRLGCEO
+
+Cruzamiento:
+1 2 => 1 2
+PCRBOIELGA - CBPRGAELOI
+3 4 => 2 3
+AIBPROLEGC - ABPIORLGCE
+5 6 => 3 4
+BARPECOLGI - BOEPRILGCA
+7 8 => 4 5
+OAPIGBLCRE - AGIBPRLECO
+9 10 => 5 6
+ABPORLIECG - ABOPRECLIG
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	CBPROIELGA
+2)	PCRBGAELOI
+3)	AIBPRLGCEO
+4)	BAPIORLEGC
+5)	BORPILGCAE
+6)	BAEPCORLGI
+7)	BAPIGRLECO
+8)	OAIBPLGCRE
+9)	ABPORLIEGC
+10)	OABPRECLGI
+
+**** Iteración 7 ****
+Creación de Mating Pool:
+119	=>	1	=>	OAIBPLGCRE
+106	=>	2	=>	OBRPILGCAE
+106	=>	3	=>	BPLROIEGCA
+106	=>	4	=>	CBRPILGOEA
+108	=>	5	=>	ABPROIELGC
+87	=>	6	=>	CBPORLIEGA
+102	=>	7	=>	CABPRGELOI
+61	=>	8	=>	OCRBAPELGI
+88	=>	9	=>	BPCROIELGA
+98	=>	10	=>	BROPILGCAE
+
+Selección de Padres:
+9 - 9 => 5 - 5 => BPCROIELGA - BPCROIELGA
+8 - 5 => 4 - 3 => OCRBAPELGI - ABPROIELGC
+1 - 9 => 1 - 5 => OAIBPLGCRE - BPCROIELGA
+2 - 4 => 1 - 2 => OBRPILGCAE - CBRPILGOEA
+1 - 3 => 1 - 2 => OAIBPLGCRE - BPLROIEGCA
+
+Cruzamiento:
+1 2 => 1 2
+OBRPILGCAE - OAIBPLGCRE
+3 4 => 2 3
+BPLROIEGCA - CBRPILGOEA
+5 6 => 3 4
+BAPROIELGC - BCPORLIEGA
+7 8 => 4 5
+OCBPRAELGI - CPRBAGELOI
+9 10 => 5 6
+BROPGIELCA - BPROILGCEA
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	OAIBPLGCRE
+2)	OBRPILGCAE
+3)	BPLROIEGCA
+4)	CBRPILGOEA
+5)	ABPROIELGC
+6)	CBPORLIEGA
+7)	CABPRGELOI
+8)	OCRBAPELGI
+9)	BPCROIELGA
+10)	BROPILGCAE
+
+**** Iteración 8 ****
+Creación de Mating Pool:
+98	=>	1	=>	BROPILGCAE
+92	=>	2	=>	BCAPRGELOI
+106	=>	3	=>	OBRPILGCAE
+119	=>	4	=>	OAIBPLGCRE
+106	=>	5	=>	BPLROIEGCA
+106	=>	6	=>	BPLROIEGCA
+98	=>	7	=>	BROPILGCAE
+94	=>	8	=>	LORPIBGCAE
+137	=>	9	=>	BPROILGCEA
+55	=>	10	=>	BROPGIELCA
+
+Selección de Padres:
+4 - 4 => 2 - 2 => OAIBPLGCRE - OAIBPLGCRE
+5 - 4 => 3 - 2 => BPLROIEGCA - OAIBPLGCRE
+7 - 1 => 4 - 1 => BROPILGCAE - BROPILGCAE
+3 - 2 => 2 - 1 => OBRPILGCAE - BCAPRGELOI
+4 - 4 => 2 - 2 => OAIBPLGCRE - OAIBPLGCRE
+
+Cruzamiento:
+1 2 => 1 2
+BROPILGCAE - BCAPRGELOI
+3 4 => 2 3
+OAIBPLGCRE - OBRPILGCAE
+5 6 => 3 4
+BPLROIEGCA - BPLROIEGCA
+7 8 => 4 5
+BROPILGCAE - LORPIBGCAE
+9 10 => 5 6
+BPROILGCEA - BROPGIELCA
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BROPILGCAE
+2)	BCAPRGELOI
+3)	OBRPILGCAE
+4)	OAIBPLGCRE
+5)	BPLROIEGCA
+6)	BPLROIEGCA
+7)	BROPILGCAE
+8)	LORPIBGCAE
+9)	BPROILGCEA
+10)	BROPGIELCA
+
+**** Iteración 9 ****
+Creación de Mating Pool:
+55	=>	1	=>	BROPGIELCA
+98	=>	2	=>	BROPILGCAE
+124	=>	3	=>	BOIPRLGCAE
+86	=>	4	=>	BCAPIRGELO
+126	=>	5	=>	OALRIBPGCE
+99	=>	6	=>	PLIBROEGCA
+106	=>	7	=>	OBRPILGCAE
+98	=>	8	=>	BROPILGCAE
+122	=>	9	=>	OBPRILGCAE
+114	=>	10	=>	BOIAPLGCRE
+
+Selección de Padres:
+1 - 8 => 1 - 4 => BROPGIELCA - BROPILGCAE
+2 - 2 => 1 - 1 => BROPILGCAE - BROPILGCAE
+5 - 3 => 3 - 2 => OALRIBPGCE - BOIPRLGCAE
+10 - 7 => 5 - 4 => BOIAPLGCRE - OBRPILGCAE
+2 - 10 => 1 - 5 => BROPILGCAE - BOIAPLGCRE
+
+Cruzamiento:
+1 2 => 1 2
+BROPGIELCA - BROPILGECA
+3 4 => 2 3
+BPIERLGCAO - BOPCIRGELA
+5 6 => 3 4
+POLRIBEGCA - ALIBROPGCE
+7 8 => 4 5
+BROPILGCAE - OBRPILGCAE
+9 10 => 5 6
+OBPRILGCAE - BOIAPLGCRE
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BROPGIELCA
+2)	BROPGLICAE
+3)	BOIPRLGCAE
+4)	BCAPIRGELO
+5)	OALRIBPGCE
+6)	PLIBROEGCA
+7)	OBRPILGCAE
+8)	BROPILGCAE
+9)	OBPRILGCAE
+10)	BOIAPLGCRE
+
+**** Iteración 10 ****
+Creación de Mating Pool:
+103	=>	1	=>	BPIRLOGCAE
+92	=>	2	=>	BPRICAGELO
+124	=>	3	=>	BOIPRLGCAE
+91	=>	4	=>	BROPGLICAE
+119	=>	5	=>	OALPRIBGCE
+116	=>	6	=>	BOPRILGCAE
+95	=>	7	=>	OARBILGCPE
+88	=>	8	=>	ROLCIBPGAE
+87	=>	9	=>	PBROGLICAE
+114	=>	10	=>	BRPLIOEGCA
+
+Selección de Padres:
+1 - 6 => 1 - 3 => BPIRLOGCAE - BOPRILGCAE
+5 - 10 => 3 - 5 => OALPRIBGCE - BRPLIOEGCA
+5 - 10 => 3 - 5 => OALPRIBGCE - BRPLIOEGCA
+10 - 9 => 5 - 5 => BRPLIOEGCA - PBROGLICAE
+1 - 4 => 1 - 2 => BPIRLOGCAE - BROPGLICAE
+
+Cruzamiento:
+1 2 => 1 2
+BPIRLOCAGE - BPRICALOGE
+3 4 => 2 3
+BROPGLICAE - BOIPRLGCAE
+5 6 => 3 4
+BOIPRLGCAE - OALRIPBGCE
+7 8 => 4 5
+OARBILGCPE - AOLCIBPRGE
+9 10 => 5 6
+BRPOGLICAE - PBRLIOEGCA
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BPIRLOGCAE
+2)	BPRICAGELO
+3)	BOIPRLGCAE
+4)	BROPGLICAE
+5)	OALPRIBGCE
+6)	BOPRILGCAE
+7)	OARBILGCPE
+8)	ROLCIBPGAE
+9)	PBROGLICAE
+10)	BRPLIOEGCA
+
+**** Iteración 1 ****
+Creación de Mating Pool:
+73	=>	1	=>	GBOELARICP
+82	=>	2	=>	BCGREAPLIO
+76	=>	3	=>	RAECBIOLGP
+91	=>	4	=>	GBICAEPROL
+86	=>	5	=>	BCOELARIGP
+62	=>	6	=>	PBOERILACG
+105	=>	7	=>	PEGOBRLACI
+85	=>	8	=>	OBCELGIARP
+100	=>	9	=>	RBICOELAGP
+109	=>	10	=>	EIGOBRLACP
+
+Selección de Padres:
+4 - 1 => 2 - 1 => GBICAEPROL - GBOELARICP
+8 - 1 => 4 - 1 => OBCELGIARP - GBOELARICP
+6 - 9 => 3 - 5 => PBOERILACG - RBICOELAGP
+4 - 6 => 2 - 3 => GBICAEPROL - PBOERILACG
+2 - 4 => 1 - 2 => BCGREAPLIO - GBICAEPROL
+
+Cruzamiento:
+1 2 => 1 2
+BCGEAPRILO - GBOEARPLIC
+3 4 => 2 3
+GBCAEIOPRL - RACBIEPOLG
+5 6 => 3 4
+BOCELARIGP - BOPERILACG
+7 8 => 4 5
+CELOBRGIAP - POBELGRACI
+9 10 => 5 6
+GBICOELRAP - ICGOBRLEAP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	GBOELARICP
+2)	BCGREAPLIO
+3)	RAECBIOLGP
+4)	GBICAEPROL
+5)	BCOELARIGP
+6)	PBOERILACG
+7)	PEGRBOLACI
+8)	OBCELGIARP
+9)	RBICOELAGP
+10)	EIGOBRLACP
+
+**** Iteración 2 ****
+Creación de Mating Pool:
+75	=>	1	=>	PBOERLAICG
+88	=>	2	=>	GBOELRIACP
+89	=>	3	=>	PERBOACLGI
+93	=>	4	=>	REBIOLGACP
+76	=>	5	=>	BOELAGRICP
+72	=>	6	=>	BOERIPLACG
+71	=>	7	=>	PBCEIGLARO
+94	=>	8	=>	LBICAEPROG
+109	=>	9	=>	CEGOBRLAIP
+73	=>	10	=>	GBOELARICP
+
+Selección de Padres:
+9 - 4 => 5 - 2 => CEGOBRLAIP - REBIOLGACP
+4 - 3 => 2 - 2 => REBIOLGACP - PERBOACLGI
+10 - 10 => 5 - 5 => GBOELARICP - GBOELARICP
+2 - 9 => 1 - 5 => GBOELRIACP - CEGOBRLAIP
+6 - 9 => 3 - 5 => BOERIPLACG - CEGOBRLAIP
+
+Cruzamiento:
+1 2 => 1 2
+GBOELRAICP - PBOERLIACG
+3 4 => 2 3
+REBIOACLGP - PERBOLGACI
+5 6 => 3 4
+BOELAGRIPC - BOERIPLAGC
+7 8 => 4 5
+LBCEIAPROG - PBICEGLARO
+9 10 => 5 6
+GOEABRLICP - CEGOLARBIP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PBOERLAICG
+2)	GBOELRIACP
+3)	PERBOACLGI
+4)	REBIOLGACP
+5)	BOELAGRICP
+6)	BOERIPLACG
+7)	PBCEIGLARO
+8)	LBICAEPROG
+9)	CEGOBRLAIP
+10)	GBOELARICP
+
+**** Iteración 3 ****
+Creación de Mating Pool:
+93	=>	1	=>	GBOERCLAIP
+115	=>	2	=>	EGOBRLIACP
+105	=>	3	=>	ECGOBRLAIP
+82	=>	4	=>	EOBRIPLACG
+72	=>	5	=>	PBOELRICGA
+80	=>	6	=>	BOCEIGLRAP
+105	=>	7	=>	BOGERLAICP
+77	=>	8	=>	PBOLAGREIC
+65	=>	9	=>	BOERIGLAPC
+92	=>	10	=>	BCEGIPLARO
+
+Selección de Padres:
+1 - 10 => 1 - 5 => GBOERCLAIP - BCEGIPLARO
+8 - 10 => 4 - 5 => PBOLAGREIC - BCEGIPLARO
+3 - 5 => 2 - 3 => ECGOBRLAIP - PBOELRICGA
+4 - 9 => 2 - 5 => EOBRIPLACG - BOERIGLAPC
+7 - 4 => 4 - 2 => BOGERLAICP - EOBRIPLACG
+
+Cruzamiento:
+1 2 => 1 2
+GBOERLIACP - EGOBRCLAIP
+3 4 => 2 3
+EOBIPRLACG - ECGOBPLRAI
+5 6 => 3 4
+BCOELRIGAP - PBCEIGOLRA
+7 8 => 4 5
+PBGERLAIOC - BIOLAGRECP
+9 10 => 5 6
+BCEGILRAPO - BOEIGLPARC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	GBOERCLAIP
+2)	EGORBLIACP
+3)	ECGOBRLAIP
+4)	EOBRIPALCG
+5)	PBOELRICGA
+6)	BOCEIGLRAP
+7)	BOGERLAICP
+8)	PBOLAGREIC
+9)	BOERIGLAPC
+10)	BCEGIPLARO
+
+**** Iteración 4 ****
+Creación de Mating Pool:
+93	=>	1	=>	ECGORLBAIP
+115	=>	2	=>	OGELBRAICP
+72	=>	3	=>	BOLAPGREIC
+94	=>	4	=>	BOGRELAICP
+65	=>	5	=>	BOERIGLAPC
+78	=>	6	=>	BPOELRICGA
+90	=>	7	=>	BOCEGLRAIP
+70	=>	8	=>	GBOECLIRAP
+116	=>	9	=>	EGORBLIACP
+96	=>	10	=>	GBAERCLOIP
+
+Selección de Padres:
+10 - 8 => 5 - 4 => GBAERCLOIP - GBOECLIRAP
+5 - 5 => 3 - 3 => BOERIGLAPC - BOERIGLAPC
+3 - 6 => 2 - 3 => BOLAPGREIC - BPOELRICGA
+5 - 9 => 3 - 5 => BOERIGLAPC - EGORBLIACP
+2 - 1 => 1 - 1 => OGELBRAICP - ECGORLBAIP
+
+Cruzamiento:
+1 2 => 1 2
+OGERALBICP - ECGOLRABIP
+3 4 => 2 3
+BOGAPRELIC - BOLREAPGIC
+5 6 => 3 4
+BOERIGLAPC - BPOELRICGA
+7 8 => 4 5
+BOCEGLRAIP - BGOECLIRAP
+9 10 => 5 6
+BGORAECLIP - GBAEORLICP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	ECGORLBAIP
+2)	OGELBRAICP
+3)	BOLAPGREIC
+4)	BOGRELAICP
+5)	BOERIGLAPC
+6)	BPOELRICGA
+7)	BOCEGLRAIP
+8)	GBOECLIRAP
+9)	EGOIBLRACP
+10)	GBAERCLOIP
+
+**** Iteración 5 ****
+Creación de Mating Pool:
+106	=>	1	=>	BEROCLIGAP
+70	=>	2	=>	BOERIGLCAP
+108	=>	3	=>	GBECLRAIOP
+106	=>	4	=>	GEBRACLOIP
+88	=>	5	=>	GBECIRLOAP
+83	=>	6	=>	GBAECLIROP
+92	=>	7	=>	GBARELCOIP
+107	=>	8	=>	BOGERCLAIP
+90	=>	9	=>	BOCEGLRAIP
+84	=>	10	=>	EOGBCLIRAP
+
+Selección de Padres:
+9 - 2 => 5 - 1 => BOCEGLRAIP - BOERIGLCAP
+1 - 2 => 1 - 1 => BEROCLIGAP - BOERIGLCAP
+7 - 2 => 4 - 1 => GBARELCOIP - BOERIGLCAP
+8 - 4 => 4 - 2 => BOGERCLAIP - GEBRACLOIP
+3 - 2 => 2 - 1 => GBECLRAIOP - BOERIGLCAP
+
+Cruzamiento:
+1 2 => 1 2
+BOERCLIGAP - BEROIGLCAP
+3 4 => 2 3
+GEBCLRAOIP - GBERACLIOP
+5 6 => 3 4
+GBECIRALOP - GBAECLIROP
+7 8 => 4 5
+BOARELGCIP - BAGERCLOIP
+9 10 => 5 6
+EOGBCLRAIP - BOCEGLRIAP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BEROCLIGAP
+2)	BOERIGLCAP
+3)	GBECLRAIOP
+4)	GEBRACLOIP
+5)	GBECIRLOAP
+6)	GBAECLIROP
+7)	GBARELCOIP
+8)	BOGERCLAIP
+9)	BOCEGLRAIP
+10)	EOGBCLIRAP
+
+**** Iteración 6 ****
+Creación de Mating Pool:
+109	=>	1	=>	GBEROCLAIP
+88	=>	2	=>	BGECIRLOAP
+90	=>	3	=>	BOERCLIGAP
+88	=>	4	=>	BEROIGLCAP
+92	=>	5	=>	GBERCILOAP
+70	=>	6	=>	BOECRIGLAP
+107	=>	7	=>	BOGERCLAIP
+107	=>	8	=>	BOGERCLAIP
+83	=>	9	=>	GBAECLIROP
+88	=>	10	=>	GBECIRLOAP
+
+Selección de Padres:
+3 - 5 => 2 - 3 => BOERCLIGAP - GBERCILOAP
+1 - 7 => 1 - 4 => GBEROCLAIP - BOGERCLAIP
+8 - 10 => 4 - 5 => BOGERCLAIP - GBECIRLOAP
+1 - 10 => 1 - 5 => GBEROCLAIP - GBECIRLOAP
+8 - 6 => 4 - 3 => BOGERCLAIP - BOECRIGLAP
+
+Cruzamiento:
+1 2 => 1 2
+BGEROCLAIP - GBECIRLOAP
+3 4 => 2 3
+BEORCLIGAP - BEROIGCLAP
+5 6 => 3 4
+BOERCIGLAP - GBECRILOAP
+7 8 => 4 5
+BOGERCLAIP - BOGERCLAIP
+9 10 => 5 6
+GBAECLIROP - GBECIRLOAP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	GBEROCLAIP
+2)	BGECIRLOAP
+3)	BOERCLIGAP
+4)	BEROIGLCAP
+5)	GBERCILOAP
+6)	BOECRIGLAP
+7)	BOGERCLAIP
+8)	BOGERCLAIP
+9)	GBAECOIRLP
+10)	GBECIRLOAP
+
+**** Iteración 7 ****
+Creación de Mating Pool:
+88	=>	1	=>	BECIGRLOAP
+88	=>	2	=>	BECROIGLAP
+99	=>	3	=>	BOIERCLAGP
+90	=>	4	=>	BOERCLIGAP
+88	=>	5	=>	BEROIGLCAP
+92	=>	6	=>	BGERCILOAP
+84	=>	7	=>	BAECRIGLOP
+82	=>	8	=>	BGLECOIRAP
+73	=>	9	=>	BOECRAGLIP
+70	=>	10	=>	BOECRIGLAP
+
+Selección de Padres:
+6 - 8 => 3 - 4 => BGERCILOAP - BGLECOIRAP
+2 - 4 => 1 - 2 => BECROIGLAP - BOERCLIGAP
+6 - 10 => 3 - 5 => BGERCILOAP - BOECRIGLAP
+6 - 1 => 3 - 1 => BGERCILOAP - BECIGRLOAP
+8 - 10 => 4 - 5 => BGLECOIRAP - BOECRIGLAP
+
+Cruzamiento:
+1 2 => 1 2
+BECIGRLOAP - BECROIGLAP
+3 4 => 2 3
+BOERICLAGP - BOERCLIGAP
+5 6 => 3 4
+BEROIGCLAP - BGERCOILAP
+7 8 => 4 5
+BECRAIGLOP - BECGLOIRAP
+9 10 => 5 6
+BOECRAGLIP - BOECRIGLAP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BECIGRLOAP
+2)	BECROIGLAP
+3)	BOIERCLAGP
+4)	BOERCLIGAP
+5)	BEROIGLCAP
+6)	BGERCILOAP
+7)	BAECRIGLOP
+8)	BGLECOIRAP
+9)	BOECRAGLIP
+10)	BOECRIGLAP
+
+**** Iteración 8 ****
+Creación de Mating Pool:
+88	=>	1	=>	BEROIGLCAP
+90	=>	2	=>	BEOCRAGLIP
+94	=>	3	=>	BOECRIGALP
+92	=>	4	=>	BOECRAGILP
+86	=>	5	=>	BOIERCLGAP
+98	=>	6	=>	BOERCLIAGP
+70	=>	7	=>	BOERIGLCAP
+87	=>	8	=>	BEOIRCLGAP
+86	=>	9	=>	BECARIGLOP
+88	=>	10	=>	BAECIGRLOP
+
+Selección de Padres:
+2 - 9 => 1 - 5 => BEOCRAGLIP - BECARIGLOP
+6 - 10 => 3 - 5 => BOERCLIAGP - BAECIGRLOP
+10 - 3 => 5 - 2 => BAECIGRLOP - BOECRIGALP
+4 - 2 => 2 - 1 => BOECRAGILP - BEOCRAGLIP
+5 - 3 => 3 - 2 => BOIERCLGAP - BOECRIGALP
+
+Cruzamiento:
+1 2 => 1 2
+BEROIGCALP - BEOCRAIGLP
+3 4 => 2 3
+BOECRIGALP - BOECRAGILP
+5 6 => 3 4
+BOEIRCLAGP - BOERCLIGAP
+7 8 => 4 5
+BOERIGLCAP - BEOIRCLGAP
+9 10 => 5 6
+BAECRIGLOP - BECAIGRLOP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BEROIGLCAP
+2)	BEOCRAGLIP
+3)	BOECRIGALP
+4)	BOECRAGILP
+5)	BOIERCLGAP
+6)	BOERCLIAGP
+7)	BOERIGLCAP
+8)	BEOIRCLGAP
+9)	BECARIGLOP
+10)	BAECIGRLOP
+
+**** Iteración 9 ****
+Creación de Mating Pool:
+98	=>	1	=>	BOERCLIAGP
+90	=>	2	=>	BEOCRAGLIP
+84	=>	3	=>	BEARGLICOP
+79	=>	4	=>	BOEARIGCLP
+88	=>	5	=>	BPOCRAGLIE
+92	=>	6	=>	BOECRAGILP
+88	=>	7	=>	BAECIGRLOP
+88	=>	8	=>	BAECIGRLOP
+93	=>	9	=>	BECARIOGLP
+86	=>	10	=>	BOECRAIGLP
+
+Selección de Padres:
+1 - 6 => 1 - 3 => BOERCLIAGP - BOECRAGILP
+5 - 4 => 3 - 2 => BPOCRAGLIE - BOEARIGCLP
+4 - 10 => 2 - 5 => BOEARIGCLP - BOECRAIGLP
+1 - 7 => 1 - 4 => BOERCLIAGP - BAECIGRLOP
+7 - 5 => 4 - 3 => BAECIGRLOP - BPOCRAGLIE
+
+Cruzamiento:
+1 2 => 1 2
+BOERCAGLIP - BEOCRLIAGP
+3 4 => 2 3
+BEARGLICOP - BEAORIGCLP
+5 6 => 3 4
+BPOCRAGLIE - BOECRAGILP
+7 8 => 4 5
+BAECIGRLOP - BAECIGRLOP
+9 10 => 5 6
+BECARIOGLP - BECORAIGLP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BOERCLIAGP
+2)	BEGCRAOLIP
+3)	BEARGLICOP
+4)	BOEARIGCLP
+5)	BPOCRAGLIE
+6)	BOECRAGILP
+7)	BAECIGRLOP
+8)	BAECIGRLOP
+9)	BECARIOGLP
+10)	BOECRAIGLP
+
+**** Iteración 10 ****
+Creación de Mating Pool:
+88	=>	1	=>	BAECIGRLOP
+93	=>	2	=>	BAECIPRLOG
+88	=>	3	=>	BAECIGRLOP
+88	=>	4	=>	BPOCRAGLIE
+105	=>	5	=>	BECARIGOLP
+110	=>	6	=>	BEAGRIOCLP
+105	=>	7	=>	BECARIGOLP
+113	=>	8	=>	BEGARIOCLP
+104	=>	9	=>	BERIGAOLCP
+96	=>	10	=>	BERAOIGCLP
+
+Selección de Padres:
+7 - 5 => 4 - 3 => BECARIGOLP - BECARIGOLP
+2 - 5 => 1 - 3 => BAECIPRLOG - BECARIGOLP
+1 - 2 => 1 - 1 => BAECIGRLOP - BAECIPRLOG
+6 - 7 => 3 - 4 => BEAGRIOCLP - BECARIGOLP
+8 - 7 => 4 - 4 => BEGARIOCLP - BECARIGOLP
+
+Cruzamiento:
+1 2 => 1 2
+BAECIGRLOP - BAECIPRLOG
+3 4 => 2 3
+BPECIGORAL - BEOCRAIGLP
+5 6 => 3 4
+BEAGRICOLP - BEARIGOCLP
+7 8 => 4 5
+BECARIGOLP - BEGARIOCLP
+9 10 => 5 6
+BERIGAOCLP - BERAOIGLCP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BAECIGRLOP
+2)	BAECIPRLOG
+3)	BAELIGRCOP
+4)	BPOCRAGLIE
+5)	BECARIGOLP
+6)	BEAGRIOCLP
+7)	BECARIGOPL
+8)	BEGARIOCLP
+9)	BERIGAOLCP
+10)	BERAOIGCLP
+
+**** Iteración 11 ****
+Creación de Mating Pool:
+104	=>	1	=>	BERIGAOLCP
+94	=>	2	=>	BAELIGRCOP
+88	=>	3	=>	BAECIGRLOP
+83	=>	4	=>	BOPCRAGLIE
+113	=>	5	=>	BEGARIOCLP
+78	=>	6	=>	BECARIPOLG
+113	=>	7	=>	BEGARIOCLP
+110	=>	8	=>	BEAGRIOCLP
+73	=>	9	=>	BOECRAGLIP
+89	=>	10	=>	BPAGRIOCLE
+
+Selección de Padres:
+10 - 10 => 5 - 5 => BPAGRIOCLE - BPAGRIOCLE
+3 - 1 => 2 - 1 => BAECIGRLOP - BERIGAOLCP
+4 - 2 => 2 - 1 => BOPCRAGLIE - BAELIGRCOP
+7 - 10 => 4 - 5 => BEGARIOCLP - BPAGRIOCLE
+7 - 4 => 4 - 2 => BEGARIOCLP - BOPCRAGLIE
+
+Cruzamiento:
+1 2 => 1 2
+BERIGAOLCP - BAELIGRCOP
+3 4 => 2 3
+BOECIPRAGL - BAPCREIGLO
+5 6 => 3 4
+BECARIOPLG - BEGARIPOCL
+7 8 => 4 5
+BEAGRIOCLP - BEGARIOCLP
+9 10 => 5 6
+BROCEAGLIP - BRAGPIOCLE
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BERIGAOLCP
+2)	BAELIGRCOP
+3)	BAECIGRLOP
+4)	BOPCRAGLIE
+5)	BEGARIOCLP
+6)	BECARIPOLG
+7)	BEGARIOCLP
+8)	BEAGRIOCLP
+9)	BOECRIGLAP
+10)	BPAGRIOCLE
+
+**** Iteración 12 ****
+Creación de Mating Pool:
+85	=>	1	=>	BEPARIOCLG
+97	=>	2	=>	BEGARIPOLC
+90	=>	3	=>	BECGRAIPOL
+113	=>	4	=>	BEGARIOCLP
+94	=>	5	=>	BAELIGRCOP
+88	=>	6	=>	BAECIGRLOP
+78	=>	7	=>	BECARIPOLG
+84	=>	8	=>	BEOARIGCLP
+74	=>	9	=>	BECIORGLAP
+105	=>	10	=>	BECIGARLOP
+
+Selección de Padres:
+9 - 9 => 5 - 5 => BECIORGLAP - BECIORGLAP
+9 - 9 => 5 - 5 => BECIORGLAP - BECIORGLAP
+6 - 3 => 3 - 2 => BAECIGRLOP - BECGRAIPOL
+5 - 9 => 3 - 5 => BAELIGRCOP - BECIORGLAP
+5 - 7 => 3 - 4 => BAELIGRCOP - BECARIPOLG
+
+Cruzamiento:
+1 2 => 1 2
+BEPARIGOLC - BEGARIPOCL
+3 4 => 2 3
+BECGRAIPOL - BEGARIOCLP
+5 6 => 3 4
+BAEIGRLCOP - BAEIGRCLOP
+7 8 => 4 5
+BEACRIPOLG - BEAORIGCLP
+9 10 => 5 6
+BECIOGARLP - BECIGORLAP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BEPARIOCLG
+2)	BEGARIPOLC
+3)	BECGRAIPOL
+4)	BEGARIOCLP
+5)	BAELIGRCOP
+6)	BAECIGRLOP
+7)	BECARIPOLG
+8)	BEOARIGCLP
+9)	BECIORGLAP
+10)	BECIGARLOP
+
+**** Iteración 13 ****
+Creación de Mating Pool:
+109	=>	1	=>	BEGACIORLP
+106	=>	2	=>	BECIGARPOL
+74	=>	3	=>	BECIORGLAP
+74	=>	4	=>	BECIORGLAP
+78	=>	5	=>	BECARIPOLG
+78	=>	6	=>	BECARIPOLG
+88	=>	7	=>	BAECIGRLOP
+105	=>	8	=>	BECIGARLOP
+80	=>	9	=>	BAECIGLROP
+88	=>	10	=>	BAECIGRLOP
+
+Selección de Padres:
+3 - 9 => 2 - 5 => BECIORGLAP - BAECIGLROP
+4 - 7 => 2 - 4 => BECIORGLAP - BAECIGRLOP
+4 - 9 => 2 - 5 => BECIORGLAP - BAECIGLROP
+10 - 6 => 5 - 3 => BAECIGRLOP - BECARIPOLG
+10 - 9 => 5 - 5 => BAECIGRLOP - BAECIGLROP
+
+Cruzamiento:
+1 2 => 1 2
+BEGACIRPOL - BECIGAORLP
+3 4 => 2 3
+BECIORGLAP - BECIORGLAP
+5 6 => 3 4
+BECARIPOLG - BECARIPOLG
+7 8 => 4 5
+BECIGARLOP - BAECIGRLOP
+9 10 => 5 6
+BAECIGLROP - BAECIGRLOP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BEGACIORLP
+2)	BECIGARPOL
+3)	BECIORGLAP
+4)	BECIORGLAP
+5)	BECARIPOLG
+6)	BECARIPOLG
+7)	BAECIGRLOP
+8)	BECIGARLOP
+9)	BAECIGLROP
+10)	BAECIGRLOP
+
+**** Iteración 14 ****
+Creación de Mating Pool:
+105	=>	1	=>	BEGACIRLOP
+88	=>	2	=>	BAEGCIORLP
+106	=>	3	=>	BECIGARPOL
+88	=>	4	=>	BAECIGRLOP
+74	=>	5	=>	BOECIGRLAP
+82	=>	6	=>	BACIOREGLP
+107	=>	7	=>	BEGACRIPOL
+111	=>	8	=>	BECAGIORLP
+88	=>	9	=>	BAECIGRLOP
+88	=>	10	=>	BAECIGRLOP
+
+Selección de Padres:
+10 - 8 => 5 - 4 => BAECIGRLOP - BECAGIORLP
+6 - 3 => 3 - 2 => BACIOREGLP - BECIGARPOL
+7 - 1 => 4 - 1 => BEGACRIPOL - BEGACIRLOP
+8 - 1 => 4 - 1 => BECAGIORLP - BEGACIRLOP
+3 - 10 => 2 - 5 => BECIGARPOL - BAECIGRLOP
+
+Cruzamiento:
+1 2 => 1 2
+BAEGCIROLP - BEGACIORLP
+3 4 => 2 3
+BECIGARPOL - BAECIGRLOP
+5 6 => 3 4
+BOECAIRGLP - BACIOEGRLP
+7 8 => 4 5
+BECAGRIPOL - BEGACIORLP
+9 10 => 5 6
+BAECIGRLOP - BAECIGRLOP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BEGACIRPOL
+2)	BAEGCIORLP
+3)	BECIGARPOL
+4)	BAECIGRLOP
+5)	BOECIGRLAP
+6)	BACIOREGLP
+7)	BEGACRIPOL
+8)	BECAGIORLP
+9)	BAECIGRLOP
+10)	BAECIGRLOP
+
+**** Iteración 15 ****
+Creación de Mating Pool:
+111	=>	1	=>	BECAGIORLP
+88	=>	2	=>	BAECIGRLOP
+82	=>	3	=>	BACIOREGLP
+90	=>	4	=>	BAOCIGRELP
+74	=>	5	=>	BOECIGRLAP
+100	=>	6	=>	BAEGICRLOP
+88	=>	7	=>	BAECIGRLOP
+74	=>	8	=>	BOECIGRLAP
+103	=>	9	=>	BECIGAROLP
+112	=>	10	=>	BECAGIORPL
+
+Selección de Padres:
+5 - 10 => 3 - 5 => BOECIGRLAP - BECAGIORPL
+6 - 8 => 3 - 4 => BAEGICRLOP - BOECIGRLAP
+8 - 9 => 4 - 5 => BOECIGRLAP - BECIGAROLP
+7 - 5 => 4 - 3 => BAECIGRLOP - BOECIGRLAP
+7 - 9 => 4 - 5 => BAECIGRLOP - BECIGAROLP
+
+Cruzamiento:
+1 2 => 1 2
+BECAGIORLP - BAECIGROLP
+3 4 => 2 3
+BAOCIREGLP - BACIOGRELP
+5 6 => 3 4
+BOECIGRLAP - BAEGICRLOP
+7 8 => 4 5
+BECIAGRLOP - BECIOGRLAP
+9 10 => 5 6
+BECIGAORPL - BECAGIROLP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BECAGIORLP
+2)	BAECIGRLOP
+3)	BACIOREGLP
+4)	BAOCIGRELP
+5)	BOECIGRLAP
+6)	BAEGICRLOP
+7)	BAECIGRLOP
+8)	BOECIGRLAP
+9)	BECIGAROLP
+10)	BECAGIORPL
+
+**** Iteración 16 ****
+Creación de Mating Pool:
+86	=>	1	=>	IACBOREGLP
+78	=>	2	=>	BAEIORCGLP
+121	=>	3	=>	BREGIOCALP
+90	=>	4	=>	BAOCIEGRLP
+77	=>	5	=>	BOECIGRALP
+111	=>	6	=>	BECAGIORLP
+88	=>	7	=>	BAECIGRLOP
+90	=>	8	=>	BAOCIGRELP
+100	=>	9	=>	BAEGICRLOP
+88	=>	10	=>	BAECIGRLOP
+
+Selección de Padres:
+10 - 8 => 5 - 4 => BAECIGRLOP - BAOCIGRELP
+10 - 5 => 5 - 3 => BAECIGRLOP - BOECIGRALP
+7 - 6 => 4 - 3 => BAECIGRLOP - BECAGIORLP
+8 - 8 => 4 - 4 => BAOCIGRELP - BAOCIGRELP
+9 - 8 => 5 - 4 => BAEGICRLOP - BAOCIGRELP
+
+Cruzamiento:
+1 2 => 1 2
+BAIORCEGLP - IABORECGLP
+3 4 => 2 3
+BOCIEGRALP - BEGIOCARLP
+5 6 => 3 4
+BECIOGRALP - BECGAIORLP
+7 8 => 4 5
+BAECOIGRLP - BAOCEIGRLP
+9 10 => 5 6
+BAEGICRLOP - BAECIGRLOP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IACBOREGLP
+2)	BAEIOGCRLP
+3)	BREGIOCALP
+4)	BAOCIEGRLP
+5)	BAECIGROLP
+6)	BECAGIORLP
+7)	BAECIGRLOP
+8)	BAOCIGRELP
+9)	BAEGICRLOP
+10)	BAICEGRLOP
+
+**** Iteración 17 ****
+Creación de Mating Pool:
+111	=>	1	=>	BAICREGOLP
+121	=>	2	=>	BREGAICLOP
+93	=>	3	=>	BAICEGRLOP
+107	=>	4	=>	BAIGECRLOP
+92	=>	5	=>	BAEIGCRLOP
+118	=>	6	=>	BAIEGOCRLP
+90	=>	7	=>	BAOCIGRELP
+88	=>	8	=>	BAECIGRLOP
+104	=>	9	=>	BAIOCREGLP
+87	=>	10	=>	IABOEGCRLP
+
+Selección de Padres:
+1 - 4 => 1 - 2 => BAICREGOLP - BAIGECRLOP
+8 - 2 => 4 - 1 => BAECIGRLOP - BREGAICLOP
+10 - 10 => 5 - 5 => IABOEGCRLP - IABOEGCRLP
+7 - 10 => 4 - 5 => BAOCIGRELP - IABOEGCRLP
+10 - 7 => 5 - 4 => IABOEGCRLP - BAOCIGRELP
+
+Cruzamiento:
+1 2 => 1 2
+BAIREGCLOP - BREAICGOLP
+3 4 => 2 3
+BAICEGRLOP - BAIGECRLOP
+5 6 => 3 4
+BAIEGCRLOP - BAEIGOCRLP
+7 8 => 4 5
+BACIGORELP - BACIGERLOP
+9 10 => 5 6
+BAIOCEGRLP - IABOECRGLP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	EAICRBGOLP
+2)	BREGAICLOP
+3)	BAICEGRLOP
+4)	BAIGECRLOP
+5)	BAEIGCRLOP
+6)	BAIEGOCRLP
+7)	BAOCIGRELP
+8)	BAECIGRLOP
+9)	BAIOCREGLP
+10)	IABOEGCRLP
+
+**** Iteración 18 ****
+Creación de Mating Pool:
+94	=>	1	=>	BEOCIGRALP
+105	=>	2	=>	BOEGAICRLP
+87	=>	3	=>	IABOEGCRLP
+118	=>	4	=>	BAIEGOCRLP
+97	=>	5	=>	BAIGCRELOP
+87	=>	6	=>	RAIOECBGLP
+87	=>	7	=>	IABOEGCRLP
+87	=>	8	=>	IABOEGCRLP
+88	=>	9	=>	BAECIGRLOP
+87	=>	10	=>	IABOEGCRLP
+
+Selección de Padres:
+3 - 8 => 2 - 4 => IABOEGCRLP - IABOEGCRLP
+3 - 6 => 2 - 3 => IABOEGCRLP - RAIOECBGLP
+4 - 2 => 2 - 1 => BAIEGOCRLP - BOEGAICRLP
+5 - 8 => 3 - 4 => BAIGCRELOP - IABOEGCRLP
+10 - 9 => 5 - 5 => IABOEGCRLP - BAECIGRLOP
+
+Cruzamiento:
+1 2 => 1 2
+BEOCIGRALP - BOEGAICRLP
+3 4 => 2 3
+BAIEGOCRLP - IABOEGCRLP
+5 6 => 3 4
+RAIGCOEBLP - BAIOEGCRLP
+7 8 => 4 5
+IABOEGCRLP - IABOEGCRLP
+9 10 => 5 6
+ABECIGRLOP - AIBOEGCRLP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BEOCIGRALP
+2)	BOEGAICRLP
+3)	IABOEGPRLC
+4)	BAIEGOCRLP
+5)	BAIGCRELOP
+6)	RAIOECBGLP
+7)	IABOEGCRLP
+8)	IABLEGCROP
+9)	BAECIGRLOP
+10)	IABOEGCRLP
+
+**** Iteración 19 ****
+Creación de Mating Pool:
+87	=>	1	=>	IABGCROELP
+96	=>	2	=>	BAIOEGCRLP
+93	=>	3	=>	IAROEGBLPC
+95	=>	4	=>	BAECIGPRLO
+105	=>	5	=>	IABEGRLCOP
+90	=>	6	=>	BAIGREOPLC
+91	=>	7	=>	AIBOEGCRLP
+78	=>	8	=>	ARIOECBGLP
+87	=>	9	=>	IABOEGCRLP
+85	=>	10	=>	IABOEGPRLC
+
+Selección de Padres:
+1 - 4 => 1 - 2 => IABGCROELP - BAECIGPRLO
+4 - 7 => 2 - 4 => BAECIGPRLO - AIBOEGCRLP
+9 - 7 => 5 - 4 => IABOEGCRLP - AIBOEGCRLP
+7 - 4 => 4 - 2 => AIBOEGCRLP - BAECIGPRLO
+3 - 8 => 2 - 4 => IAROEGBLPC - ARIOECBGLP
+
+Cruzamiento:
+1 2 => 1 2
+BAIGCROELP - IABGOECRLP
+3 4 => 2 3
+AECIGPBLRO - IAOEGBPRLC
+5 6 => 3 4
+BAIEGROPLC - IABGRELCOP
+7 8 => 4 5
+AIBOEGCRLP - AIROECBGLP
+9 10 => 5 6
+IABOEGCRLP - IABOEGPRLC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IABGCROELP
+2)	BAIOEGCRLP
+3)	IAROEGBLPC
+4)	BAECIGPRLO
+5)	IABEGRLCOP
+6)	BAIGREOPLC
+7)	AIBOEGCRLP
+8)	ARIOECBGLP
+9)	IABOEGCRLP
+10)	IEBOAGPRLC
+
+**** Iteración 20 ****
+Creación de Mating Pool:
+93	=>	1	=>	IEBOAGPRLC
+93	=>	2	=>	IEBOAGPRLC
+95	=>	3	=>	BAECIOGRLP
+88	=>	4	=>	BAIOECGPRL
+83	=>	5	=>	IEBGROAPLC
+95	=>	6	=>	BIGOAREPLC
+80	=>	7	=>	ABIGREOPCL
+96	=>	8	=>	OIBGCRAEPL
+109	=>	9	=>	AIBEGRLCOP
+103	=>	10	=>	IABEGCORLP
+
+Selección de Padres:
+4 - 10 => 2 - 5 => BAIOECGPRL - IABEGCORLP
+5 - 1 => 3 - 1 => IEBGROAPLC - IEBOAGPRLC
+10 - 4 => 5 - 2 => IABEGCORLP - BAIOECGPRL
+6 - 7 => 3 - 4 => BIGOAREPLC - ABIGREOPCL
+4 - 10 => 2 - 5 => BAIOECGPRL - IABEGCORLP
+
+Cruzamiento:
+1 2 => 1 2
+IEBOAGPRLC - IEBOAGPRLC
+3 4 => 2 3
+BAECIOGPRL - BAIOECGRLP
+5 6 => 3 4
+BIEGROAPLC - IBGOAREPLC
+7 8 => 4 5
+IBAGREOPCL - BIOGCRAEPL
+9 10 => 5 6
+IABEGRLCOP - AIBEGCORLP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IEBOAGPRLC
+2)	IEBOAGPRLC
+3)	BAECIOGRLP
+4)	BAIOECGPRL
+5)	IEBGROAPLC
+6)	BIGOARLPEC
+7)	ABIGREOPCL
+8)	OIBGCRAEPL
+9)	AIBEGRLCOP
+10)	IABEGCORLP
+
+**** Iteración 21 ****
+Creación de Mating Pool:
+102	=>	1	=>	IABGRECOLP
+105	=>	2	=>	IRBEGOAPLC
+101	=>	3	=>	BAIEGRLCOP
+83	=>	4	=>	AIBOECGPRL
+94	=>	5	=>	BAEIOGRPLC
+95	=>	6	=>	IEBOAGRCLP
+90	=>	7	=>	IEBOGCRAPL
+92	=>	8	=>	EIBGOAPRLC
+93	=>	9	=>	AIBGREOPCL
+101	=>	10	=>	ABIGERLCOP
+
+Selección de Padres:
+3 - 6 => 2 - 3 => BAIEGRLCOP - IEBOAGRCLP
+1 - 10 => 1 - 5 => IABGRECOLP - ABIGERLCOP
+9 - 10 => 5 - 5 => AIBGREOPCL - ABIGERLCOP
+4 - 5 => 2 - 3 => AIBOECGPRL - BAEIOGRPLC
+2 - 1 => 1 - 1 => IRBEGOAPLC - IABGRECOLP
+
+Cruzamiento:
+1 2 => 1 2
+IABGREOPLC - IRBEGOACLP
+3 4 => 2 3
+ABIEGRLCOP - AIBOECGPRL
+5 6 => 3 4
+EBAIOGRPCL - BEIOAGRCPL
+7 8 => 4 5
+EIBGORCAPL - IEBOGAPRLC
+9 10 => 5 6
+ABIGEROPCL - AIBGRELCOP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IABGRECOLP
+2)	IRBEGOAPLC
+3)	BAIEGRLCOP
+4)	AIBOECGPRL
+5)	BAEIOGRPLC
+6)	IEBOAGRCLP
+7)	IEBOGCRAPL
+8)	EIBGOAPRLC
+9)	AIBGREOPCL
+10)	ABIGERLCOP
+
+**** Iteración 22 ****
+Creación de Mating Pool:
+91	=>	1	=>	AIBOEGRCLP
+84	=>	2	=>	IEBOACGPRL
+63	=>	3	=>	IBOARECGLP
+97	=>	4	=>	IAECBGROLP
+89	=>	5	=>	EIBGORLAPC
+111	=>	6	=>	BIAGREPLCO
+100	=>	7	=>	IRBOAGEPLC
+112	=>	8	=>	IABEGORCLP
+80	=>	9	=>	IBGEOAPRLC
+104	=>	10	=>	IBGARECOLP
+
+Selección de Padres:
+3 - 8 => 2 - 4 => IBOARECGLP - IABEGORCLP
+3 - 6 => 2 - 3 => IBOARECGLP - BIAGREPLCO
+4 - 10 => 2 - 5 => IAECBGROLP - IBGARECOLP
+1 - 4 => 1 - 2 => AIBOEGRCLP - IAECBGROLP
+3 - 4 => 2 - 2 => IBOARECGLP - IAECBGROLP
+
+Cruzamiento:
+1 2 => 1 2
+IBAOEGRCLP - IBEOACGPRL
+3 4 => 2 3
+IBOARECGLP - IAECBGROLP
+5 6 => 3 4
+IEBGORLAPC - IBAGREPLCO
+7 8 => 4 5
+IRBOAGEPCL - IABEGORCPL
+9 10 => 5 6
+IBGEOAPRLC - IBGARECOLP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	AIBOEGRCLP
+2)	IEBOACGPRL
+3)	IBOARECGLP
+4)	IAECBGROLP
+5)	EIBGORLAPC
+6)	BIAGREPLCO
+7)	IRBOAGEPLC
+8)	IABEGORCLP
+9)	IBGEOAPRLC
+10)	IBGARECOLP
+
+**** Iteración 23 ****
+Creación de Mating Pool:
+96	=>	1	=>	IBAGREPLCO
+96	=>	2	=>	BIAEOCGPRL
+83	=>	3	=>	BIOARGEPLC
+77	=>	4	=>	IBAGROECLP
+84	=>	5	=>	IECBGRLAOP
+84	=>	6	=>	EIBLAGROPC
+88	=>	7	=>	IBORAGECLP
+79	=>	8	=>	IBOAREGPLC
+104	=>	9	=>	BIRCAGEPLO
+73	=>	10	=>	IBOAREPLCG
+
+Selección de Padres:
+2 - 1 => 1 - 1 => BIAEOCGPRL - IBAGREPLCO
+1 - 2 => 1 - 1 => IBAGREPLCO - BIAEOCGPRL
+8 - 9 => 4 - 5 => IBOAREGPLC - BIRCAGEPLO
+3 - 2 => 2 - 1 => BIOARGEPLC - BIAEOCGPRL
+4 - 5 => 2 - 3 => IBAGROECLP - IECBGRLAOP
+
+Cruzamiento:
+1 2 => 1 2
+BIAGREPOCL - IBAEOCGRPL
+3 4 => 2 3
+IBOARGEPCL - BIAGROECPL
+5 6 => 3 4
+IECBGRLAOP - EIBLAGCROP
+7 8 => 4 5
+IBORAEGPLC - IBOARGECLP
+9 10 => 5 6
+IBOARGEPLC - BIRCAEPLGO
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IBAGREPLCO
+2)	BIAEOPGCRL
+3)	BIOARGEPLC
+4)	IBAGROECLP
+5)	IECBGRLAOP
+6)	EIBCAGROPL
+7)	IBORAGECLP
+8)	IBOAREGPLC
+9)	BRICAGEPLO
+10)	IBOAREPLCG
+
+**** Iteración 24 ****
+Creación de Mating Pool:
+94	=>	1	=>	IBRAOPGECL
+90	=>	2	=>	BIEOAGPCRL
+98	=>	3	=>	EICBGAROPL
+97	=>	4	=>	IEBCAGRLOP
+88	=>	5	=>	IBORAGECLP
+88	=>	6	=>	IBORAGECLP
+74	=>	7	=>	IBOARGEPLC
+88	=>	8	=>	BIOAREGPLC
+82	=>	9	=>	IBCARGEPOL
+90	=>	10	=>	BIECAGROPL
+
+Selección de Padres:
+7 - 1 => 4 - 1 => IBOARGEPLC - IBRAOPGECL
+6 - 4 => 3 - 2 => IBORAGECLP - IEBCAGRLOP
+8 - 2 => 4 - 1 => BIOAREGPLC - BIEOAGPCRL
+2 - 6 => 1 - 3 => BIEOAGPCRL - IBORAGECLP
+3 - 9 => 2 - 5 => EICBGAROPL - IBCARGEPOL
+
+Cruzamiento:
+1 2 => 1 2
+IBRAOPEGCL - BIEOAGRPCL
+3 4 => 2 3
+EICBGAROPL - IEBCAGRLOP
+5 6 => 3 4
+IBORAGECLP - IBORAGECLP
+7 8 => 4 5
+IBOAREGPLC - BIOARGEPLC
+9 10 => 5 6
+BIEARGCOPL - IBRCAGEPOL
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IBRAOPGECL
+2)	BIEOAGPCRL
+3)	EICBGAROPL
+4)	IEBCAGRLOP
+5)	GBORAIECLP
+6)	IBORAGECLP
+7)	IBOARGEPLC
+8)	BIOAREGPLC
+9)	IBCARGEPOL
+10)	BIECAGROPL
+
+**** Iteración 25 ****
+Creación de Mating Pool:
+74	=>	1	=>	IBORAPGECL
+103	=>	2	=>	IBRAOGECLP
+112	=>	3	=>	IBRCAGEPOL
+95	=>	4	=>	BIEARCGOPL
+97	=>	5	=>	BIORAGECPL
+80	=>	6	=>	IBOAREGPCL
+93	=>	7	=>	IBRAPGELOC
+78	=>	8	=>	IBAGRLOECP
+76	=>	9	=>	IBOARGECLP
+91	=>	10	=>	IBCROGEPAL
+
+Selección de Padres:
+9 - 1 => 5 - 1 => IBOARGECLP - IBORAPGECL
+2 - 6 => 1 - 3 => IBRAOGECLP - IBOAREGPCL
+2 - 2 => 1 - 1 => IBRAOGECLP - IBRAOGECLP
+6 - 5 => 3 - 3 => IBOAREGPCL - BIORAGECPL
+2 - 4 => 1 - 2 => IBRAOGECLP - BIEARCGOPL
+
+Cruzamiento:
+1 2 => 1 2
+IBORAPGECL - IBRAOGECLP
+3 4 => 2 3
+BIRCAGEOPL - IBEARCGPOL
+5 6 => 3 4
+IBORAGEPCL - BIOAREGCPL
+7 8 => 4 5
+IBRAPGELOC - IBAGRLOEPC
+9 10 => 5 6
+IBOARGCEPL - IBCROGAELP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IBORAPGECL
+2)	IBRAOGECLP
+3)	IBRCAGEPOL
+4)	BIEARCGOPL
+5)	BIORAGECPL
+6)	IBOAREGPCL
+7)	IBRAPGELOC
+8)	IBAGRLOECP
+9)	IBOARGECLP
+10)	IBCROGEPAL
+
+**** Iteración 26 ****
+Creación de Mating Pool:
+93	=>	1	=>	IBRAPGELOC
+103	=>	2	=>	IBRAOGECLP
+76	=>	3	=>	IBOARGECLP
+76	=>	4	=>	IBOARGECLP
+93	=>	5	=>	IBRAPGELOC
+93	=>	6	=>	IBRAPGELOC
+112	=>	7	=>	IBRCAGEPOL
+103	=>	8	=>	IBRAOGECLP
+93	=>	9	=>	IBALREGPCO
+78	=>	10	=>	IBAGRLOECP
+
+Selección de Padres:
+10 - 4 => 5 - 2 => IBAGRLOECP - IBOARGECLP
+8 - 8 => 4 - 4 => IBRAOGECLP - IBRAOGECLP
+2 - 6 => 1 - 3 => IBRAOGECLP - IBRAPGELOC
+6 - 6 => 3 - 3 => IBRAPGELOC - IBRAPGELOC
+5 - 2 => 3 - 1 => IBRAPGELOC - IBRAOGECLP
+
+Cruzamiento:
+1 2 => 1 2
+IBRAPGELOC - IBRAOGECLP
+3 4 => 2 3
+IBOARGECLP - IBOARGECLP
+5 6 => 3 4
+IBRAPGELOC - IBRAPGELOC
+7 8 => 4 5
+IBRCAOGELP - IBRACGEPOL
+9 10 => 5 6
+IBALREGPOC - IBAGRLOEPC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IBRAPGELOC
+2)	IBRAOGECLP
+3)	IBOARGECLP
+4)	IBOARGECLP
+5)	IBRAPGELOC
+6)	IBRAPGELOC
+7)	IBRCAGEPOL
+8)	IBRAOGECLP
+9)	IBALREGPCO
+10)	IBAGRLOECP
+
+**** Iteración 27 ****
+Creación de Mating Pool:
+76	=>	1	=>	IBOARGECLP
+103	=>	2	=>	IBRAOGECLP
+93	=>	3	=>	IBRAPGELOC
+93	=>	4	=>	IBRAPGELOC
+107	=>	5	=>	IBRAGEOCLP
+83	=>	6	=>	IBARGEPLOC
+83	=>	7	=>	IBALRPGEOC
+101	=>	8	=>	IBRALEGPCO
+108	=>	9	=>	IBRAGELPOC
+107	=>	10	=>	IBRAGEOCLP
+
+Selección de Padres:
+6 - 1 => 3 - 1 => IBARGEPLOC - IBOARGECLP
+4 - 8 => 2 - 4 => IBRAPGELOC - IBRALEGPCO
+4 - 3 => 2 - 2 => IBRAPGELOC - IBRAPGELOC
+6 - 4 => 3 - 2 => IBARGEPLOC - IBRAPGELOC
+5 - 6 => 3 - 3 => IBRAGEOCLP - IBARGEPLOC
+
+Cruzamiento:
+1 2 => 1 2
+IBRAOGECLP - IBOARGECLP
+3 4 => 2 3
+IBRAPGELOC - IBRAPGELOC
+5 6 => 3 4
+IBARGEOCLP - IBRAGELPOC
+7 8 => 4 5
+IBALRPGECO - IBRALEGPOC
+9 10 => 5 6
+IBRAGEOCLP - IBRAGELPOC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IBOARGECLP
+2)	IBRAOGECLP
+3)	IBRAPGELOC
+4)	IBRAPGELOC
+5)	IBRAGEOCLP
+6)	IBARGEPLOC
+7)	IBALRPGEOC
+8)	IBRALEGPCO
+9)	IBRAGELPOC
+10)	IBRAGEOCLP
+
+**** Iteración 28 ****
+Creación de Mating Pool:
+103	=>	1	=>	IBRAOGECLP
+107	=>	2	=>	IBRAGEOCLP
+83	=>	3	=>	IBALRPGEOC
+84	=>	4	=>	IBARPGELOC
+101	=>	5	=>	IBRALEGPCO
+103	=>	6	=>	IBRAOGECLP
+103	=>	7	=>	IBRAOGECLP
+76	=>	8	=>	IBOARGECLP
+93	=>	9	=>	IBRAPGELOC
+83	=>	10	=>	IBARGEPLOC
+
+Selección de Padres:
+8 - 3 => 4 - 2 => IBOARGECLP - IBALRPGEOC
+10 - 7 => 5 - 4 => IBARGEPLOC - IBRAOGECLP
+4 - 9 => 2 - 5 => IBARPGELOC - IBRAPGELOC
+6 - 8 => 3 - 4 => IBRAOGECLP - IBOARGECLP
+1 - 5 => 1 - 3 => IBRAOGECLP - IBRALEGPCO
+
+Cruzamiento:
+1 2 => 1 2
+IBRAOGECLP - IBRAGEOCLP
+3 4 => 2 3
+IBALRPGEOC - IBARPGELOC
+5 6 => 3 4
+IBRALEGPCO - IBRAOGECLP
+7 8 => 4 5
+IBRAOGECLP - IBOARGECLP
+9 10 => 5 6
+IBRAGEPLOC - IBARPGELOC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IBRAOGECLP
+2)	IBRAGEOCLP
+3)	IBALRPGEOC
+4)	IBARPGELOC
+5)	IPRALEGBCO
+6)	IBRAOGECLP
+7)	IBRAOGECLP
+8)	IBOARGECLP
+9)	IBRAPGELOC
+10)	BIARGEPLOC
+
+**** Iteración 29 ****
+Creación de Mating Pool:
+97	=>	1	=>	IPRALEGBCO
+103	=>	2	=>	IBRAOGECLP
+114	=>	3	=>	IALRPEGBCO
+77	=>	4	=>	IRALBPGEOC
+109	=>	5	=>	IALBRPGEOC
+111	=>	6	=>	IARPLEGBCO
+112	=>	7	=>	IBRAGECOLP
+107	=>	8	=>	IBRAGEOCLP
+102	=>	9	=>	BEAROGIPLC
+107	=>	10	=>	IBRAGEOCLP
+
+Selección de Padres:
+3 - 7 => 2 - 4 => IALRPEGBCO - IBRAGECOLP
+9 - 2 => 5 - 1 => BEAROGIPLC - IBRAOGECLP
+2 - 5 => 1 - 3 => IBRAOGECLP - IALBRPGEOC
+1 - 2 => 1 - 1 => IPRALEGBCO - IBRAOGECLP
+2 - 6 => 1 - 3 => IBRAOGECLP - IARPLEGBCO
+
+Cruzamiento:
+1 2 => 1 2
+IBRALEGOCP - IPRAOGELBC
+3 4 => 2 3
+IALRBPGEOC - IRALPEGBCO
+5 6 => 3 4
+IALBRPGEOC - IARPLEGBCO
+7 8 => 4 5
+IBRAGEOCLP - IBRAGECOLP
+9 10 => 5 6
+BRAEOGICLP - BARIGEOPLC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IPRALEGBCO
+2)	IBRAOGECLP
+3)	IALRPEGBCO
+4)	IRALBPGEOC
+5)	IALBRPGEOC
+6)	IARPLEGBCO
+7)	IBRAGECOLP
+8)	IBRAGEOCLP
+9)	BEAROGIPLC
+10)	IBRAGPOCLE
+
+**** Iteración 30 ****
+Creación de Mating Pool:
+115	=>	1	=>	IALBRPOCGE
+102	=>	2	=>	IBRALOGECP
+103	=>	3	=>	IBRAOGECLP
+103	=>	4	=>	IBRAOGECLP
+97	=>	5	=>	IPRALEGBCO
+97	=>	6	=>	IPRALEGBCO
+97	=>	7	=>	IPRALEGBCO
+103	=>	8	=>	IBRAOGECLP
+95	=>	9	=>	IARGBPOCLE
+94	=>	10	=>	IRAPLEGBCO
+
+Selección de Padres:
+1 - 10 => 1 - 5 => IALBRPOCGE - IRAPLEGBCO
+2 - 4 => 1 - 2 => IBRALOGECP - IBRAOGECLP
+6 - 8 => 3 - 4 => IPRALEGBCO - IBRAOGECLP
+10 - 5 => 5 - 3 => IRAPLEGBCO - IPRALEGBCO
+10 - 10 => 5 - 5 => IRAPLEGBCO - IRAPLEGBCO
+
+Cruzamiento:
+1 2 => 1 2
+IBRALPOCGE - IALBROGECP
+3 4 => 2 3
+IBRAOGECLP - IBRAOGECLP
+5 6 => 3 4
+IPRALEGBCO - IPRALEGBCO
+7 8 => 4 5
+IBRAOGECLP - IPRALEGBCO
+9 10 => 5 6
+IARGBPOLEC - IRAPLEGBOC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IALBRPOCGE
+2)	IBRALOGECP
+3)	IBRAOGECLP
+4)	IBRAOGECLP
+5)	IPRALEGBCO
+6)	IPRALEGBCO
+7)	IPRALEGBCO
+8)	IBRAOGECLP
+9)	IARGBPOCLE
+10)	IRAPLEGBCO
+
+**** Iteración 31 ****
+Creación de Mating Pool:
+103	=>	1	=>	IBRAOGECLP
+97	=>	2	=>	IPRALEGBCO
+103	=>	3	=>	IBRAOGECLP
+103	=>	4	=>	IBRAOGECLP
+90	=>	5	=>	IARGBPECLO
+107	=>	6	=>	IBRAGEOCLP
+84	=>	7	=>	IROALEGBCP
+94	=>	8	=>	IPRAOGECLB
+94	=>	9	=>	IRAPLEGBCO
+97	=>	10	=>	IPRALEGBCO
+
+Selección de Padres:
+5 - 1 => 3 - 1 => IARGBPECLO - IBRAOGECLP
+1 - 6 => 1 - 3 => IBRAOGECLP - IBRAGEOCLP
+2 - 8 => 1 - 4 => IPRALEGBCO - IPRAOGECLB
+3 - 8 => 2 - 4 => IBRAOGECLP - IPRAOGECLB
+5 - 1 => 3 - 1 => IARGBPECLO - IBRAOGECLP
+
+Cruzamiento:
+1 2 => 1 2
+IPRAOGECLB - IORALEGBCP
+3 4 => 2 3
+IBRAOGECLP - IBRAOGECLP
+5 6 => 3 4
+IARGBPECLO - IBRAGEOCLP
+7 8 => 4 5
+IROALEGBCP - IPRAOGECLB
+9 10 => 5 6
+IRAPLEGBCO - IPRALEGBCO
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IBRAOGECLP
+2)	IPRALEGBCO
+3)	IBRAOGECLP
+4)	IBRAOGECLP
+5)	IARGBPECLO
+6)	IBRAGEOCLP
+7)	IROALEGBCP
+8)	IPRAOGECLB
+9)	IRAPLEGBCO
+10)	IPRALEGBCO
+
+**** Iteración 32 ****
+Creación de Mating Pool:
+101	=>	1	=>	IBRAOGEPLC
+103	=>	2	=>	IBRAOGECLP
+84	=>	3	=>	IROALEGBCP
+107	=>	4	=>	IBRAGEOCLP
+88	=>	5	=>	IROAGELBCP
+107	=>	6	=>	IBRALEGOCP
+98	=>	7	=>	IRAEGBOCLP
+97	=>	8	=>	IOAELPGBCR
+89	=>	9	=>	IORALEGBCP
+84	=>	10	=>	IPOARLEGBC
+
+Selección de Padres:
+7 - 8 => 4 - 4 => IRAEGBOCLP - IOAELPGBCR
+3 - 6 => 2 - 3 => IROALEGBCP - IBRALEGOCP
+8 - 7 => 4 - 4 => IOAELPGBCR - IRAEGBOCLP
+1 - 7 => 1 - 4 => IBRAOGEPLC - IRAEGBOCLP
+2 - 3 => 1 - 2 => IBRAOGECLP - IROALEGBCP
+
+Cruzamiento:
+1 2 => 1 2
+IBRAOGECLP - IBRAOGEPLC
+3 4 => 2 3
+IRAGEOLBCP - IROAEGBCLP
+5 6 => 3 4
+IROAGELBCP - IRBALEGOCP
+7 8 => 4 5
+IOAEGLPBCR - IRAELGBOCP
+9 10 => 5 6
+IOARLEGBCP - IORALPEGBC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IBRAOGEPLC
+2)	IBRAOGECLP
+3)	IROALEGBCP
+4)	IBRAGEOCLP
+5)	IROAGELBCP
+6)	IBRALEGOCP
+7)	IRAEGBOCLP
+8)	IOAELPGBCR
+9)	IORALEGBCP
+10)	IPOARLEGBC
+
+**** Iteración 33 ****
+Creación de Mating Pool:
+97	=>	1	=>	IRAELPGBCO
+93	=>	2	=>	IPBALEGOCR
+85	=>	3	=>	IRAEGBPOLC
+84	=>	4	=>	IPOARLEGBC
+82	=>	5	=>	ILRAOGEPBC
+95	=>	6	=>	IRCAGELBPO
+84	=>	7	=>	IROALEGBCP
+89	=>	8	=>	IORALEGBCP
+83	=>	9	=>	ILRAGEOBCP
+77	=>	10	=>	IBOALEGRCP
+
+Selección de Padres:
+1 - 7 => 1 - 4 => IRAELPGBCO - IROALEGBCP
+7 - 2 => 4 - 1 => IROALEGBCP - IPBALEGOCR
+8 - 9 => 4 - 5 => IORALEGBCP - ILRAGEOBCP
+2 - 10 => 1 - 5 => IPBALEGOCR - IBOALEGRCP
+10 - 5 => 5 - 3 => IBOALEGRCP - ILRAOGEPBC
+
+Cruzamiento:
+1 2 => 1 2
+IRAELPBGOC - IPBALERGCO
+3 4 => 2 3
+IPOAGBRLEC - IAEGRLBPOC
+5 6 => 3 4
+IRALOGEPBC - IRAGCELBPO
+7 8 => 4 5
+IROALEGBCP - IORALEGBCP
+9 10 => 5 6
+ILRAGEOBCP - IBOALEGRCP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IRAELPGBCO
+2)	IPBALEGOCR
+3)	IRAEGBPOLC
+4)	IPOARLEGBC
+5)	ILRAOGEPBC
+6)	IRCAGELBPO
+7)	IROALEGBCP
+8)	IORALEGBCP
+9)	ILRAGEOBCP
+10)	IBOALEGRCP
+
+**** Iteración 34 ****
+Creación de Mating Pool:
+98	=>	1	=>	ILRAEPGBCO
+80	=>	2	=>	IRAELOGPBC
+70	=>	3	=>	IROALEGPBC
+96	=>	4	=>	ILRAOGEBCP
+87	=>	5	=>	IRCALEGOBP
+95	=>	6	=>	IPOAGELBCR
+93	=>	7	=>	IROPLEGBCA
+84	=>	8	=>	IROALEGBCP
+103	=>	9	=>	IBALPEGOCR
+76	=>	10	=>	IBALOEGRCP
+
+Selección de Padres:
+9 - 5 => 5 - 3 => IBALPEGOCR - IRCALEGOBP
+3 - 9 => 2 - 5 => IROALEGPBC - IBALPEGOCR
+2 - 5 => 1 - 3 => IRAELOGPBC - IRCALEGOBP
+1 - 7 => 1 - 4 => ILRAEPGBCO - IROPLEGBCA
+1 - 6 => 1 - 3 => ILRAEPGBCO - IPOAGELBCR
+
+Cruzamiento:
+1 2 => 1 2
+ILRAEOGPBC - IRAELPGBCO
+3 4 => 2 3
+ILRAOEGPBC - IROALGEBCP
+5 6 => 3 4
+IPCALOGEBR - IROAGCLEBP
+7 8 => 4 5
+IROALEGBCP - IROPLEGBCA
+9 10 => 5 6
+IBALERGOCP - IBALPEGROC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	ILRAEPGBCO
+2)	IRAELOGPBC
+3)	IRAOLEGPBC
+4)	ILRAOGEBCP
+5)	ORCALEGIBP
+6)	IPOAGELBCR
+7)	IROPLEGBCA
+8)	IROALEGBCP
+9)	IOALPEGBCR
+10)	IBALOEGRCP
+
+**** Iteración 35 ****
+Creación de Mating Pool:
+93	=>	1	=>	IRCALEGOPB
+80	=>	2	=>	ECAOLRGIBP
+93	=>	3	=>	IROPLEGBCA
+100	=>	4	=>	IOALPEGBCR
+80	=>	5	=>	IRAELOGPBC
+71	=>	6	=>	IRAOLEGPBC
+80	=>	7	=>	IROAGELBPC
+90	=>	8	=>	IORAEPGBLC
+81	=>	9	=>	IPOAELGBCR
+80	=>	10	=>	IOAPEGLBCR
+
+Selección de Padres:
+8 - 1 => 4 - 1 => IORAEPGBLC - IRCALEGOPB
+2 - 6 => 1 - 3 => ECAOLRGIBP - IRAOLEGPBC
+3 - 1 => 2 - 1 => IROPLEGBCA - IRCALEGOPB
+10 - 5 => 5 - 3 => IOAPEGLBCR - IRAELOGPBC
+4 - 5 => 2 - 3 => IOALPEGBCR - IRAELOGPBC
+
+Cruzamiento:
+1 2 => 1 2
+ORCALEGIBP - ICAOLRGEPB
+3 4 => 2 3
+IORPLEGBCA - IOALPEGBCR
+5 6 => 3 4
+IRAELOGPBC - IRAOLEGPBC
+7 8 => 4 5
+IROAGELBPC - IORAEPGBLC
+9 10 => 5 6
+IOAPELGBCR - IPOAEGLBCR
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IRCALEGOPB
+2)	ECAOLRGIBP
+3)	IROPLEGBCA
+4)	IOALPEGBCR
+5)	IRAELOGPBC
+6)	IRAOLEGPBC
+7)	IROAGELBPC
+8)	IORAEPGBLC
+9)	IPOAELGBCR
+10)	IOAPEGLBCR
+
+**** Iteración 36 ****
+Creación de Mating Pool:
+100	=>	1	=>	IOALPEGBCR
+100	=>	2	=>	IOALPEGBCR
+80	=>	3	=>	IOACGELBPR
+84	=>	4	=>	IROAPEGBCL
+85	=>	5	=>	IRAOLEGBCP
+83	=>	6	=>	IOALECGPBR
+93	=>	7	=>	IROPLEGBCA
+71	=>	8	=>	IRAOLEGPBC
+93	=>	9	=>	IRCALEGOPB
+97	=>	10	=>	ICRAEPGBLO
+
+Selección de Padres:
+2 - 6 => 1 - 3 => IOALPEGBCR - IOALECGPBR
+8 - 4 => 4 - 2 => IRAOLEGPBC - IROAPEGBCL
+8 - 6 => 4 - 3 => IRAOLEGPBC - IOALECGPBR
+2 - 7 => 1 - 4 => IOALPEGBCR - IROPLEGBCA
+3 - 4 => 2 - 2 => IOACGELBPR - IROAPEGBCL
+
+Cruzamiento:
+1 2 => 1 2
+IOALPEGBCR - IOALPEGBCR
+3 4 => 2 3
+IROAPELGBC - IOACLEGBPR
+5 6 => 3 4
+IOALEPGBCR - IRAOLEGPBC
+7 8 => 4 5
+IROPLEGBCA - IRAOLEGPBC
+9 10 => 5 6
+IRCALEGOPB - ICRAEPGBLO
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IOALPEGBCR
+2)	IOALPEGBCR
+3)	IOACGELBPR
+4)	IROAPEGBCL
+5)	IRAOLEGBCP
+6)	IOALECGPBR
+7)	IROPLEGBCA
+8)	IRAOLEGPBC
+9)	IRCALEGOPB
+10)	ICRAEPGBLO
+
+**** Iteración 37 ****
+Creación de Mating Pool:
+107	=>	1	=>	IOALEGBRCP
+94	=>	2	=>	IAOLEGCPBR
+85	=>	3	=>	IROLEGBACP
+85	=>	4	=>	IROLEGBPCA
+80	=>	5	=>	IROLEAGPBC
+87	=>	6	=>	IROLEPGBCA
+71	=>	7	=>	IRAOLEGPBC
+85	=>	8	=>	IRAOLEGBCP
+80	=>	9	=>	IROPALEGBC
+85	=>	10	=>	IRAOPLEGBC
+
+Selección de Padres:
+9 - 7 => 5 - 4 => IROPALEGBC - IRAOLEGPBC
+10 - 10 => 5 - 5 => IRAOPLEGBC - IRAOPLEGBC
+6 - 7 => 3 - 4 => IROLEPGBCA - IRAOLEGPBC
+4 - 9 => 2 - 5 => IROLEGBPCA - IROPALEGBC
+6 - 4 => 3 - 2 => IROLEPGBCA - IROLEGBPCA
+
+Cruzamiento:
+1 2 => 1 2
+IAOLEGBRCP - IOALEGCPBR
+3 4 => 2 3
+IROLEGBPCA - IROLEGBACP
+5 6 => 3 4
+IROLEPGBCA - IROLEAGPBC
+7 8 => 4 5
+IRAOLEGBCP - IRAOLEGPBC
+9 10 => 5 6
+IROPALEGBC - IRAOPLEGBC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IOALEGBRCP
+2)	IAOLEGCPBR
+3)	IROLEABGCP
+4)	IROLEGBPCA
+5)	IROLEAGPBC
+6)	IROLEPGBCA
+7)	IRAOLEGPBC
+8)	IRAOLEGBCP
+9)	IROPALEGBC
+10)	IRAOPLEGBC
+
+**** Iteración 38 ****
+Creación de Mating Pool:
+85	=>	1	=>	IRAOPLEGBC
+80	=>	2	=>	IROPALEGBC
+76	=>	3	=>	IRAOEGBPLC
+102	=>	4	=>	IREBLOGPCA
+114	=>	5	=>	IAOLEGBRCP
+96	=>	6	=>	IAROPLEGBC
+84	=>	7	=>	IROALEGBCP
+80	=>	8	=>	IROLEAGPBC
+78	=>	9	=>	IROLEABGCP
+80	=>	10	=>	IROAPLEGBC
+
+Selección de Padres:
+3 - 8 => 2 - 4 => IRAOEGBPLC - IROLEAGPBC
+1 - 8 => 1 - 4 => IRAOPLEGBC - IROLEAGPBC
+1 - 9 => 1 - 5 => IRAOPLEGBC - IROLEABGCP
+10 - 5 => 5 - 3 => IROAPLEGBC - IAOLEGBRCP
+3 - 4 => 2 - 2 => IRAOEGBPLC - IREBLOGPCA
+
+Cruzamiento:
+1 2 => 1 2
+IRAOPLEGBC - IROPALEGBC
+3 4 => 2 3
+IROAEGBPLC - IREBLOGPCA
+5 6 => 3 4
+IAOLEGBRCP - IAORPLEGBC
+7 8 => 4 5
+IROALEGBPC - IROLEAGPBC
+9 10 => 5 6
+IROLEABGCP - IROAPLEGBC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IRAOPLEGBC
+2)	IROPALEGBC
+3)	IRAOEGBPLC
+4)	IBERLOGPCA
+5)	IAOLEGBRCP
+6)	IAROPLEGBC
+7)	IROALEGBCP
+8)	IROLEAGPBC
+9)	IROLEABGCP
+10)	IROAPLEGBC
+
+**** Iteración 39 ****
+Creación de Mating Pool:
+80	=>	1	=>	IROLEABGPC
+85	=>	2	=>	IEARLOGPBC
+94	=>	3	=>	ICROPLEGBA
+108	=>	4	=>	IAERLOGPCB
+80	=>	5	=>	IROAPLEGBC
+96	=>	6	=>	IAROPLEGBC
+85	=>	7	=>	IRAOPLEGBC
+80	=>	8	=>	IROAPLEGBC
+96	=>	9	=>	IAROPLEGBC
+80	=>	10	=>	IROAPLEGBC
+
+Selección de Padres:
+1 - 8 => 1 - 4 => IROLEABGPC - IROAPLEGBC
+8 - 7 => 4 - 4 => IROAPLEGBC - IRAOPLEGBC
+3 - 2 => 2 - 1 => ICROPLEGBA - IEARLOGPBC
+10 - 7 => 5 - 4 => IROAPLEGBC - IRAOPLEGBC
+4 - 5 => 2 - 3 => IAERLOGPCB - IROAPLEGBC
+
+Cruzamiento:
+1 2 => 1 2
+IROLEAGPBC - IEARLOBGPC
+3 4 => 2 3
+IAROPLEGBC - IEBRLOGPCA
+5 6 => 3 4
+IROAPLEGBC - IAROPLEGBC
+7 8 => 4 5
+IROAPLEGBC - IRAOPLEGBC
+9 10 => 5 6
+IROAPLEGBC - IAROPLEGBC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IROLEABGPC
+2)	IEARLOGPBC
+3)	ICROPLEGBA
+4)	IAERLOGPCB
+5)	IROAPCEGBL
+6)	IAROPLEGBC
+7)	IRAOPLEGBC
+8)	IROAPLEGBC
+9)	IAROPLEGBC
+10)	IROAPLEGBC
+
+**** Iteración 40 ****
+Creación de Mating Pool:
+96	=>	1	=>	IAROPLEGBC
+85	=>	2	=>	IRAOPLEGBC
+92	=>	3	=>	IPARLOGEBC
+85	=>	4	=>	IRAOPLEGBC
+85	=>	5	=>	IEARLOGPBC
+93	=>	6	=>	IOERLAGPCB
+100	=>	7	=>	ICARLOGPEB
+96	=>	8	=>	IAROPLEGBC
+96	=>	9	=>	IAROPLEGBC
+96	=>	10	=>	IAROPLEGBC
+
+Selección de Padres:
+2 - 10 => 1 - 5 => IRAOPLEGBC - IAROPLEGBC
+7 - 8 => 4 - 4 => ICARLOGPEB - IAROPLEGBC
+8 - 2 => 4 - 1 => IAROPLEGBC - IRAOPLEGBC
+3 - 7 => 2 - 4 => IPARLOGEBC - ICARLOGPEB
+4 - 10 => 2 - 5 => IRAOPLEGBC - IAROPLEGBC
+
+Cruzamiento:
+1 2 => 1 2
+IRAOPLEGBC - IAROPLEGBC
+3 4 => 2 3
+IAPRLOGEBC - IAROPLEGBC
+5 6 => 3 4
+IEAROLGPCB - IOERALGPBC
+7 8 => 4 5
+IAERLOGPBC - ICAOPLEGRB
+9 10 => 5 6
+IAROPLEGBC - IAROPLEGBC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IAROPLEGBC
+2)	IRAOPLEGBC
+3)	IPARLOGEBC
+4)	IRAOPLEGBC
+5)	IEARLOGPBC
+6)	IOERLAGPCB
+7)	ICARLOGPEB
+8)	IAROPLEGBC
+9)	IAROPLEGBC
+10)	IAROPLEGBC
+
+**** Iteración 41 ****
+Creación de Mating Pool:
+90	=>	1	=>	IEROPLAGCB
+82	=>	2	=>	IOERLAPGBC
+100	=>	3	=>	ICARLOGPEB
+85	=>	4	=>	IEARLOGPBC
+92	=>	5	=>	IPARLOGEBC
+97	=>	6	=>	IAORPLEGBC
+96	=>	7	=>	IAROPLEGBC
+96	=>	8	=>	IAROPLEGBC
+96	=>	9	=>	IAROPLEGBC
+85	=>	10	=>	IRAOPLEGBC
+
+Selección de Padres:
+1 - 7 => 1 - 4 => IEROPLAGCB - IAROPLEGBC
+3 - 5 => 2 - 3 => ICARLOGPEB - IPARLOGEBC
+10 - 4 => 5 - 2 => IRAOPLEGBC - IEARLOGPBC
+10 - 3 => 5 - 2 => IRAOPLEGBC - ICARLOGPEB
+1 - 7 => 1 - 4 => IEROPLAGCB - IAROPLEGBC
+
+Cruzamiento:
+1 2 => 1 2
+IOERPLAGCB - IEROLAPGBC
+3 4 => 2 3
+ICARELOGPB - IEARCLOGPB
+5 6 => 3 4
+IARPLOEGBC - IAROPLGEBC
+7 8 => 4 5
+IAROPLEGBC - IAROPLEGBC
+9 10 => 5 6
+IAROPLEGBC - IRAOPLEGBC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IEROPLAGCB
+2)	IOERLAPGBC
+3)	ICARLOGPEB
+4)	IEARLOGPBC
+5)	IPARLOGEBC
+6)	IAORPLEGBC
+7)	IAROPLEGBC
+8)	IAROPLEGBC
+9)	IAROPLEGBC
+10)	IRAOPLEGBC
+
+**** Iteración 42 ****
+Creación de Mating Pool:
+74	=>	1	=>	IROAPLEGCB
+99	=>	2	=>	IOREPLAGBC
+85	=>	3	=>	IRAOPLEGBC
+96	=>	4	=>	IAROPLEGBC
+96	=>	5	=>	IAROPLEGBC
+89	=>	6	=>	IAROPGELBC
+96	=>	7	=>	IAROPLEGBC
+97	=>	8	=>	IAORPLEGBC
+94	=>	9	=>	ICROLAPGBE
+83	=>	10	=>	IRABLOGPEC
+
+Selección de Padres:
+4 - 6 => 2 - 3 => IAROPLEGBC - IAROPGELBC
+1 - 6 => 1 - 3 => IROAPLEGCB - IAROPGELBC
+8 - 5 => 4 - 3 => IAORPLEGBC - IAROPLEGBC
+8 - 7 => 4 - 4 => IAORPLEGBC - IAROPLEGBC
+5 - 6 => 3 - 3 => IAROPLEGBC - IAROPGELBC
+
+Cruzamiento:
+1 2 => 1 2
+IORPLAEGCB - IROPLEAGBC
+3 4 => 2 3
+IAROPLEGBC - IRAOPLEGBC
+5 6 => 3 4
+IAROPLEGBC - IAROPGELBC
+7 8 => 4 5
+IAROPLEGBC - IAORPLEGBC
+9 10 => 5 6
+ICROLABGPE - IRABLOCPGE
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IROAPLEGCB
+2)	IOREPLAGBC
+3)	ORAIPLEGBC
+4)	IAROPLEGBC
+5)	IAROPLECBG
+6)	BAROPGELIC
+7)	IAROPLEGBC
+8)	IAORPLEGBC
+9)	ICROLAPGBE
+10)	IRABLOGPEC
+
+**** Iteración 43 ****
+Creación de Mating Pool:
+88	=>	1	=>	ROAIPLEGCB
+94	=>	2	=>	ORIAPLEGBC
+89	=>	3	=>	AORPEGBLIC
+87	=>	4	=>	AROPELIGBC
+97	=>	5	=>	IAORPLEGBC
+96	=>	6	=>	IAROPLEGBC
+90	=>	7	=>	IAORPGELBC
+85	=>	8	=>	BAROPLEGIC
+81	=>	9	=>	IAROPGLEBC
+91	=>	10	=>	BLROPAGEIC
+
+Selección de Padres:
+2 - 5 => 1 - 3 => ORIAPLEGBC - IAORPLEGBC
+3 - 8 => 2 - 4 => AORPEGBLIC - BAROPLEGIC
+7 - 7 => 4 - 4 => IAORPGELBC - IAORPGELBC
+9 - 10 => 5 - 5 => IAROPGLEBC - BLROPAGEIC
+2 - 9 => 1 - 5 => ORIAPLEGBC - IAROPGLEBC
+
+Cruzamiento:
+1 2 => 1 2
+ORAIPLEGBC - ROIAPLEGCB
+3 4 => 2 3
+AROPEGBLIC - AORPELIGBC
+5 6 => 3 4
+IAORPLEGBC - IAROPLEGBC
+7 8 => 4 5
+BAORPLEGIC - IAROPGELBC
+9 10 => 5 6
+BROPAGLEIC - IROPLAGEBC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	ROAIPLEGCB
+2)	ORIAPLEGBC
+3)	AORPEGBLIC
+4)	AROPELIGBC
+5)	IAORPLEGBC
+6)	IAROPLEGBC
+7)	IAORPGELBC
+8)	BAROPLEGIC
+9)	IORAPGLEBC
+10)	BLROPAGEIC
+
+**** Iteración 44 ****
+Creación de Mating Pool:
+94	=>	1	=>	ROAIPLEGBC
+90	=>	2	=>	IAROPLEGCB
+94	=>	3	=>	ORIAPLEGBC
+87	=>	4	=>	AROPELIGBC
+97	=>	5	=>	AEROPLIGBC
+77	=>	6	=>	BAOPERLGIC
+91	=>	7	=>	BLROPAEGIC
+87	=>	8	=>	ORIAPLGEBC
+97	=>	9	=>	RIAOPLEGBC
+78	=>	10	=>	IROAPLECBG
+
+Selección de Padres:
+9 - 10 => 5 - 5 => RIAOPLEGBC - IROAPLECBG
+2 - 1 => 1 - 1 => IAROPLEGCB - ROAIPLEGBC
+10 - 4 => 5 - 2 => IROAPLECBG - AROPELIGBC
+3 - 4 => 2 - 2 => ORIAPLEGBC - AROPELIGBC
+7 - 3 => 4 - 2 => BLROPAEGIC - ORIAPLEGBC
+
+Cruzamiento:
+1 2 => 1 2
+IAROPLEGBC - ROAIPLEGCB
+3 4 => 2 3
+AROIPLEGBC - ORAPELIGBC
+5 6 => 3 4
+BAOEPLRGIC - AOPLERIGBC
+7 8 => 4 5
+ILROPAGEBC - BRIAPLOEGC
+9 10 => 5 6
+IROAPLEGCB - RIAOPLECGB
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	ROAIPLEGBC
+2)	IAROPLEGCB
+3)	ORIAPLEGBC
+4)	AROPELIGBC
+5)	AEROPLIGBC
+6)	BAOPERLGIC
+7)	BLROPAEGIC
+8)	ORIAPLGEBC
+9)	RIAOPLEGBC
+10)	IROAPLECBG
+
+**** Iteración 45 ****
+Creación de Mating Pool:
+87	=>	1	=>	ORIAPLGEBC
+94	=>	2	=>	ORIAPLEGBC
+91	=>	3	=>	ROPLBAEGIC
+84	=>	4	=>	ROPAILEGCB
+94	=>	5	=>	ROAIPLEGBC
+97	=>	6	=>	AEROPLIGBC
+93	=>	7	=>	BRIAPLGOEC
+88	=>	8	=>	IAOPERLGBC
+80	=>	9	=>	ROAPELIGBC
+90	=>	10	=>	AROIPLEGBC
+
+Selección de Padres:
+2 - 9 => 1 - 5 => ORIAPLEGBC - ROAPELIGBC
+9 - 4 => 5 - 2 => ROAPELIGBC - ROPAILEGCB
+1 - 8 => 1 - 4 => ORIAPLGEBC - IAOPERLGBC
+7 - 2 => 4 - 1 => BRIAPLGOEC - ORIAPLEGBC
+10 - 6 => 5 - 3 => AROIPLEGBC - AEROPLIGBC
+
+Cruzamiento:
+1 2 => 1 2
+ORIAPLEGBC - ORIAPLGEBC
+3 4 => 2 3
+ROPLBAEGIC - ROPBILEGCA
+5 6 => 3 4
+ERAIPLOGBC - AIROPLEGBC
+7 8 => 4 5
+ORIAPELGBC - BAOPRILGEC
+9 10 => 5 6
+AROPELIGBC - ROAIPLEGBC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	ORIAPLGEBC
+2)	ORIAPLEGBC
+3)	ROPLBAEGIC
+4)	ROPAILEGCB
+5)	ROAIPLEGBC
+6)	AEROPLIGBC
+7)	BRIAPLGOEC
+8)	IAOPERLGBC
+9)	ROAPELIGBC
+10)	AROIPLEGBC
+
+**** Iteración 46 ****
+Creación de Mating Pool:
+91	=>	1	=>	ROPLBAEGIC
+90	=>	2	=>	AROIPLEGBC
+80	=>	3	=>	IOPLBAERGC
+104	=>	4	=>	LAOPERBGIC
+94	=>	5	=>	BROPIALGEC
+93	=>	6	=>	OPIAERLGBC
+90	=>	7	=>	AROIPLEGBC
+89	=>	8	=>	AREOPLIGBC
+97	=>	9	=>	ROIAPLEGBC
+107	=>	10	=>	BROIPLAGEC
+
+Selección de Padres:
+7 - 7 => 4 - 4 => AROIPLEGBC - AROIPLEGBC
+4 - 9 => 2 - 5 => LAOPERBGIC - ROIAPLEGBC
+4 - 8 => 2 - 4 => LAOPERBGIC - AREOPLIGBC
+4 - 7 => 2 - 4 => LAOPERBGIC - AROIPLEGBC
+9 - 3 => 5 - 2 => ROIAPLEGBC - IOPLBAERGC
+
+Cruzamiento:
+1 2 => 1 2
+AROPLBEGIC - ROPLAIEGBC
+3 4 => 2 3
+LOPBIAERGC - OPLAERBGIC
+5 6 => 3 4
+RBOPIALGEC - OPIAERLGBC
+7 8 => 4 5
+AREOPLIGBC - AROIPLEGBC
+9 10 => 5 6
+BRIAPLEOGC - REOIPLAGBC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	ROPLBAEGIC
+2)	AROIPLEGBC
+3)	POILBAERGC
+4)	LAOPERBGIC
+5)	BROPIALGEC
+6)	OPIAERLGBC
+7)	AROIPLEGBC
+8)	AREOPLIGBC
+9)	ROIAPLEGBC
+10)	RBOIPLAGEC
+
+**** Iteración 47 ****
+Creación de Mating Pool:
+91	=>	1	=>	RBOPIALGEC
+93	=>	2	=>	OPIAERLGBC
+88	=>	3	=>	RAOIPLEGBC
+97	=>	4	=>	ROIAPLEGBC
+87	=>	5	=>	POILBAEGRC
+87	=>	6	=>	OCLGBAERIP
+86	=>	7	=>	POBEIALRGC
+59	=>	8	=>	ROPIBAELGC
+83	=>	9	=>	RLEPBAOGIC
+106	=>	10	=>	AOPLERBGIC
+
+Selección de Padres:
+1 - 7 => 1 - 4 => RBOPIALGEC - POBEIALRGC
+9 - 5 => 5 - 3 => RLEPBAOGIC - POILBAEGRC
+3 - 4 => 2 - 2 => RAOIPLEGBC - ROIAPLEGBC
+1 - 2 => 1 - 1 => RBOPIALGEC - OPIAERLGBC
+4 - 2 => 2 - 1 => ROIAPLEGBC - OPIAERLGBC
+
+Cruzamiento:
+1 2 => 1 2
+OPIARLBGEC - ROPIALEGBC
+3 4 => 2 3
+RAOIPLEGBC - ROIAPLEGBC
+5 6 => 3 4
+OCILBAEGRP - POLGBAERIC
+7 8 => 4 5
+ROPBIAELGC - POEIBALRGC
+9 10 => 5 6
+OLEPBARGIC - PBALEROGIC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	RBOPIALGEC
+2)	OPIAERLGBC
+3)	RAOIPLEGBC
+4)	ROIAPLEGBC
+5)	POILBAEGRC
+6)	ACLGBOERIP
+7)	POBEIALRGC
+8)	ROPIBAELGC
+9)	RLEPBAOGIC
+10)	AOPLERBGIC
+
+**** Iteración 48 ****
+Creación de Mating Pool:
+95	=>	1	=>	POIBAGELRC
+70	=>	2	=>	ROPIBAEGLC
+85	=>	3	=>	OPLIBAEGRC
+108	=>	4	=>	POLAERBGIC
+99	=>	5	=>	OPIAERLBGC
+62	=>	6	=>	ORPIBAELGC
+96	=>	7	=>	IOPLEBAGRC
+71	=>	8	=>	AOILBPERGC
+93	=>	9	=>	OPIAERLGBC
+86	=>	10	=>	POBEIALRGC
+
+Selección de Padres:
+6 - 7 => 3 - 4 => ORPIBAELGC - IOPLEBAGRC
+5 - 7 => 3 - 4 => OPIAERLBGC - IOPLEBAGRC
+8 - 2 => 4 - 1 => AOILBPERGC - ROPIBAEGLC
+8 - 9 => 4 - 5 => AOILBPERGC - OPIAERLGBC
+2 - 4 => 1 - 2 => ROPIBAEGLC - POLAERBGIC
+
+Cruzamiento:
+1 2 => 1 2
+ROPBAGIELC - POGIBAELRC
+3 4 => 2 3
+OPLIBAEGRC - POLAERBGIC
+5 6 => 3 4
+OPIAERLBGC - ORPIBAELGC
+7 8 => 4 5
+IOPLEBAGRC - AOILBPERGC
+9 10 => 5 6
+POBAERILGC - OPREIALGBC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	POIBAGELRC
+2)	ROPIBAEGLC
+3)	OPLIBAEGRC
+4)	POLAERBGIC
+5)	ORIAEPLBGC
+6)	ORBIPAELGC
+7)	IOPLEBAGRC
+8)	AOILBPERGC
+9)	OPIAERLGBC
+10)	POBEIALRGC
+
+**** Iteración 49 ****
+Creación de Mating Pool:
+91	=>	1	=>	GBIPEALROC
+59	=>	2	=>	POBIRAELGC
+85	=>	3	=>	OPLIBAEGRC
+92	=>	4	=>	OPEAIRLGBC
+83	=>	5	=>	ROPBAGIELC
+111	=>	6	=>	POGIABELRC
+96	=>	7	=>	ORIAEPLBGC
+96	=>	8	=>	ORIAEPLBGC
+82	=>	9	=>	PBLIOAEGRC
+86	=>	10	=>	OPBEIALRGC
+
+Selección de Padres:
+1 - 2 => 1 - 1 => GBIPEALROC - POBIRAELGC
+2 - 5 => 1 - 3 => POBIRAELGC - ROPBAGIELC
+3 - 1 => 2 - 1 => OPLIBAEGRC - GBIPEALROC
+3 - 7 => 2 - 4 => OPLIBAEGRC - ORIAEPLBGC
+1 - 5 => 1 - 3 => GBIPEALROC - ROPBAGIELC
+
+Cruzamiento:
+1 2 => 1 2
+BGIPEALROC - POBIRAELGC
+3 4 => 2 3
+OPEIBARLGC - OPLAIRBEGC
+5 6 => 3 4
+POIBAGELRC - ROPGABIELC
+7 8 => 4 5
+ORIAEPLBGC - ORIAEPLBGC
+9 10 => 5 6
+PBLIOAEGRC - OPBEIALRGC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	GBIPEALROC
+2)	EOBIRAPLGC
+3)	OPLIBAEGRC
+4)	OPEAIRLGBC
+5)	ROPBAGIELC
+6)	POGIABELRC
+7)	ORIAEPLBGC
+8)	ORIAEPLBGC
+9)	PBLIOAEGRC
+10)	OPBEIALRGC
+
+**** Iteración 50 ****
+Creación de Mating Pool:
+85	=>	1	=>	BPLIOAEGRC
+54	=>	2	=>	BOEIRAPLGC
+83	=>	3	=>	ROPBAGIELC
+83	=>	4	=>	ROPBAGIELC
+88	=>	5	=>	PLOIBAEGRC
+90	=>	6	=>	PLBIOAEGRC
+74	=>	7	=>	EOLIBRAPGC
+80	=>	8	=>	OPBILAEGRC
+65	=>	9	=>	ROPABIEGLC
+94	=>	10	=>	PBLOAGIERC
+
+Selección de Padres:
+5 - 6 => 3 - 3 => PLOIBAEGRC - PLBIOAEGRC
+7 - 7 => 4 - 4 => EOLIBRAPGC - EOLIBRAPGC
+3 - 1 => 2 - 1 => ROPBAGIELC - BPLIOAEGRC
+9 - 10 => 5 - 5 => ROPABIEGLC - PBLOAGIERC
+6 - 5 => 3 - 3 => PLBIOAEGRC - PLOIBAEGRC
+
+Cruzamiento:
+1 2 => 1 2
+BPLIOAEGRC - BOEIRAPLGC
+3 4 => 2 3
+ROPBAGIELC - ROPBAGIELC
+5 6 => 3 4
+PLOIBAEGRC - PLBIOAEGRC
+7 8 => 4 5
+EOLIBRAPGC - OPBILAEGRC
+9 10 => 5 6
+LOPABIEGRC - RPLOAGIBEC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	BPLIAOEGRC
+2)	BOEIRAPLGC
+3)	ROPBAGIELC
+4)	ROPBAGIELC
+5)	PLOIBAEGRC
+6)	PLBIOAEGRC
+7)	EOLIBRAPGC
+8)	LPBIOAEGRC
+9)	ROPABIEGLC
+10)	PBLOAGIERC
+
+**** Iteración 51 ****
+Creación de Mating Pool:
+83	=>	1	=>	ROPBAGIELC
+83	=>	2	=>	ROPBAGIELC
+90	=>	3	=>	PLBIOAEGRC
+88	=>	4	=>	PLOIBAEGRC
+72	=>	5	=>	BOEIAPLGRC
+80	=>	6	=>	BPLOAIERGC
+96	=>	7	=>	PBLOIAEGRC
+98	=>	8	=>	PLBOAGIERC
+86	=>	9	=>	LPBOAIEGRC
+93	=>	10	=>	PBLIOAGERC
+
+Selección de Padres:
+3 - 3 => 2 - 2 => PLBIOAEGRC - PLBIOAEGRC
+2 - 8 => 1 - 4 => ROPBAGIELC - PLBOAGIERC
+4 - 9 => 2 - 5 => PLOIBAEGRC - LPBOAIEGRC
+9 - 6 => 5 - 3 => LPBOAIEGRC - BPLOAIERGC
+7 - 8 => 4 - 4 => PBLOIAEGRC - PLBOAGIERC
+
+Cruzamiento:
+1 2 => 1 2
+ROPBAGIELC - ROPBAGIELC
+3 4 => 2 3
+PLBIOAEGRC - PLOIBAEGRC
+5 6 => 3 4
+BPLOAIEGRC - BOEIAPLRGC
+7 8 => 4 5
+PBLOAGIERC - PLBOIAEGRC
+9 10 => 5 6
+PBLOAIGERC - LPBIOAEGRC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	ROPBAGIELC
+2)	ROPBAGIELC
+3)	PLBIOAEGRC
+4)	PLOIBAEGRC
+5)	BOEIAPLGRC
+6)	BPLOAIERGC
+7)	PBLOIAEGRC
+8)	PLBOAGIERC
+9)	LPBOAIEGRC
+10)	PBLIOAGERC
+
+**** Iteración 52 ****
+Creación de Mating Pool:
+82	=>	1	=>	PBLIOAEGRC
+101	=>	2	=>	PLBIOAGERC
+77	=>	3	=>	ELBIOAPGRC
+86	=>	4	=>	COEIAPBGRL
+90	=>	5	=>	PLBIOAEGRC
+86	=>	6	=>	ORPBAGIELC
+66	=>	7	=>	PBIOAELGRC
+92	=>	8	=>	BOIAPLEGRC
+88	=>	9	=>	BPLOIAERGC
+90	=>	10	=>	PLOBAIEGRC
+
+Selección de Padres:
+9 - 6 => 5 - 3 => BPLOIAERGC - ORPBAGIELC
+9 - 4 => 5 - 2 => BPLOIAERGC - COEIAPBGRL
+8 - 5 => 4 - 3 => BOIAPLEGRC - PLBIOAEGRC
+7 - 3 => 4 - 2 => PBIOAELGRC - ELBIOAPGRC
+1 - 6 => 1 - 3 => PBLIOAEGRC - ORPBAGIELC
+
+Cruzamiento:
+1 2 => 1 2
+PBLIOAGERC - PLBIOAEGRC
+3 4 => 2 3
+ELBIOAPGRC - OCEIAPBGRL
+5 6 => 3 4
+ORPBIAEGLC - PLBOAGIERC
+7 8 => 4 5
+BPIOAELGRC - BOIAPLEGRC
+9 10 => 5 6
+PLBOIAEGRC - PLOBAIERGC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PILBOAEGRC
+2)	PLBIOAGERC
+3)	ELBIOAPGRC
+4)	COEIAPBGRL
+5)	PLBIOAEGRC
+6)	ORPBAGIELC
+7)	PBIOAELGRC
+8)	BOGAPLEIRC
+9)	BPLOIAERGC
+10)	PLOBAIEGRC
+
+**** Iteración 53 ****
+Creación de Mating Pool:
+87	=>	1	=>	OLEIAPBGRC
+79	=>	2	=>	COBAPLEIGR
+90	=>	3	=>	PLBIOAEGRC
+79	=>	4	=>	PILBOAEGRC
+80	=>	5	=>	PBORAGIELC
+91	=>	6	=>	PLIBOAGERC
+67	=>	7	=>	BPIOALERGC
+96	=>	8	=>	PBLOIAEGRC
+90	=>	9	=>	PILBOAGERC
+90	=>	10	=>	PLBIOAEGRC
+
+Selección de Padres:
+3 - 7 => 2 - 4 => PLBIOAEGRC - BPIOALERGC
+5 - 9 => 3 - 5 => PBORAGIELC - PILBOAGERC
+1 - 7 => 1 - 4 => OLEIAPBGRC - BPIOALERGC
+10 - 4 => 5 - 2 => PLBIOAEGRC - PILBOAEGRC
+1 - 1 => 1 - 1 => OLEIAPBGRC - OLEIAPBGRC
+
+Cruzamiento:
+1 2 => 1 2
+OLEIAPBGRC - OBCAPLEIGR
+3 4 => 2 3
+PLBIOAEGRC - PILBOAEGRC
+5 6 => 3 4
+PBORAGIELC - PLIBOAGERC
+7 8 => 4 5
+BPILOAEGRC - PBLIOAERGC
+9 10 => 5 6
+PLIBOAGERC - PLBIOAEGRC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	OLEIAPBGRC
+2)	COBAPLEIGR
+3)	PLBIOAEGRC
+4)	PILBOAEGRC
+5)	PBORAGIELC
+6)	PLIBOAGERC
+7)	BPIOALERGC
+8)	PBLOIAEGRC
+9)	PILBOAGERC
+10)	PLBIOAEGRC
+
+**** Iteración 54 ****
+Creación de Mating Pool:
+99	=>	1	=>	PBEIALOGRC
+87	=>	2	=>	EALOIPBGRC
+73	=>	3	=>	PIBOALEGRC
+68	=>	4	=>	IPBLOAERGC
+86	=>	5	=>	ORBAPLEIGC
+87	=>	6	=>	CPIBOAGERL
+90	=>	7	=>	PLBIOAEGRC
+79	=>	8	=>	PILBOAEGRC
+101	=>	9	=>	PLBIOAGERC
+79	=>	10	=>	PILBOAEGRC
+
+Selección de Padres:
+4 - 1 => 2 - 1 => IPBLOAERGC - PBEIALOGRC
+4 - 1 => 2 - 1 => IPBLOAERGC - PBEIALOGRC
+9 - 9 => 5 - 5 => PLBIOAGERC - PLBIOAGERC
+10 - 2 => 5 - 1 => PILBOAEGRC - EALOIPBGRC
+10 - 10 => 5 - 5 => PILBOAEGRC - PILBOAEGRC
+
+Cruzamiento:
+1 2 => 1 2
+EPBIALOGRC - EALOIPBGRC
+3 4 => 2 3
+IPBOALERGC - PIBOLAEGRC
+5 6 => 3 4
+CRBAPIOGEL - OPIBRALEGC
+7 8 => 4 5
+PLBIOAEGRC - PILBOAEGRC
+9 10 => 5 6
+PLBIOAGERC - PILBOAEGRC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PBEIALOGRC
+2)	EALOIPBGRC
+3)	PIBOALEGRC
+4)	IPBLOAERGC
+5)	ORBAPLEIGC
+6)	CPIBOAGERL
+7)	PLBIOAEGRC
+8)	PILBCAEGRO
+9)	PLBIOAGERC
+10)	PILBOAEGRC
+
+**** Iteración 55 ****
+Creación de Mating Pool:
+79	=>	1	=>	PLBIOAERGC
+90	=>	2	=>	IPBLOAGERC
+86	=>	3	=>	AELOIPBGRC
+86	=>	4	=>	ORBAPLEIGC
+73	=>	5	=>	PIBOALEGRC
+73	=>	6	=>	PBEIOALGRC
+83	=>	7	=>	IPLBOAEGRC
+86	=>	8	=>	AELOIPBGRC
+88	=>	9	=>	RBAOIPLEGC
+95	=>	10	=>	EOIAPLBGRC
+
+Selección de Padres:
+2 - 3 => 1 - 2 => IPBLOAGERC - AELOIPBGRC
+1 - 3 => 1 - 2 => PLBIOAERGC - AELOIPBGRC
+4 - 1 => 2 - 1 => ORBAPLEIGC - PLBIOAERGC
+9 - 5 => 5 - 3 => RBAOIPLEGC - PIBOALEGRC
+9 - 10 => 5 - 5 => RBAOIPLEGC - EOIAPLBGRC
+
+Cruzamiento:
+1 2 => 1 2
+IPBLOAERGC - PLBIOAGERC
+3 4 => 2 3
+OALEIPBGRC - AOPBRLEIGC
+5 6 => 3 4
+PBIOALEGRC - PIBOEALGRC
+7 8 => 4 5
+AELBOIPGRC - PLBOIAEGRC
+9 10 => 5 6
+BRAOIPLEGC - OEIAPLBGRC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PLBIOAERGC
+2)	IPBLOAGERC
+3)	AELOIPBGRC
+4)	ORBAPLEIGC
+5)	PIEOALBGRC
+6)	PBEIOALGRC
+7)	IPLBOAEGRC
+8)	AELOIPBGRC
+9)	RBAOIPLEGC
+10)	EOIAPLBGRC
+
+**** Iteración 56 ****
+Creación de Mating Pool:
+83	=>	1	=>	IPLBOAEGRC
+78	=>	2	=>	PIEOALBGRC
+78	=>	3	=>	EBAOIPLGRC
+96	=>	4	=>	ROIAPLBEGC
+69	=>	5	=>	PBAEIOLGRC
+89	=>	6	=>	RBEAOIPLGC
+97	=>	7	=>	IAEOPLBGRC
+96	=>	8	=>	PEIAOLBGRC
+73	=>	9	=>	PBEIOALGRC
+78	=>	10	=>	PIEOALBGRC
+
+Selección de Padres:
+2 - 3 => 1 - 2 => PIEOALBGRC - EBAOIPLGRC
+4 - 2 => 2 - 1 => ROIAPLBEGC - PIEOALBGRC
+1 - 10 => 1 - 5 => IPLBOAEGRC - PIEOALBGRC
+10 - 6 => 5 - 3 => PIEOALBGRC - RBEAOIPLGC
+3 - 8 => 2 - 4 => EBAOIPLGRC - PEIAOLBGRC
+
+Cruzamiento:
+1 2 => 1 2
+IPLBOEAGRC - PIEOALBGRC
+3 4 => 2 3
+RBAOIPLGEC - GOIAPLBERC
+5 6 => 3 4
+RBEAIOLPGC - BAEOLIPGRC
+7 8 => 4 5
+IAEOPLBGRC - PEIAOLBGRC
+9 10 => 5 6
+PBEIOALGRC - PIEOALBGRC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	IPLBOAEGRC
+2)	PIEOALBGRC
+3)	EBAOIPLGRC
+4)	ROIAPLBEGC
+5)	PLAEIOBGRC
+6)	RBEAOIPLGC
+7)	IAEOPLBGRC
+8)	PEIAOLBGRC
+9)	PBEIOALGRC
+10)	PIEOALBGRC
+
+**** Iteración 57 ****
+Creación de Mating Pool:
+71	=>	1	=>	ABIPLROEGC
+81	=>	2	=>	OIAPBELGRC
+79	=>	3	=>	PILBOAEGRC
+73	=>	4	=>	PBEIOALGRC
+80	=>	5	=>	IPEOLBAGRC
+85	=>	6	=>	PILBEOAGRC
+71	=>	7	=>	BAEOIPLGRC
+66	=>	8	=>	IBAEOPLGRC
+91	=>	9	=>	PLAEIOBGRC
+78	=>	10	=>	PIEOALBGRC
+
+Selección de Padres:
+6 - 8 => 3 - 4 => PILBEOAGRC - IBAEOPLGRC
+7 - 5 => 4 - 3 => BAEOIPLGRC - IPEOLBAGRC
+1 - 9 => 1 - 5 => ABIPLROEGC - PLAEIOBGRC
+1 - 6 => 1 - 3 => ABIPLROEGC - PILBEOAGRC
+9 - 6 => 5 - 3 => PLAEIOBGRC - PILBEOAGRC
+
+Cruzamiento:
+1 2 => 1 2
+IAPBLROEGC - ABIPOELGRC
+3 4 => 2 3
+PELBOAIGRC - PLEIOABGRC
+5 6 => 3 4
+IPELBOAGRC - PILEOBAGRC
+7 8 => 4 5
+BAEOIPLGRC - BIAEOPLGRC
+9 10 => 5 6
+PALEIOBGRC - PEIOALBGRC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	ABIPLROEGC
+2)	OIAPBELGRC
+3)	PILBOAEGRC
+4)	PBEIOALGRC
+5)	IPEOLBAGRC
+6)	PILBEOAGRC
+7)	BAEOIPLGRC
+8)	IBAEOPLGRC
+9)	PLAEIOBGRC
+10)	PIEOALBGRC
+
+**** Iteración 58 ****
+Creación de Mating Pool:
+91	=>	1	=>	PLAEIOBGRC
+85	=>	2	=>	PILBEOAGRC
+80	=>	3	=>	PLIBOAEGRC
+91	=>	4	=>	PLAEIOBGRC
+97	=>	5	=>	OIAPELBGRC
+71	=>	6	=>	PAEIOBLGRC
+76	=>	7	=>	PBILOAEGRC
+66	=>	8	=>	PIBEOALGRC
+75	=>	9	=>	OABEIPLGRC
+72	=>	10	=>	AOIPBELGRC
+
+Selección de Padres:
+1 - 1 => 1 - 1 => PLAEIOBGRC - PLAEIOBGRC
+4 - 2 => 2 - 1 => PLAEIOBGRC - PILBEOAGRC
+3 - 1 => 2 - 1 => PLIBOAEGRC - PLAEIOBGRC
+3 - 2 => 2 - 1 => PLIBOAEGRC - PILBEOAGRC
+1 - 5 => 1 - 3 => PLAEIOBGRC - OIAPELBGRC
+
+Cruzamiento:
+1 2 => 1 2
+PILEAOBGRC - PLEIBOAGRC
+3 4 => 2 3
+PLIOBAEGRC - PLIAEOBGRC
+5 6 => 3 4
+PAEIOLBGRC - OIAPEBLGRC
+7 8 => 4 5
+PBILOEAGRC - PIBEOLAGRC
+9 10 => 5 6
+OABEIPLGRC - AOIPBELGRC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PLAEIOBGRC
+2)	PALBEOIGRC
+3)	PLIBOAEGRC
+4)	PLAEIOBGRC
+5)	OIAPELBGRC
+6)	PAEIOBLGRC
+7)	PBILOAEGRC
+8)	PIBEOALGRC
+9)	OABEIPLGRC
+10)	EOIPBALGRC
+
+**** Iteración 59 ****
+Creación de Mating Pool:
+76	=>	1	=>	PBILOAEGRC
+80	=>	2	=>	PLIBOAEGRC
+91	=>	3	=>	OAEIPLBGRC
+77	=>	4	=>	EIAPOBLGRC
+70	=>	5	=>	PIOEBALGRC
+79	=>	6	=>	IPBLOAEGRC
+80	=>	7	=>	PLIBOAEGRC
+60	=>	8	=>	EOIPBALGRC
+80	=>	9	=>	PLIBOAEGRC
+75	=>	10	=>	OABEIPLGRC
+
+Selección de Padres:
+5 - 2 => 3 - 1 => PIOEBALGRC - PLIBOAEGRC
+10 - 5 => 5 - 3 => OABEIPLGRC - PIOEBALGRC
+1 - 1 => 1 - 1 => PBILOAEGRC - PBILOAEGRC
+3 - 7 => 2 - 4 => OAEIPLBGRC - PLIBOAEGRC
+8 - 6 => 4 - 3 => EOIPBALGRC - IPBLOAEGRC
+
+Cruzamiento:
+1 2 => 1 2
+PLIBOAEGRC - PBILOAEGRC
+3 4 => 2 3
+OAEIPLBGRC - EIAPOBLGRC
+5 6 => 3 4
+IPBOAELGRC - PIOBALEGRC
+7 8 => 4 5
+PLIBOAEGRC - EOIPBALGRC
+9 10 => 5 6
+IPLBOAEGRC - BOAEIPLGRC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PBILOAEGRC
+2)	PLIBOAEGRC
+3)	OAEIPLBGRC
+4)	EIAPOBLGRC
+5)	PIOEBALGRC
+6)	IPBLOAEGRC
+7)	PLIBOAEGRC
+8)	EOIPBALGRC
+9)	PLIBOAEGRC
+10)	OABLIPEGRC
+
+**** Iteración 60 ****
+Creación de Mating Pool:
+57	=>	1	=>	OEIPBALGRC
+79	=>	2	=>	OABLIPEGRC
+91	=>	3	=>	OAEIPLBGRC
+80	=>	4	=>	PLIBOAEGRC
+91	=>	5	=>	OAEIPLBGRC
+70	=>	6	=>	PIOEBALGRC
+70	=>	7	=>	ALIBOEPGRC
+81	=>	8	=>	LAEIPBOGRC
+78	=>	9	=>	ELIBOPAGRC
+81	=>	10	=>	LOIPBAEGRC
+
+Selección de Padres:
+2 - 6 => 1 - 3 => OABLIPEGRC - PIOEBALGRC
+1 - 2 => 1 - 1 => OEIPBALGRC - OABLIPEGRC
+2 - 3 => 1 - 2 => OABLIPEGRC - OAEIPLBGRC
+3 - 9 => 2 - 5 => OAEIPLBGRC - ELIBOPAGRC
+2 - 10 => 1 - 5 => OABLIPEGRC - LOIPBAEGRC
+
+Cruzamiento:
+1 2 => 1 2
+OIPEBALGRC - OBALIPEGRC
+3 4 => 2 3
+PAEILBOGRC - OLIBAEPGRC
+5 6 => 3 4
+OEAIPLBGRC - OIPEBALGRC
+7 8 => 4 5
+LAEIPBOGRC - ALIBOEPGRC
+9 10 => 5 6
+LIEBOPAGRC - LIOPBAEGRC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	OERPBALGIC
+2)	OABLIPEGRC
+3)	OAEIPLBGRC
+4)	PLIBOAEGRC
+5)	OAEIPLBGRC
+6)	PIOEBALGRC
+7)	ALRBOEPGIC
+8)	LAEIPBOGRC
+9)	ELIBOPAGRC
+10)	LOIPBAEGRC
+
+**** Iteración 61 ****
+Creación de Mating Pool:
+80	=>	1	=>	PLIBOAEGRC
+81	=>	2	=>	LOIPBAEGRC
+88	=>	3	=>	OIPAELBGRC
+91	=>	4	=>	OIPLBAEGRC
+88	=>	5	=>	OEPAILBGRC
+77	=>	6	=>	OEPBRALGIC
+74	=>	7	=>	AEIBOPLGRC
+97	=>	8	=>	EBOIPLAGRC
+75	=>	9	=>	LEIPBOAGRC
+73	=>	10	=>	ELIBPAOGRC
+
+Selección de Padres:
+10 - 9 => 5 - 5 => ELIBPAOGRC - LEIPBOAGRC
+9 - 7 => 5 - 4 => LEIPBOAGRC - AEIBOPLGRC
+1 - 1 => 1 - 1 => PLIBOAEGRC - PLIBOAEGRC
+6 - 6 => 3 - 3 => OEPBRALGIC - OEPBRALGIC
+7 - 5 => 4 - 3 => AEIBOPLGRC - OEPAILBGRC
+
+Cruzamiento:
+1 2 => 1 2
+LIPBOAEGRC - PLIOBAEGRC
+3 4 => 2 3
+OIPBELAGRC - OIPEBALGRC
+5 6 => 3 4
+OEPAILBGRC - OEPBRALGIC
+7 8 => 4 5
+EIABOPLGRC - EBOIPLAGRC
+9 10 => 5 6
+ELIBPAOGRC - LEIPBOAGRC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PLIBOAEGRC
+2)	LOIPBAEGRC
+3)	OIPAELBGRC
+4)	OIPLBAEGRC
+5)	OEPAILBGRC
+6)	OEPBRALGIC
+7)	AEIBOPLGRC
+8)	EBOIPLAGRC
+9)	LEIPBOAGRC
+10)	ELIBPAOGRC
+
+**** Iteración 62 ****
+Creación de Mating Pool:
+91	=>	1	=>	OIPLBAEGRC
+77	=>	2	=>	OLIPBAEGRC
+73	=>	3	=>	ELIBPAOGRC
+80	=>	4	=>	PLIBOAEGRC
+65	=>	5	=>	LIPABOEGRC
+75	=>	6	=>	LEIPBAOGRC
+88	=>	7	=>	IPGBEOALRC
+73	=>	8	=>	LIPBOAEGRC
+89	=>	9	=>	OEPRALBGIC
+61	=>	10	=>	OEPIBALGRC
+
+Selección de Padres:
+5 - 2 => 3 - 1 => LIPABOEGRC - OLIPBAEGRC
+10 - 9 => 5 - 5 => OEPIBALGRC - OEPRALBGIC
+7 - 2 => 4 - 1 => IPGBEOALRC - OLIPBAEGRC
+4 - 8 => 2 - 4 => PLIBOAEGRC - LIPBOAEGRC
+7 - 7 => 4 - 4 => IPGBEOALRC - IPGBEOALRC
+
+Cruzamiento:
+1 2 => 1 2
+OLIPBAEGRC - OIPLBAEGRC
+3 4 => 2 3
+LIOBPAEGRC - ELIBOPAGRC
+5 6 => 3 4
+LIPABOEGRC - LEIPBAOGRC
+7 8 => 4 5
+IPBOEGALRC - IPBOALEGRC
+9 10 => 5 6
+OEPRALBGIC - OEPIBALGRC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	OIPLBAEGRC
+2)	OLIPBAEGRC
+3)	ELIBPAOGRC
+4)	PLIBOAEGRC
+5)	LIPGBOEARC
+6)	LEIPBAOGRC
+7)	IEGBPOALRC
+8)	LIPBOAEGRC
+9)	OEPRALBGIC
+10)	OEPIBALGRC
+
+**** Iteración 63 ****
+Creación de Mating Pool:
+80	=>	1	=>	PLIBOAEGRC
+80	=>	2	=>	PLIBOAEGRC
+65	=>	3	=>	EIPOBALGRC
+86	=>	4	=>	EIBLPAOGRC
+77	=>	5	=>	OLIPBAEGRC
+71	=>	6	=>	ELGBPAOIRC
+102	=>	7	=>	OEPRBGALIC
+86	=>	8	=>	IEPOALBGRC
+83	=>	9	=>	IPOEALBGRC
+83	=>	10	=>	PRLGBOEAIC
+
+Selección de Padres:
+7 - 8 => 4 - 4 => OEPRBGALIC - IEPOALBGRC
+6 - 5 => 3 - 3 => ELGBPAOIRC - OLIPBAEGRC
+6 - 4 => 3 - 2 => ELGBPAOIRC - EIBLPAOGRC
+7 - 4 => 4 - 2 => OEPRBGALIC - EIBLPAOGRC
+7 - 4 => 4 - 2 => OEPRBGALIC - EIBLPAOGRC
+
+Cruzamiento:
+1 2 => 1 2
+PLIBOAEGRC - PLIBOAEGRC
+3 4 => 2 3
+EIPOBALGRC - EIBLPAOGRC
+5 6 => 3 4
+LOIPBAEGRC - LEGBPAOIRC
+7 8 => 4 5
+IEPRBGOALC - EPROALBGIC
+9 10 => 5 6
+POIEALBGRC - PLRGBOEAIC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PLIBOAEGRC
+2)	PLIBOAEGRC
+3)	EIPOBALGRC
+4)	EIBLPAOGRC
+5)	OLIPBAEGRC
+6)	ELGBPAOIRC
+7)	OEPRBGALIC
+8)	IEPOALBGRC
+9)	IPOEALBGRC
+10)	PRLGBOEAIC
+
+**** Iteración 64 ****
+Creación de Mating Pool:
+60	=>	1	=>	EOIPBALGRC
+78	=>	2	=>	LIPOBAEGRC
+70	=>	3	=>	GLIBOAEPRC
+77	=>	4	=>	ILABPGOERC
+86	=>	5	=>	PIOEALBGRC
+83	=>	6	=>	IPLBOAEGRC
+95	=>	7	=>	LPOEAIBGRC
+81	=>	8	=>	PLIBOEAGRC
+89	=>	9	=>	PROEALBGIC
+73	=>	10	=>	IPLGBOEARC
+
+Selección de Padres:
+7 - 10 => 4 - 5 => LPOEAIBGRC - IPLGBOEARC
+10 - 4 => 5 - 2 => IPLGBOEARC - ILABPGOERC
+2 - 2 => 1 - 1 => LIPOBAEGRC - LIPOBAEGRC
+1 - 7 => 1 - 4 => EOIPBALGRC - LPOEAIBGRC
+5 - 3 => 3 - 2 => PIOEALBGRC - GLIBOAEPRC
+
+Cruzamiento:
+1 2 => 1 2
+IPOBAELGRC - OIPBALEGRC
+3 4 => 2 3
+ILABGOEPRC - GLIBAPOERC
+5 6 => 3 4
+PIOEALBGRC - IPLBOAEGRC
+7 8 => 4 5
+PLOEAIBGRC - LPIBOEAGRC
+9 10 => 5 6
+POEARLBGIC - PLBGIOEARC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	EOIPBALGRC
+2)	LIPOBAEGRC
+3)	GLIBOAEPRC
+4)	ILABPGOERC
+5)	PIOEALBGRC
+6)	IPLBOAEGRC
+7)	LPOEAIBGRC
+8)	PLIBOEAGRC
+9)	PROELABGIC
+10)	IPLGBOEARC
+
+**** Iteración 65 ****
+Creación de Mating Pool:
+94	=>	1	=>	PLABGIOERC
+96	=>	2	=>	LAPOERBGIC
+81	=>	3	=>	LPIBOAEGRC
+76	=>	4	=>	GLOEAIBPRC
+83	=>	5	=>	IPOEALBGRC
+69	=>	6	=>	PILGBOEARC
+74	=>	7	=>	IPOELABGRC
+91	=>	8	=>	PRLBOAEGIC
+87	=>	9	=>	PROELIACGB
+81	=>	10	=>	PIOEARLBGC
+
+Selección de Padres:
+3 - 7 => 2 - 4 => LPIBOAEGRC - IPOELABGRC
+5 - 7 => 3 - 4 => IPOEALBGRC - IPOELABGRC
+9 - 10 => 5 - 5 => PROELIACGB - PIOEARLBGC
+3 - 3 => 2 - 2 => LPIBOAEGRC - LPIBOAEGRC
+8 - 2 => 4 - 1 => PRLBOAEGIC - LAPOERBGIC
+
+Cruzamiento:
+1 2 => 1 2
+LAPBGIOERC - PLAOERBGIC
+3 4 => 2 3
+GLIBOAEPRC - LPOEAIBGRC
+5 6 => 3 4
+PILOEABGRC - IPOLBGEARC
+7 8 => 4 5
+PRBELAOGIC - IPEBOALGRC
+9 10 => 5 6
+PROELIACGB - PIOEARLBGC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PLABGIOERC
+2)	LAPOBREGIC
+3)	LPIBOAEGRC
+4)	GLOEAIBPRC
+5)	IPOEALBGRC
+6)	PILGBOEARC
+7)	IPOELABGRC
+8)	PRLBOAEGIC
+9)	PROELIACGB
+10)	PIOEARLBGC
+
+**** Iteración 66 ****
+Creación de Mating Pool:
+92	=>	1	=>	PLBOAIEGRC
+81	=>	2	=>	LPBOAREGIC
+86	=>	3	=>	LAPBGIOERC
+84	=>	4	=>	PLABOREGIC
+86	=>	5	=>	PIOEALBGRC
+78	=>	6	=>	IPOEARLBGC
+92	=>	7	=>	PRLBAGOEIC
+79	=>	8	=>	PLABIOEGRC
+87	=>	9	=>	GIOLEABPRC
+100	=>	10	=>	PLOIEARBGC
+
+Selección de Padres:
+3 - 6 => 2 - 3 => LAPBGIOERC - IPOEARLBGC
+2 - 5 => 1 - 3 => LPBOAREGIC - PIOEALBGRC
+3 - 9 => 2 - 5 => LAPBGIOERC - GIOLEABPRC
+1 - 3 => 1 - 2 => PLBOAIEGRC - LAPBGIOERC
+10 - 2 => 5 - 1 => PLOIEARBGC - LPBOAREGIC
+
+Cruzamiento:
+1 2 => 1 2
+LPBOAIEGRC - PLBOAREGIC
+3 4 => 2 3
+LAPBOREGIC - PLABGIOERC
+5 6 => 3 4
+PIOEALBGRC - IPOEARLBGC
+7 8 => 4 5
+PRLBAIOEGC - PLABRGOEIC
+9 10 => 5 6
+GIOLEABPRC - PLOIEARBGC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PLBOAIEGRC
+2)	LPBOAREGIC
+3)	LAPBGIOERC
+4)	PLABOREGIC
+5)	PIOEALBGRC
+6)	IPOEARLBGC
+7)	PRLBAGOEIC
+8)	PLABIOEGRC
+9)	GIOLEABPRC
+10)	PLOIEARBGC
+
+**** Iteración 67 ****
+Creación de Mating Pool:
+101	=>	1	=>	LPBEGORAIC
+73	=>	2	=>	IPEOARLBGC
+95	=>	3	=>	PEABGIORLC
+95	=>	4	=>	PBGEARLIOC
+94	=>	5	=>	ALPBGIOERC
+81	=>	6	=>	PIOEARLBGC
+100	=>	7	=>	PLOIEARBGC
+84	=>	8	=>	PLABOREGIC
+97	=>	9	=>	APLBGIOERC
+86	=>	10	=>	RLPBAGOEIC
+
+Selección de Padres:
+9 - 8 => 5 - 4 => APLBGIOERC - PLABOREGIC
+7 - 2 => 4 - 1 => PLOIEARBGC - IPEOARLBGC
+10 - 2 => 5 - 1 => RLPBAGOEIC - IPEOARLBGC
+10 - 9 => 5 - 5 => RLPBAGOEIC - APLBGIOERC
+10 - 6 => 5 - 3 => RLPBAGOEIC - PIOEARLBGC
+
+Cruzamiento:
+1 2 => 1 2
+PEOLBGRAIC - PEORAILBGC
+3 4 => 2 3
+PEABGIRLOC - PBGEARIOLC
+5 6 => 3 4
+PEARLIOBGC - APBGIRLOEC
+7 8 => 4 5
+PLOIEARBGC - PLABOREGIC
+9 10 => 5 6
+LPBAGOEIRC - APLBGOERIC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	LPBEGORAIC
+2)	IPEOARLBGC
+3)	PEABGIORLC
+4)	PBGEARLIOC
+5)	ALPBGIOERC
+6)	PIOEARLBGC
+7)	PLOIEARBGC
+8)	PLABOREGIC
+9)	APLBGIOERC
+10)	RLPBAGOEIC
+
+**** Iteración 68 ****
+Creación de Mating Pool:
+100	=>	1	=>	PLOIEARBGC
+76	=>	2	=>	PLABOREIGC
+84	=>	3	=>	PEIOARLBGC
+95	=>	4	=>	PEABGIORLC
+79	=>	5	=>	PLOBAIERGC
+109	=>	6	=>	RLPIEBAGOC
+97	=>	7	=>	APLBGIOERC
+95	=>	8	=>	PEABGIORLC
+91	=>	9	=>	LIOPEBGRAC
+117	=>	10	=>	PLBEGOIARC
+
+Selección de Padres:
+2 - 1 => 1 - 1 => PLABOREIGC - PLOIEARBGC
+5 - 2 => 3 - 1 => PLOBAIERGC - PLABOREIGC
+10 - 9 => 5 - 5 => PLBEGOIARC - LIOPEBGRAC
+2 - 7 => 1 - 4 => PLABOREIGC - APLBGIOERC
+4 - 3 => 2 - 2 => PEABGIORLC - PEIOARLBGC
+
+Cruzamiento:
+1 2 => 1 2
+PLOIEARBGC - PLABOREIGC
+3 4 => 2 3
+PEIOARBGLC - PEABGIORLC
+5 6 => 3 4
+RLPIEBAOGC - PLBAIERGOC
+7 8 => 4 5
+EPLBGAIORC - PEABGLIORC
+9 10 => 5 6
+LOIPEBGRAC - LPBEGOIARC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PLOIEARBGC
+2)	PLABOREIGC
+3)	EPIOARLBGC
+4)	PEABGIORLC
+5)	PLOBAIERGC
+6)	RLPIEBAGOC
+7)	APLBGIOERC
+8)	PEABGIORLC
+9)	LIOPEBGRAC
+10)	PLBEGOIARC
+
+**** Iteración 69 ****
+Creación de Mating Pool:
+79	=>	1	=>	PLAOREIBGC
+89	=>	2	=>	PLOEARBIGC
+91	=>	3	=>	LIOPEBGRAC
+91	=>	4	=>	LIOPEBGRAC
+82	=>	5	=>	PLABOEGIRC
+96	=>	6	=>	PLBEGAORIC
+80	=>	7	=>	PEBOARGILC
+101	=>	8	=>	EPOBGIARLC
+75	=>	9	=>	APBLOREIGC
+109	=>	10	=>	PLRIEBAGOC
+
+Selección de Padres:
+2 - 4 => 1 - 2 => PLOEARBIGC - LIOPEBGRAC
+9 - 2 => 5 - 1 => APBLOREIGC - PLOEARBIGC
+9 - 9 => 5 - 5 => APBLOREIGC - APBLOREIGC
+6 - 4 => 3 - 2 => PLBEGAORIC - LIOPEBGRAC
+1 - 1 => 1 - 1 => PLAOREIBGC - PLAOREIBGC
+
+Cruzamiento:
+1 2 => 1 2
+PLAOERBIGC - PLOAREIBGC
+3 4 => 2 3
+LIOPEBGRAC - LIOPEBGRAC
+5 6 => 3 4
+PLBAOEGIRC - PLBEGAORIC
+7 8 => 4 5
+EPBOARGILC - PEOBGIARLC
+9 10 => 5 6
+PABLOREIGC - PLRIEBAGOC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PLAOREIBGC
+2)	PLOEARBIGC
+3)	LIOPEBGRAC
+4)	LIOPEBGRAC
+5)	RLABOEGIPC
+6)	PLBEGAORIC
+7)	PEBOARGILC
+8)	EPOBGIARLC
+9)	APBLOREIGC
+10)	PLRIEBAGOC
+
+**** Iteración 70 ****
+Creación de Mating Pool:
+84	=>	1	=>	LOPRAEIBGC
+77	=>	2	=>	PLOEIBGRAC
+108	=>	3	=>	PLRIEBGAOC
+95	=>	4	=>	LIOPEBAGRC
+66	=>	5	=>	PEORIBAGLC
+94	=>	6	=>	PLEBARGIOC
+91	=>	7	=>	RLOBGICEPA
+77	=>	8	=>	PGABOEIRLC
+96	=>	9	=>	ALOIEBGRPC
+87	=>	10	=>	IPBLOREGAC
+
+Selección de Padres:
+10 - 10 => 5 - 5 => IPBLOREGAC - IPBLOREGAC
+8 - 10 => 4 - 5 => PGABOEIRLC - IPBLOREGAC
+8 - 10 => 4 - 5 => PGABOEIRLC - IPBLOREGAC
+1 - 9 => 1 - 5 => LOPRAEIBGC - ALOIEBGRPC
+8 - 10 => 4 - 5 => PGABOEIRLC - IPBLOREGAC
+
+Cruzamiento:
+1 2 => 1 2
+LOPRAEIBGC - LPOEIBRAGC
+3 4 => 2 3
+LIOPEBGARC - PLRIEBAGOC
+5 6 => 3 4
+PLEBRIAGOC - PEORBAGILC
+7 8 => 4 5
+GBOIRLCEPA - OBGIEPARLC
+9 10 => 5 6
+ILOAEBGRPC - LIBPOREGAC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	LOPRAEIBGC
+2)	PLOEIBGRAC
+3)	PLRIEBGAOC
+4)	LIOPEBAGRC
+5)	PEORIBAGLC
+6)	PLEBARGIOC
+7)	RLOBGICEPA
+8)	PGABOEIRLC
+9)	ALOIEBGRPC
+10)	IPBLOREGAC
+
+**** Iteración 71 ****
+Creación de Mating Pool:
+99	=>	1	=>	LPOIEBAGRC
+94	=>	2	=>	ALOPEBIGRC
+76	=>	3	=>	LOABIEGRPC
+108	=>	4	=>	PGOIABERLC
+94	=>	5	=>	PLEBARGIOC
+94	=>	6	=>	PLEBARGIOC
+94	=>	7	=>	PLEBARGIOC
+94	=>	8	=>	PLEBARGIOC
+87	=>	9	=>	IPBLOREGAC
+103	=>	10	=>	PLRIEBOGAC
+
+Selección de Padres:
+9 - 8 => 5 - 4 => IPBLOREGAC - PLEBARGIOC
+2 - 1 => 1 - 1 => ALOPEBIGRC - LPOIEBAGRC
+9 - 10 => 5 - 5 => IPBLOREGAC - PLRIEBOGAC
+5 - 7 => 3 - 4 => PLEBARGIOC - PLEBARGIOC
+8 - 5 => 4 - 3 => PLEBARGIOC - PLEBARGIOC
+
+Cruzamiento:
+1 2 => 1 2
+LOPIEBAGRC - LPOAEBIGRC
+3 4 => 2 3
+PGOBIEARLC - LOEIABGRPC
+5 6 => 3 4
+PLEBARGIOC - PLEBARGIOC
+7 8 => 4 5
+PLEBARGIOC - PLEBARGIOC
+9 10 => 5 6
+PLIEORBGAC - IPLOEBRGAC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	LPOIEBAGRC
+2)	ALOPEBIGRC
+3)	LOABIEGRPC
+4)	PGOIABERLC
+5)	PLEBARGIOC
+6)	PLEBARGIOC
+7)	PGEBARLIOC
+8)	PLEBARGIOC
+9)	IPBEORLGAC
+10)	PLRIEBOGAC
+
+**** Iteración 72 ****
+Creación de Mating Pool:
+89	=>	1	=>	PGIEOABRLC
+74	=>	2	=>	PBEIAORLGC
+102	=>	3	=>	BLRIEPOGAC
+95	=>	4	=>	PGEBARLIOC
+97	=>	5	=>	PIGOABERLC
+97	=>	6	=>	PIRLEBOGAC
+81	=>	7	=>	LOAEPBIGRC
+79	=>	8	=>	ALOBIEGRPC
+87	=>	9	=>	PELBARGIOC
+95	=>	10	=>	PEGBARLIOC
+
+Selección de Padres:
+6 - 7 => 3 - 4 => PIRLEBOGAC - LOAEPBIGRC
+7 - 6 => 4 - 3 => LOAEPBIGRC - PIRLEBOGAC
+5 - 1 => 3 - 1 => PIGOABERLC - PGIEOABRLC
+1 - 9 => 1 - 5 => PGIEOABRLC - PELBARGIOC
+7 - 6 => 4 - 3 => LOAEPBIGRC - PIRLEBOGAC
+
+Cruzamiento:
+1 2 => 1 2
+PIGEOABRLC - PEBIAORLGC
+3 4 => 2 3
+GBRIEPALOC - LIEBARPOGC
+5 6 => 3 4
+PIGOABRLEC - PIRLEBGOAC
+7 8 => 4 5
+LOAEPBIGRC - ALOBIEPGRC
+9 10 => 5 6
+PEGBARLIOC - PELBARGIOC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PGIEOABRLC
+2)	PBEIAORLGC
+3)	BLRIEPOGAC
+4)	PGEBARLIOC
+5)	RIGOABEPLC
+6)	PIRLEBOGAC
+7)	LOAEPBIGRC
+8)	ALOBIEGRPC
+9)	PELBARGIOC
+10)	PEGBARLIOC
+
+**** Iteración 73 ****
+Creación de Mating Pool:
+105	=>	1	=>	PEGALIBROC
+75	=>	2	=>	PGEOABLIRC
+95	=>	3	=>	PEGBARLIOC
+74	=>	4	=>	PBEIAORLGC
+85	=>	5	=>	RLOBIEGAPC
+97	=>	6	=>	LIGOABERPC
+85	=>	7	=>	PIEBARGOLC
+86	=>	8	=>	PLREOABGIC
+94	=>	9	=>	LBGEOAIRPC
+86	=>	10	=>	PGOBIEARLC
+
+Selección de Padres:
+6 - 4 => 3 - 2 => LIGOABERPC - PBEIAORLGC
+5 - 3 => 3 - 2 => RLOBIEGAPC - PEGBARLIOC
+7 - 9 => 4 - 5 => PIEBARGOLC - LBGEOAIRPC
+8 - 6 => 4 - 3 => PLREOABGIC - LIGOABERPC
+10 - 7 => 5 - 4 => PGOBIEARLC - PIEBARGOLC
+
+Cruzamiento:
+1 2 => 1 2
+PEGALIOBRC - PGEOABLIRC
+3 4 => 2 3
+PEGBARLIOC - PBEIAORLGC
+5 6 => 3 4
+LIOBERGAPC - LOBIGAERPC
+7 8 => 4 5
+PEABIRGOLC - PEROLABGIC
+9 10 => 5 6
+PBGEOAIRLC - LGOBIEARPC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PEGALIBROC
+2)	PLEOABGIRC
+3)	PEGBARLIOC
+4)	PBEIAORLGC
+5)	BLORIEGAPC
+6)	LIGOABERPC
+7)	PIOBARGELC
+8)	PLREOABGIC
+9)	LBGEOAIRPC
+10)	PGOBIEARLC
+
+**** Iteración 74 ****
+Creación de Mating Pool:
+97	=>	1	=>	LIGOABERPC
+86	=>	2	=>	PLREOABGIC
+83	=>	3	=>	LOEPABGIRC
+96	=>	4	=>	LOBRIEGAPC
+80	=>	5	=>	OPIERLGABC
+82	=>	6	=>	BOIEGPARLC
+95	=>	7	=>	PEAGLIBROC
+88	=>	8	=>	PELOABGIRC
+87	=>	9	=>	PIBAGORLEC
+77	=>	10	=>	PBIAORGELC
+
+Selección de Padres:
+6 - 8 => 3 - 4 => BOIEGPARLC - PELOABGIRC
+4 - 7 => 2 - 4 => LOBRIEGAPC - PEAGLIBROC
+2 - 6 => 1 - 3 => PLREOABGIC - BOIEGPARLC
+5 - 7 => 3 - 4 => OPIERLGABC - PEAGLIBROC
+4 - 9 => 2 - 5 => LOBRIEGAPC - PIBAGORLEC
+
+Cruzamiento:
+1 2 => 1 2
+LEOABGIRPC - LOABERPGIC
+3 4 => 2 3
+LOREABGIPC - LOPBIEGARC
+5 6 => 3 4
+BOIERLGAPC - OLIEGPARBC
+7 8 => 4 5
+PELAGIBROC - PEALBOGIRC
+9 10 => 5 6
+PIBAORGELC - PBIAGORLEC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	LIGOABERPC
+2)	PLREOABGIC
+3)	LOEPABGIRC
+4)	LOBRIEGAPC
+5)	OPIERLGABC
+6)	BOIEGPARLC
+7)	PEAGLIBROC
+8)	PELOABGIRC
+9)	PIBAGORLEC
+10)	PBIAORGELC
+
+**** Iteración 75 ****
+Creación de Mating Pool:
+89	=>	1	=>	PAORLEBGIC
+85	=>	2	=>	POABGIRLEC
+110	=>	3	=>	LIGOCBERPA
+97	=>	4	=>	LIGOABERPC
+80	=>	5	=>	OPIERLGABC
+80	=>	6	=>	OPIERLGABC
+104	=>	7	=>	OPIEGABRLC
+89	=>	8	=>	OIEGPRLABC
+80	=>	9	=>	LIROABEGPC
+88	=>	10	=>	PELOABGIRC
+
+Selección de Padres:
+10 - 8 => 5 - 4 => PELOABGIRC - OIEGPRLABC
+4 - 4 => 2 - 2 => LIGOABERPC - LIGOABERPC
+7 - 3 => 4 - 2 => OPIEGABRLC - LIGOCBERPA
+10 - 7 => 5 - 4 => PELOABGIRC - OPIEGABRLC
+10 - 1 => 5 - 1 => PELOABGIRC - PAORLEBGIC
+
+Cruzamiento:
+1 2 => 1 2
+POARLEBGIC - PAOBGIRLEC
+3 4 => 2 3
+LIGOCABERP - LIGOACBERP
+5 6 => 3 4
+OPIERLGABC - OPIERLGABC
+7 8 => 4 5
+OIEGPABRLC - OPIEGRLABC
+9 10 => 5 6
+PLOABIEGRC - LROABEGIPC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	PAORLEBGIC
+2)	POABGIRLEC
+3)	LIGOCBERPA
+4)	LIGOABERPC
+5)	OPIERLGABC
+6)	OPIERLGABC
+7)	OPIEGABRLC
+8)	AIEGPRLOBC
+9)	LIROABEGPC
+10)	PELOABGIRC
+
+**** Iteración 76 ****
+Creación de Mating Pool:
+91	=>	1	=>	OPABGIERLC
+78	=>	2	=>	POIERABGLC
+83	=>	3	=>	LOERPABGIC
+99	=>	4	=>	OLBGICERPA
+80	=>	5	=>	LIROABEGPC
+80	=>	6	=>	LIROABEGPC
+85	=>	7	=>	ICEGPRLOBA
+128	=>	8	=>	AIGOCBERPL
+110	=>	9	=>	LIGOCBERPA
+97	=>	10	=>	LIGOABERPC
+
+Selección de Padres:
+2 - 8 => 1 - 4 => POIERABGLC - AIGOCBERPL
+5 - 1 => 3 - 1 => LIROABEGPC - OPABGIERLC
+9 - 2 => 5 - 1 => LIGOCBERPA - POIERABGLC
+10 - 2 => 5 - 1 => LIGOABERPC - POIERABGLC
+6 - 2 => 3 - 1 => LIROABEGPC - POIERABGLC
+
+Cruzamiento:
+1 2 => 1 2
+POABGIERLC - OPIERABGLC
+3 4 => 2 3
+OLCERPBGIA - LOABGIERPC
+5 6 => 3 4
+LIROABEGPC - LIROABEGPC
+7 8 => 4 5
+AICGPRLOBE - IGPOCBERLA
+9 10 => 5 6
+LIGOABERPC - LIGOCBERPA
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	OPABGIERLC
+2)	POIERABGLC
+3)	LOERPABGIC
+4)	OLBGICERPA
+5)	LIROABEGPC
+6)	LIROABEGPC
+7)	ICEGPRLOBA
+8)	ARGOCBEIPL
+9)	LIGOCBERPA
+10)	LIGOABERPC
+
+**** Iteración 77 ****
+Creación de Mating Pool:
+91	=>	1	=>	LOPACBERGI
+96	=>	2	=>	LIOCPABGER
+97	=>	3	=>	LROAGIBEPC
+105	=>	4	=>	OPGIABERLC
+91	=>	5	=>	OPABGIERLC
+91	=>	6	=>	OPABGIERLC
+80	=>	7	=>	ORABGCEIPL
+88	=>	8	=>	AROEPLBGIC
+93	=>	9	=>	AROCBIEGPL
+83	=>	10	=>	LROABGEIPC
+
+Selección de Padres:
+10 - 2 => 5 - 1 => LROABGEIPC - LIOCPABGER
+4 - 9 => 2 - 5 => OPGIABERLC - AROCBIEGPL
+4 - 10 => 2 - 5 => OPGIABERLC - LROABGEIPC
+6 - 2 => 3 - 1 => OPABGIERLC - LIOCPABGER
+10 - 10 => 5 - 5 => LROABGEIPC - LROABGEIPC
+
+Cruzamiento:
+1 2 => 1 2
+LIOPCBEAGR - LOCEPABRGI
+3 4 => 2 3
+PROAGIBELC - LOGIABERPC
+5 6 => 3 4
+OPABGIERLC - OPABGIERLC
+7 8 => 4 5
+ORABGCEIPL - AROEPLBGIC
+9 10 => 5 6
+LROCBIAGEP - CROABGIEPL
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	LOPACBERGI
+2)	LIOCPABGER
+3)	LROAGIBEPC
+4)	OPGIABERLC
+5)	OPABGIERLC
+6)	OPACGIERLB
+7)	ERABGCOIPL
+8)	AROEPLBGIC
+9)	AROCBIEGPL
+10)	LROABGEIPC
+
+**** Iteración 78 ****
+Creación de Mating Pool:
+93	=>	1	=>	AROCBIEGPL
+93	=>	2	=>	AROCBIEGPL
+91	=>	3	=>	GRABECOIPL
+93	=>	4	=>	AROCBIEGPL
+88	=>	5	=>	AROEPLBGIC
+90	=>	6	=>	OPACGIERLB
+96	=>	7	=>	LRACOBGEIP
+108	=>	8	=>	PCOAGIERLB
+97	=>	9	=>	LOPACBRGIE
+101	=>	10	=>	LROAGIPCBE
+
+Selección de Padres:
+8 - 2 => 4 - 1 => PCOAGIERLB - AROCBIEGPL
+9 - 2 => 5 - 1 => LOPACBRGIE - AROCBIEGPL
+4 - 3 => 2 - 2 => AROCBIEGPL - GRABECOIPL
+9 - 3 => 5 - 2 => LOPACBRGIE - GRABECOIPL
+7 - 8 => 4 - 4 => LRACOBGEIP - PCOAGIERLB
+
+Cruzamiento:
+1 2 => 1 2
+AROCBIEGPL - AROCBIEGPL
+3 4 => 2 3
+ROABCIEGPL - GROCABEIPL
+5 6 => 3 4
+OACEPGIRLB - AROCGEPLBI
+7 8 => 4 5
+ARLCOBGEIP - COPAGIERLB
+9 10 => 5 6
+LOPACBRGIE - LCOAGIPBRE
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	AROCBIEGPL
+2)	AROCBIEGPL
+3)	GRABECOIPL
+4)	AROCBIEGPL
+5)	AROEPLBGIC
+6)	OPACGIERLB
+7)	LRACOBGEIP
+8)	PCOAGIERLB
+9)	LORACBPGIE
+10)	LROAGIPCBE
+
+**** Iteración 79 ****
+Creación de Mating Pool:
+98	=>	1	=>	ARICOBGEPL
+95	=>	2	=>	LRACBIEGOP
+90	=>	3	=>	POACGIERLB
+112	=>	4	=>	RCOAGIEPLB
+101	=>	5	=>	LROAGIPCBE
+88	=>	6	=>	AROEPLBGIC
+101	=>	7	=>	LROAGIPCBE
+83	=>	8	=>	LORACBPGIE
+82	=>	9	=>	CROABIEGPL
+106	=>	10	=>	LROCAGIPBE
+
+Selección de Padres:
+8 - 5 => 4 - 3 => LORACBPGIE - LROAGIPCBE
+1 - 1 => 1 - 1 => ARICOBGEPL - ARICOBGEPL
+4 - 1 => 2 - 1 => RCOAGIEPLB - ARICOBGEPL
+9 - 3 => 5 - 2 => CROABIEGPL - POACGIERLB
+4 - 10 => 2 - 5 => RCOAGIEPLB - LROCAGIPBE
+
+Cruzamiento:
+1 2 => 1 2
+LRACOBGIEP - ARCOBIEGPL
+3 4 => 2 3
+OAPCGIERLB - OCRAGIEPLB
+5 6 => 3 4
+AROLGIPCBE - ROAEPLBGIC
+7 8 => 4 5
+LORAGICBPE - LROACBGIPE
+9 10 => 5 6
+LROABCGIPE - RBOCAIEGPL
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	ARICOBGEPL
+2)	LRACBIEGOP
+3)	POACGIERLB
+4)	RCOAGIEPLB
+5)	LROAGIPCBE
+6)	AROEPLBGIC
+7)	LROAGIPCBE
+8)	LORACEPGIB
+9)	CROABIEGPL
+10)	LROCAGIPBE
+
+**** Iteración 80 ****
+Creación de Mating Pool:
+87	=>	1	=>	POACLIERGB
+90	=>	2	=>	POACGIERLB
+77	=>	3	=>	LROABIEGPC
+92	=>	4	=>	CROAGIPBEL
+92	=>	5	=>	ROEAGIPCBL
+96	=>	6	=>	LRACOBGEPI
+87	=>	7	=>	ROACGIEPLB
+91	=>	8	=>	ROAEGIPCBL
+82	=>	9	=>	LORAGCEPIB
+84	=>	10	=>	LROACGIPBE
+
+Selección de Padres:
+5 - 2 => 3 - 1 => ROEAGIPCBL - POACGIERLB
+6 - 8 => 3 - 4 => LRACOBGEPI - ROAEGIPCBL
+1 - 10 => 1 - 5 => POACLIERGB - LROACGIPBE
+7 - 2 => 4 - 1 => ROACGIEPLB - POACGIERLB
+6 - 10 => 3 - 5 => LRACOBGEPI - LROACGIPBE
+
+Cruzamiento:
+1 2 => 1 2
+POACGIERLB - POACLIERGB
+3 4 => 2 3
+CROABIEGPL - LROAGIPBEC
+5 6 => 3 4
+LRAOGIPCBE - RAICOBGEPL
+7 8 => 4 5
+ROAEGICPLB - ROAGIEPCBL
+9 10 => 5 6
+LORACGIPBE - LROAGCEPIB
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	POACLIERGB
+2)	POACGEIRLB
+3)	LROABIEGPC
+4)	CROAGIPBEL
+5)	RLEAGIPCBO
+6)	LRACOBGEPI
+7)	ROACGIEPLB
+8)	ROAEGIPCBL
+9)	LORAGCEPIB
+10)	LROACGIPBE
+
+**** Iteración 81 ****
+Creación de Mating Pool:
+96	=>	1	=>	RLEAGIPCBO
+96	=>	2	=>	RLEAGIPCBO
+91	=>	3	=>	LOARBIEGPC
+92	=>	4	=>	PROACLIEGB
+109	=>	5	=>	RIACOBGEPL
+91	=>	6	=>	LROAGIPBEC
+65	=>	7	=>	ROACIELGPB
+78	=>	8	=>	ROABIEGPLC
+62	=>	9	=>	LOABPIERGC
+85	=>	10	=>	OACLRIEGPB
+
+Selección de Padres:
+4 - 9 => 2 - 5 => PROACLIEGB - LOABPIERGC
+2 - 5 => 1 - 3 => RLEAGIPCBO - RIACOBGEPL
+3 - 6 => 2 - 3 => LOARBIEGPC - LROAGIPBEC
+9 - 2 => 5 - 1 => LOABPIERGC - RLEAGIPCBO
+9 - 5 => 5 - 3 => LOABPIERGC - RIACOBGEPL
+
+Cruzamiento:
+1 2 => 1 2
+RLEAGIPCBO - RLEAGIPCBO
+3 4 => 2 3
+POARBIECLG - RBOACLIEGP
+5 6 => 3 4
+LRACOGIPBE - RIOAGCBEPL
+7 8 => 4 5
+ROAIEGLCPB - ROAIEGPBLC
+9 10 => 5 6
+OALBPIERGC - OACLRIEGPB
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	RLEAGIPCBO
+2)	RLEAGIPCBO
+3)	LOARBIEGPC
+4)	PROACLIEGB
+5)	RIACOBGEPL
+6)	LROAGIPBEC
+7)	ROACIELGPB
+8)	ROABIEGPLC
+9)	LOABPIERGC
+10)	OACLRIEGPB
+
+**** Iteración 82 ****
+Creación de Mating Pool:
+71	=>	1	=>	GROACLIEPB
+103	=>	2	=>	RLEAGIPCOB
+96	=>	3	=>	RLEAGIPCBO
+96	=>	4	=>	RLEAGIPCBO
+63	=>	5	=>	ROABIEPGLC
+89	=>	6	=>	ROACIEGPLB
+91	=>	7	=>	LOARBIEGPC
+115	=>	8	=>	OLEAGICPRB
+79	=>	9	=>	CLOAGRIEPB
+89	=>	10	=>	OACLRGIPBE
+
+Selección de Padres:
+5 - 9 => 3 - 5 => ROABIEPGLC - CLOAGRIEPB
+5 - 5 => 3 - 3 => ROABIEPGLC - ROABIEPGLC
+3 - 8 => 2 - 4 => RLEAGIPCBO - OLEAGICPRB
+5 - 3 => 3 - 2 => ROABIEPGLC - RLEAGIPCBO
+10 - 1 => 5 - 1 => OACLRGIPBE - GROACLIEPB
+
+Cruzamiento:
+1 2 => 1 2
+RGPACLIEOB - ROLAGIPCEB
+3 4 => 2 3
+RLEAGIPCBO - RLEAGIPCBO
+5 6 => 3 4
+ROACIEPGLB - ROABIEGPLC
+7 8 => 4 5
+OLEAIRBGPC - LOAIEGCPRB
+9 10 => 5 6
+CLOARGIPBE - OACLGRIEPB
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	GORACLIEPB
+2)	RLEAGIPCOB
+3)	RLEAGIPCBO
+4)	RLEAGIPCBO
+5)	ROABIEPGLC
+6)	ROACIEGPLB
+7)	LOARBIEGPC
+8)	OLRAGICPEB
+9)	CLOAGRIEPB
+10)	OACLRGIPBE
+
+**** Iteración 83 ****
+Creación de Mating Pool:
+93	=>	1	=>	ROAEGIPCLB
+102	=>	2	=>	RLAICPGEBO
+107	=>	3	=>	LREAGIPCOB
+89	=>	4	=>	LCOAGRIEPB
+76	=>	5	=>	ROABLIEGPC
+80	=>	6	=>	OARBIEPGLC
+77	=>	7	=>	EORACLIGPB
+106	=>	8	=>	OLEAGIPRCB
+103	=>	9	=>	LOARBEGIPC
+96	=>	10	=>	OLEAGRBIPC
+
+Selección de Padres:
+4 - 8 => 2 - 4 => LCOAGRIEPB - OLEAGIPRCB
+5 - 2 => 3 - 1 => ROABLIEGPC - RLAICPGEBO
+9 - 2 => 5 - 1 => LOARBEGIPC - RLAICPGEBO
+4 - 1 => 2 - 1 => LCOAGRIEPB - ROAEGIPCLB
+10 - 6 => 5 - 3 => OLEAGRBIPC - OARBIEPGLC
+
+Cruzamiento:
+1 2 => 1 2
+RAIPGEBCLO - ROAGIPCEBL
+3 4 => 2 3
+LCOAGIREPB - LEIAGRPCOB
+5 6 => 3 4
+OARBLIEPGC - ROABIELGPC
+7 8 => 4 5
+EORACLIGPB - OLEAGIPRCB
+9 10 => 5 6
+OLEAGRBIPC - LOARBEGIPC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	ROAEGIPCLB
+2)	RLAICPGEBO
+3)	LREAGIPCOB
+4)	LCOAGRIEPB
+5)	GOABLIERPC
+6)	OARBIEPGLC
+7)	EORACLIGPB
+8)	OLEAGIPRCB
+9)	LOARBEGIPC
+10)	OLEAGRBIPC
+
+**** Iteración 84 ****
+Creación de Mating Pool:
+96	=>	1	=>	RCOAGLIPEB
+84	=>	2	=>	OLAICGREPB
+104	=>	3	=>	OLAGIERBPC
+82	=>	4	=>	OABIGREPLC
+82	=>	5	=>	OARBIEPCLG
+77	=>	6	=>	BORACLIEPG
+96	=>	7	=>	BCOAGRIEPL
+83	=>	8	=>	CARBIEPGLO
+76	=>	9	=>	COARIEPGLB
+83	=>	10	=>	OARBIGLEPC
+
+Selección de Padres:
+8 - 9 => 4 - 5 => CARBIEPGLO - COARIEPGLB
+10 - 10 => 5 - 5 => OARBIGLEPC - OARBIGLEPC
+3 - 9 => 2 - 5 => OLAGIERBPC - COARIEPGLB
+5 - 7 => 3 - 4 => OARBIEPCLG - BCOAGRIEPL
+1 - 3 => 1 - 2 => RCOAGLIPEB - OLAGIERBPC
+
+Cruzamiento:
+1 2 => 1 2
+RCOAGLIPEB - OLAICGREPB
+3 4 => 2 3
+OLAGIBREPC - OABIGLERPC
+5 6 => 3 4
+BORACEPLIG - OARBELIPCG
+7 8 => 4 5
+CBPAGRIELO - COABIEPGRL
+9 10 => 5 6
+BOARIGLEPC - CARBIOEPGL
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	RCOAGLIPEB
+2)	OLAICGREPB
+3)	OLAGIERBPC
+4)	OABIGREPLC
+5)	OARBIEPCLG
+6)	BORACLIEPG
+7)	PCOAGRIEBL
+8)	CARBIEPGLO
+9)	COARIEPGLB
+10)	OARBIGLEPC
+
+**** Iteración 85 ****
+Creación de Mating Pool:
+96	=>	1	=>	RCOAGLIPEB
+110	=>	2	=>	RCOLGAIPEB
+85	=>	3	=>	OARBGLIEPC
+96	=>	4	=>	RCOAIEPGLB
+83	=>	5	=>	OARBIGLEPC
+83	=>	6	=>	OARBIGLEPC
+89	=>	7	=>	CLOAGRIPEB
+95	=>	8	=>	PCOAGLRIEB
+90	=>	9	=>	RCOAGLIEBP
+80	=>	10	=>	COAGRIBPEL
+
+Selección de Padres:
+1 - 5 => 1 - 3 => RCOAGLIPEB - OARBIGLEPC
+3 - 9 => 2 - 5 => OARBGLIEPC - RCOAGLIEBP
+3 - 8 => 2 - 4 => OARBGLIEPC - PCOAGLRIEB
+3 - 7 => 2 - 4 => OARBGLIEPC - CLOAGRIPEB
+9 - 6 => 5 - 3 => RCOAGLIEBP - OARBIGLEPC
+
+Cruzamiento:
+1 2 => 1 2
+RCOAGLIPEB - RCOLGAIPEB
+3 4 => 2 3
+ROABGLIEPC - ORCAIEPGLB
+5 6 => 3 4
+OARBIGLEPC - OARBIGLEPC
+7 8 => 4 5
+PCOAGRILEB - COAIGLRPEB
+9 10 => 5 6
+GCOARIBPEL - ROAGCLIEBP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	RCOAGLIPEB
+2)	RCOLGAIPEB
+3)	OARBGLIEPC
+4)	RCOAIEPGLB
+5)	OARBIGLEPC
+6)	OARBIGLEPC
+7)	CLOAGRIPEB
+8)	PCOAGLRIEB
+9)	RCOAGLIEBP
+10)	COAGRIBPEL
+
+**** Iteración 86 ****
+Creación de Mating Pool:
+89	=>	1	=>	CARBIGLOPE
+94	=>	2	=>	RCOAGLIBEP
+80	=>	3	=>	COAGRIBPEL
+80	=>	4	=>	COBAGLRIEP
+107	=>	5	=>	COGRBAIPEL
+84	=>	6	=>	RCOLGIBPAE
+86	=>	7	=>	RCOAGLIEPB
+85	=>	8	=>	OARBIEGLPC
+77	=>	9	=>	COARIGLEBP
+56	=>	10	=>	OARGLIBPEC
+
+Selección de Padres:
+2 - 3 => 1 - 2 => RCOAGLIBEP - COAGRIBPEL
+5 - 8 => 3 - 4 => COGRBAIPEL - OARBIEGLPC
+1 - 9 => 1 - 5 => CARBIGLOPE - COARIGLEBP
+2 - 6 => 1 - 3 => RCOAGLIBEP - RCOLGIBPAE
+7 - 7 => 4 - 4 => RCOAGLIEPB - RCOAGLIEPB
+
+Cruzamiento:
+1 2 => 1 2
+RCOBIGLAEP - CRBAGLIOPE
+3 4 => 2 3
+COAGRIBPEL - COABGLRIEP
+5 6 => 3 4
+COGRLIBPAE - CGOLRBAIPE
+7 8 => 4 5
+OARBGLIEPC - RCOAIEGLPB
+9 10 => 5 6
+OGARLIBPEC - CORGAILEBP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	CARBIGLOPE
+2)	RCOAGLIBEP
+3)	COAGRIBPEL
+4)	COBAGLRIEP
+5)	COGRBAIPEL
+6)	RCOLGIBPAE
+7)	RCOAGLIEPB
+8)	OARBIEGLPC
+9)	COARIGLEBP
+10)	OARGLIBPEC
+
+**** Iteración 87 ****
+Creación de Mating Pool:
+77	=>	1	=>	COARIGLEBP
+107	=>	2	=>	COGRBAIPEL
+56	=>	3	=>	OARGLIBPEC
+86	=>	4	=>	RCOAGLIEPB
+96	=>	5	=>	COGRBALEIP
+75	=>	6	=>	COARGLIPEB
+90	=>	7	=>	COARBGLIEP
+93	=>	8	=>	CORAGBIPEL
+85	=>	9	=>	CARBOLGIPE
+109	=>	10	=>	ACOLRBIEGP
+
+Selección de Padres:
+10 - 8 => 5 - 4 => ACOLRBIEGP - CORAGBIPEL
+8 - 8 => 4 - 4 => CORAGBIPEL - CORAGBIPEL
+8 - 10 => 4 - 5 => CORAGBIPEL - ACOLRBIEGP
+1 - 2 => 1 - 1 => COARIGLEBP - COGRBAIPEL
+10 - 7 => 5 - 4 => ACOLRBIEGP - COARBGLIEP
+
+Cruzamiento:
+1 2 => 1 2
+COARIGLBPE - COGRBAILEP
+3 4 => 2 3
+CARGLIBPEO - RCOAGLIEPB
+5 6 => 3 4
+COGRBALIPE - COARGBLEIP
+7 8 => 4 5
+CORABGLIPE - COARGBIPLE
+9 10 => 5 6
+ACRBOLGIPE - CAOLRBIEGP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	COARIGLEBP
+2)	COGRBAIPEL
+3)	OARGLIBPEC
+4)	RCOAGLIEPB
+5)	COGRBALEIP
+6)	COARGLIPEB
+7)	COARBILGEP
+8)	CORAGBIPEL
+9)	CARIOLGBPE
+10)	ACOLRBIEGP
+
+**** Iteración 88 ****
+Creación de Mating Pool:
+96	=>	1	=>	COGRBALEIP
+93	=>	2	=>	CORAGBIPEL
+91	=>	3	=>	COARIPGBEL
+63	=>	4	=>	CAROBILGPE
+86	=>	5	=>	COARBILGEP
+96	=>	6	=>	COGRBALEIP
+95	=>	7	=>	CAOLRBIEGP
+107	=>	8	=>	COGRBAIPEL
+93	=>	9	=>	CORAGBIPEL
+86	=>	10	=>	RCOAGLIEPB
+
+Selección de Padres:
+8 - 8 => 4 - 4 => COGRBAIPEL - COGRBAIPEL
+2 - 9 => 1 - 5 => CORAGBIPEL - CORAGBIPEL
+7 - 1 => 4 - 1 => CAOLRBIEGP - COGRBALEIP
+9 - 2 => 5 - 1 => CORAGBIPEL - CORAGBIPEL
+2 - 1 => 1 - 1 => CORAGBIPEL - COGRBALEIP
+
+Cruzamiento:
+1 2 => 1 2
+COGRBALEIP - CORAGBIPEL
+3 4 => 2 3
+COARIBLGPE - CAROBIPGEL
+5 6 => 3 4
+CORABILGEP - CORGBALEIP
+7 8 => 4 5
+COGRABIPEL - COLRBAIEGP
+9 10 => 5 6
+RCOAGBIPEL - CORAGLIEPB
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	COGRBALEIP
+2)	CORAGBIPEL
+3)	COARIPGBEL
+4)	CAROBILGPE
+5)	COARBILGEP
+6)	COGRBALEIP
+7)	CAOLRBIEGP
+8)	COGRBAIPEL
+9)	CORAGBIPEL
+10)	RCOAGLIEPB
+
+**** Iteración 89 ****
+Creación de Mating Pool:
+72	=>	1	=>	CAROBILEGP
+99	=>	2	=>	CAOLRBIGPE
+107	=>	3	=>	COGRBAIPEL
+93	=>	4	=>	CORAGBIPEL
+108	=>	5	=>	RCOALPGIEB
+105	=>	6	=>	COARPLIGBE
+104	=>	7	=>	COGRBEIPAL
+95	=>	8	=>	CORAGBLEIP
+73	=>	9	=>	CORIBALGEP
+106	=>	10	=>	COGRBIAPEL
+
+Selección de Padres:
+9 - 1 => 5 - 1 => CORIBALGEP - CAROBILEGP
+1 - 5 => 1 - 3 => CAROBILEGP - RCOALPGIEB
+1 - 1 => 1 - 1 => CAROBILEGP - CAROBILEGP
+2 - 10 => 1 - 5 => CAOLRBIGPE - COGRBIAPEL
+1 - 8 => 1 - 4 => CAROBILEGP - CORAGBLEIP
+
+Cruzamiento:
+1 2 => 1 2
+CAROLBIGPE - CAORBILEGP
+3 4 => 2 3
+COGRBAIPEL - CORAGBIPEL
+5 6 => 3 4
+COARLPIGBE - RCOAPLGIEB
+7 8 => 4 5
+COGRBALEIP - CORAGBEIPL
+9 10 => 5 6
+CORIGBAPEL - COGRIBALEP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	CAROBILEGP
+2)	CAOLRBIGPE
+3)	COGRBAIPEL
+4)	CORAGBIPEL
+5)	RCOALPGIEB
+6)	COARPLIGBE
+7)	COGRBEIPAL
+8)	CORAGBLEIP
+9)	CORIBALGEP
+10)	COGRBIAPEL
+
+**** Iteración 90 ****
+Creación de Mating Pool:
+87	=>	1	=>	CAORBILEGP
+81	=>	2	=>	CAROBLIGPE
+106	=>	3	=>	COGRBIAPEL
+104	=>	4	=>	COGRBEIPAL
+99	=>	5	=>	CORALPGIEB
+108	=>	6	=>	COLRBIAPEG
+93	=>	7	=>	CORAGBIPEL
+93	=>	8	=>	COARBILEGP
+96	=>	9	=>	COGRBALEIP
+96	=>	10	=>	CORAGBIPLE
+
+Selección de Padres:
+6 - 10 => 3 - 5 => COLRBIAPEG - CORAGBIPLE
+10 - 10 => 5 - 5 => CORAGBIPLE - CORAGBIPLE
+9 - 10 => 5 - 5 => COGRBALEIP - CORAGBIPLE
+2 - 8 => 1 - 4 => CAROBLIGPE - COARBILEGP
+3 - 2 => 2 - 1 => COGRBIAPEL - CAROBLIGPE
+
+Cruzamiento:
+1 2 => 1 2
+CAROBILEGP - CAORBLIGPE
+3 4 => 2 3
+COGRBIAPEL - COGRBEIPAL
+5 6 => 3 4
+CORALPGIEB - COLRBIAPEG
+7 8 => 4 5
+CORAGBIPEL - COARBILEGP
+9 10 => 5 6
+COGRBALIPE - CORAGBILEP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	CAPRBILEGO
+2)	CAROBLIGPE
+3)	COGRBIAPEL
+4)	COGRBEIPAL
+5)	CORALPGIEB
+6)	COLRBIAPEG
+7)	CORAGBIPEL
+8)	COARBILEGP
+9)	COGRBALEIP
+10)	CORAGBIPLE
+
+**** Iteración 91 ****
+Creación de Mating Pool:
+96	=>	1	=>	CORAGBIPLE
+80	=>	2	=>	CORGBALEIP
+118	=>	3	=>	COGRBEIAPL
+88	=>	4	=>	CGORBIEPAL
+103	=>	5	=>	CORBAILEGP
+96	=>	6	=>	CRBLGIAPEO
+110	=>	7	=>	COPRBAGILE
+85	=>	8	=>	CPRAGBILEO
+90	=>	9	=>	CRABIPLEGO
+103	=>	10	=>	CARBIGOPEL
+
+Selección de Padres:
+3 - 3 => 2 - 2 => COGRBEIAPL - COGRBEIAPL
+10 - 4 => 5 - 2 => CARBIGOPEL - CGORBIEPAL
+6 - 4 => 3 - 2 => CRBLGIAPEO - CGORBIEPAL
+7 - 2 => 4 - 1 => COPRBAGILE - CORGBALEIP
+10 - 7 => 5 - 4 => CARBIGOPEL - COPRBAGILE
+
+Cruzamiento:
+1 2 => 1 2
+CORGABILEP - CORGBALIPE
+3 4 => 2 3
+CGORBIEAPL - COGRBEIPAL
+5 6 => 3 4
+CRBGAILPEO - CORBLIAEGP
+7 8 => 4 5
+COPRBAGILE - CPRAGOBILE
+9 10 => 5 6
+CRABIPLGOE - CARBIGOPLE
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	CORAGBIPLE
+2)	CORGBALEIP
+3)	COGRBEIAPL
+4)	CGORBIEPAL
+5)	CORBAILEGP
+6)	CRBLGIAPEO
+7)	COPRBAGILE
+8)	CPRAGBILEO
+9)	CRABIPLEGO
+10)	CARBIGOPEL
+
+**** Iteración 92 ****
+Creación de Mating Pool:
+118	=>	1	=>	COGRBEIAPL
+92	=>	2	=>	CRABIPLOGE
+100	=>	3	=>	CRBIPALEGO
+86	=>	4	=>	CORGBPLAEI
+101	=>	5	=>	COPRBALEIG
+106	=>	6	=>	CORBAEGILP
+110	=>	7	=>	COPRBAGILE
+110	=>	8	=>	COPRBAGILE
+106	=>	9	=>	COGRBAILEP
+107	=>	10	=>	CORBAGEIPL
+
+Selección de Padres:
+6 - 7 => 3 - 4 => CORBAEGILP - COPRBAGILE
+6 - 4 => 3 - 2 => CORBAEGILP - CORGBPLAEI
+9 - 8 => 5 - 4 => COGRBAILEP - COPRBAGILE
+4 - 9 => 2 - 5 => CORGBPLAEI - COGRBAILEP
+9 - 1 => 5 - 1 => COGRBAILEP - COGRBEIAPL
+
+Cruzamiento:
+1 2 => 1 2
+CRLOBEIAPG - CRBEIPLOGA
+3 4 => 2 3
+CRBPLAIEGO - CRBPLGOAEI
+5 6 => 3 4
+CORBEALGIP - COPRBEGALI
+7 8 => 4 5
+COPRBAGILE - COPRBAGILE
+9 10 => 5 6
+CORGBAEIPL - CORBAGILEP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	COGRBEIAPL
+2)	CRABIPLOGE
+3)	CRBIPALEGO
+4)	CORGBPLAEI
+5)	COPRBALEIG
+6)	CORBAEGILP
+7)	COPRBAGILE
+8)	COPRBAGILE
+9)	COGRBAILEP
+10)	ROCBAGEIPL
+
+**** Iteración 93 ****
+Creación de Mating Pool:
+121	=>	1	=>	COGRBEIALP
+107	=>	2	=>	CORBAEGIPL
+92	=>	3	=>	COPBAEGIRL
+96	=>	4	=>	COGRBALEIP
+112	=>	5	=>	COGRBAILPE
+92	=>	6	=>	CRABIPLOGE
+94	=>	7	=>	ORCGABEILP
+105	=>	8	=>	OCGRBAIEPL
+100	=>	9	=>	CRBIPALEGO
+103	=>	10	=>	CRBOAEGILP
+
+Selección de Padres:
+2 - 1 => 1 - 1 => CORBAEGIPL - COGRBEIALP
+1 - 2 => 1 - 1 => COGRBEIALP - CORBAEGIPL
+1 - 4 => 1 - 2 => COGRBEIALP - COGRBALEIP
+6 - 4 => 3 - 2 => CRABIPLOGE - COGRBALEIP
+9 - 7 => 5 - 4 => CRBIPALEGO - ORCGABEILP
+
+Cruzamiento:
+1 2 => 1 2
+CORBEGIAPL - CORBEAGILP
+3 4 => 2 3
+COPBAGRLEI - COGRBPAEIL
+5 6 => 3 4
+CRABOGILPE - CRBAIPLOGE
+7 8 => 4 5
+ORCGABEILP - OCGRBAIEPL
+9 10 => 5 6
+CRBOPALEGI - CRBPAEGILO
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	COGRBEIALP
+2)	CORBAEGIPL
+3)	COPBAEGIRL
+4)	COGRBALEIP
+5)	COGRBAILPE
+6)	CRABIPLOGE
+7)	ORCGABEILP
+8)	OCGRBAIEPL
+9)	CRBIPALEGO
+10)	CRBOAEGILP
+
+**** Iteración 94 ****
+Creación de Mating Pool:
+118	=>	1	=>	OCRBAEGIPL
+94	=>	2	=>	ORCGABEILP
+101	=>	3	=>	ORCABEGILP
+101	=>	4	=>	CROAGBEILP
+107	=>	5	=>	CORBGALEIP
+107	=>	6	=>	CORBAEGIPL
+85	=>	7	=>	COGRABIPLE
+69	=>	8	=>	CRABOPILGE
+96	=>	9	=>	COGRBALEIP
+96	=>	10	=>	COGRBALEIP
+
+Selección de Padres:
+4 - 1 => 2 - 1 => CROAGBEILP - OCRBAEGIPL
+6 - 1 => 3 - 1 => CORBAEGIPL - OCRBAEGIPL
+7 - 5 => 4 - 3 => COGRABIPLE - CORBGALEIP
+2 - 8 => 1 - 4 => ORCGABEILP - CRABOPILGE
+9 - 5 => 5 - 3 => COGRBALEIP - CORBGALEIP
+
+Cruzamiento:
+1 2 => 1 2
+ORCGABEIPL - OCRBAEGILP
+3 4 => 2 3
+CROABEGILP - ORCABGEILP
+5 6 => 3 4
+CORBAGLEIP - CORBAEGIPL
+7 8 => 4 5
+CRABOIGPLE - CORABIPLGE
+9 10 => 5 6
+COGRBALEIP - COGRBALEIP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	OCRBAEGIPL
+2)	ORCGABEILP
+3)	ORCABEGILP
+4)	CROAGBEILP
+5)	CORBGALEIP
+6)	CORBPEGIAL
+7)	COGRABIPLE
+8)	CRABOPILGE
+9)	COGRBALEIP
+10)	COGRBALEIP
+
+**** Iteración 95 ****
+Creación de Mating Pool:
+69	=>	1	=>	CRABOPILGE
+96	=>	2	=>	COGRBALEIP
+104	=>	3	=>	COGRBAEIPL
+98	=>	4	=>	OCRBAEGLIP
+96	=>	5	=>	COGRBALEIP
+96	=>	6	=>	COGRBALEIP
+125	=>	7	=>	CORBEGAILP
+105	=>	8	=>	ORCBEGPIAL
+102	=>	9	=>	CROAGBEIPL
+82	=>	10	=>	COGRABIPEL
+
+Selección de Padres:
+9 - 3 => 5 - 2 => CROAGBEIPL - COGRBAEIPL
+5 - 9 => 3 - 5 => COGRBALEIP - CROAGBEIPL
+5 - 7 => 3 - 4 => COGRBALEIP - CORBEGAILP
+10 - 6 => 5 - 3 => COGRABIPEL - COGRBALEIP
+1 - 9 => 1 - 5 => CRABOPILGE - CROAGBEIPL
+
+Cruzamiento:
+1 2 => 1 2
+CGRBOPIALE - COPRBALIGE
+3 4 => 2 3
+OCRBGAEIPL - CORBAEGLIP
+5 6 => 3 4
+COGRBALEIP - COGRBALEIP
+7 8 => 4 5
+ORCBEGIALP - CORBEGIPAL
+9 10 => 5 6
+CROAGBEIPL - COGRABIPEL
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	CRABOPILGE
+2)	COGRBALEIP
+3)	COGRBAEIPL
+4)	OCRBAEGLIP
+5)	COGRBALEIP
+6)	COGRBALEIP
+7)	CORBEGAILP
+8)	ORCBEGPIAL
+9)	CROAGBEIPL
+10)	COGRABIPEL
+
+**** Iteración 96 ****
+Creación de Mating Pool:
+136	=>	1	=>	OCRBEGAILP
+101	=>	2	=>	CORBEAGLIP
+82	=>	3	=>	COGRABIPEL
+82	=>	4	=>	COGRABIPEL
+105	=>	5	=>	CORAGBEIPL
+107	=>	6	=>	CROBEGAILP
+91	=>	7	=>	PORBAGCILE
+97	=>	8	=>	ORCBGALEPI
+115	=>	9	=>	OLRBEGPIAC
+81	=>	10	=>	ORCBAEGLPI
+
+Selección de Padres:
+1 - 7 => 1 - 4 => OCRBEGAILP - PORBAGCILE
+1 - 10 => 1 - 5 => OCRBEGAILP - ORCBAEGLPI
+1 - 4 => 1 - 2 => OCRBEGAILP - COGRABIPEL
+9 - 7 => 5 - 4 => OLRBEGPIAC - PORBAGCILE
+6 - 2 => 3 - 1 => CROBEGAILP - CORBEAGLIP
+
+Cruzamiento:
+1 2 => 1 2
+OCRBEGAILP - CORBEAGLIP
+3 4 => 2 3
+COGRABIPEL - COGRABIPEL
+5 6 => 3 4
+CORAGBEILP - CROBEGAIPL
+7 8 => 4 5
+OERBAGCILP - ORCBGALEPI
+9 10 => 5 6
+ORCBEAGLPI - OLRBAEGPIC
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	OCRBEGAILP
+2)	CORBEAGLIP
+3)	COGRABIPEL
+4)	COGRABIPEL
+5)	CORAGBEIPL
+6)	CROBEGAILP
+7)	PORBAGCILE
+8)	ORCBGALEPI
+9)	OLRBEGPIAC
+10)	ORCBAEGLPI
+
+**** Iteración 97 ****
+Creación de Mating Pool:
+82	=>	1	=>	COGRABIPEL
+82	=>	2	=>	COGRABIPEL
+126	=>	3	=>	CORBEGAIPL
+87	=>	4	=>	COGRABELIP
+106	=>	5	=>	OCRAGBLEPI
+105	=>	6	=>	ORCBGAEIPL
+73	=>	7	=>	OCGRABILEP
+99	=>	8	=>	ORCBGALIPE
+104	=>	9	=>	CORAGBEILP
+108	=>	10	=>	CROBEGAIPL
+
+Selección de Padres:
+8 - 3 => 4 - 2 => ORCBGALIPE - CORBEGAIPL
+9 - 1 => 5 - 1 => CORAGBEILP - COGRABIPEL
+10 - 8 => 5 - 4 => CROBEGAIPL - ORCBGALIPE
+2 - 3 => 1 - 2 => COGRABIPEL - CORBEGAIPL
+3 - 5 => 2 - 3 => CORBEGAIPL - OCRAGBLEPI
+
+Cruzamiento:
+1 2 => 1 2
+COGRABIPEL - COGRABIPEL
+3 4 => 2 3
+CORAEGBLIP - COREABGIPL
+5 6 => 3 4
+OCRAGBLEPI - ORCBGAEIPL
+7 8 => 4 5
+OCGRABILPE - ORCBGALIEP
+9 10 => 5 6
+CROGABEIPL - CORBEGAILP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	COGRABIPEL
+2)	COGRABIPEL
+3)	CORBEGAIPL
+4)	COGRABELIP
+5)	OCRAGBLEPI
+6)	ORCBGAEIPL
+7)	OCGRABILEP
+8)	ORCBGALIPE
+9)	CORAGBEILP
+10)	CROBEGAIPL
+
+**** Iteración 98 ****
+Creación de Mating Pool:
+126	=>	1	=>	CORBEGAIPL
+126	=>	2	=>	CORBEGAIPL
+108	=>	3	=>	CROBEGAIPL
+94	=>	4	=>	COGRABEIPL
+99	=>	5	=>	ORCBGALIPE
+99	=>	6	=>	ORCBGALIPE
+93	=>	7	=>	CORAGBIPEL
+93	=>	8	=>	CORGABEILP
+85	=>	9	=>	OCGRABEILP
+92	=>	10	=>	CORAGBILEP
+
+Selección de Padres:
+9 - 5 => 5 - 3 => OCGRABEILP - ORCBGALIPE
+5 - 9 => 3 - 5 => ORCBGALIPE - OCGRABEILP
+10 - 9 => 5 - 5 => CORAGBILEP - OCGRABEILP
+6 - 2 => 3 - 1 => ORCBGALIPE - CORBEGAIPL
+4 - 10 => 2 - 5 => COGRABEIPL - CORAGBILEP
+
+Cruzamiento:
+1 2 => 1 2
+CORBEGAIPL - CORBEGAIPL
+3 4 => 2 3
+CORBEGAIPL - CROGABEIPL
+5 6 => 3 4
+ORCBGALIPE - ORCBGALIPE
+7 8 => 4 5
+CORAGBIPEL - CORGABEILP
+9 10 => 5 6
+CORGABILEP - OCRAGBEILP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	CORBEGAIPL
+2)	CORBEGAIPL
+3)	CROBEGAIPL
+4)	COGBAREIPL
+5)	ORCBGALIPE
+6)	ORCEGALIPB
+7)	CORAGBIPEL
+8)	CORGABEILP
+9)	OCGRABEILP
+10)	CORAGBILEP
+
+**** Iteración 99 ****
+Creación de Mating Pool:
+126	=>	1	=>	CORBEGAIPL
+85	=>	2	=>	OCGRABEILP
+98	=>	3	=>	ORCBGAELIP
+101	=>	4	=>	ORCEAGBLIP
+85	=>	5	=>	OCGRABEILP
+85	=>	6	=>	OCGRABEILP
+125	=>	7	=>	CORBEGAILP
+86	=>	8	=>	OCGRABEIPL
+102	=>	9	=>	ORCAGBLIPE
+117	=>	10	=>	CORBGAILEP
+
+Selección de Padres:
+10 - 3 => 5 - 2 => CORBGAILEP - ORCBGAELIP
+5 - 4 => 3 - 2 => OCGRABEILP - ORCEAGBLIP
+1 - 7 => 1 - 4 => CORBEGAIPL - CORBEGAILP
+3 - 6 => 2 - 3 => ORCBGAELIP - OCGRABEILP
+10 - 5 => 5 - 3 => CORBGAILEP - OCGRABEILP
+
+Cruzamiento:
+1 2 => 1 2
+OCRBEGAILP - COGRABEIPL
+3 4 => 2 3
+ORCBGAELIP - ORCEAGBLIP
+5 6 => 3 4
+OCGRABEILP - OCGRABEILP
+7 8 => 4 5
+OCGBERAIPL - COBRAEGILP
+9 10 => 5 6
+CORAGBLIEP - ORCBGAILPE
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	CORBEGLIPA
+2)	OCGRABEILP
+3)	ORCBGAELIP
+4)	ORCEAGBLIP
+5)	OCGRABEILP
+6)	OCGRABEILP
+7)	CORBEGAILP
+8)	OCGRABEIPL
+9)	ORCAGBLIPE
+10)	CORBGAILEP
+
+**** Iteración 100 ****
+Creación de Mating Pool:
+82	=>	1	=>	ORCBEGLIPA
+86	=>	2	=>	CORGABLIPE
+92	=>	3	=>	CORBEGLIPA
+92	=>	4	=>	CORBEGLIPA
+85	=>	5	=>	OCGRABEILP
+86	=>	6	=>	OCGRABEIPL
+128	=>	7	=>	OCRBGAILEP
+93	=>	8	=>	COGRABEILP
+89	=>	9	=>	ORCBGELIPA
+105	=>	10	=>	CORBEGLAIP
+
+Selección de Padres:
+1 - 1 => 1 - 1 => ORCBEGLIPA - ORCBEGLIPA
+8 - 3 => 4 - 2 => COGRABEILP - CORBEGLIPA
+7 - 7 => 4 - 4 => OCRBGAILEP - OCRBGAILEP
+6 - 5 => 3 - 3 => OCGRABEIPL - OCGRABEILP
+2 - 2 => 1 - 1 => CORGABLIPE - CORGABLIPE
+
+Cruzamiento:
+1 2 => 1 2
+ORCBGALIPE - CORGBELIPA
+3 4 => 2 3
+CORBEGLIPA - CORBEGLIPA
+5 6 => 3 4
+OCGRABEILP - OCGRABEIPL
+7 8 => 4 5
+CORBGAIELP - OCRGABEILP
+9 10 => 5 6
+ORCBGELIPA - OCRBEGLAIP
+
+Mutación:
+Sin Mutación 1
+Sin Mutación 2
+Sin Mutación 3
+Sin Mutación 4
+Sin Mutación 5
+Sin Mutación 6
+Sin Mutación 7
+Sin Mutación 8
+Sin Mutación 9
+Sin Mutación 10
+
+Nueva Población:
+1)	ORCBEGLIPA
+2)	CORGABLIPE
+3)	CORBEGLIPA
+4)	CORBEGLIPA
+5)	OCGRABEILP
+6)	OCGRABEIPL
+7)	OCRBGAILEP
+8)	COGRABEILP
+9)	ORCBGELIPA
+10)	CORBEGLAIP
