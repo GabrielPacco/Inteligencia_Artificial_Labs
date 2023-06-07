@@ -8,7 +8,7 @@ puntos = np.random.rand(100, 2)
 
 # Definir el número de clusters y el número de iteraciones
 n_clusters = 3
-n_iteraciones = 10
+n_iteraciones = 5
 
 # Mejorar la inicialización de los centroides utilizando el algoritmo K-means++
 kmeans_pp = KMeans(n_clusters=n_clusters, init='k-means++')
