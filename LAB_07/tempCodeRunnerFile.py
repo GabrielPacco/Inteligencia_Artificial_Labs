@@ -52,26 +52,14 @@ with open('resultado.txt', 'w') as archivo:
         anterior_pendiente = nuevo_pendiente
 
 
-    # Calcular la pendiente y el intercepto
-    X_mean = np.mean(X)
-    Y_mean = np.mean(Y)
-    num = 0
-    denom = 0
-    for i in range(len(X)):
-        num += (X[i] - X_mean) * (Y[i] - Y_mean)
-        denom += (X[i] - X_mean) ** 2
-    pendiente = num / denom
-    intercepto = Y_mean - pendiente * X_mean
-
-    # Calcular los valores de la línea de regresión
-    x_line = np.linspace(np.min(X), np.max(X), 100)
-    y_line = intercepto + pendiente * x_line
+    # Calcular los valores y la línea de regresión final
+    y_pred = anterior_intercepto + anterior_pendiente * X
 
     # Obtener el rango de los puntos generados
     x_range = np.max(X) - np.min(X)
     y_range = np.max(Y) - np.min(Y)
 
-    # Calcular los límites de la gráfica para abarcar toda la nube de puntos
+    # Ajustar los límites del gráfico para abarcar toda la nube de puntos
     x_min = np.min(X) - 0.1 * x_range
     x_max = np.max(X) + 0.1 * x_range
     y_min = np.min(Y) - 0.1 * y_range
@@ -79,7 +67,7 @@ with open('resultado.txt', 'w') as archivo:
 
     # Graficar los puntos de la regresión lineal obtenida
     plt.scatter(X, Y, label='Puntos de datos')
-    plt.plot(x_line, y_line, color='red', label='Regresión lineal')
+    plt.plot(X, y_pred, color='red', label='Regresión lineal')
     plt.title('Regresión Lineal')
     plt.xlabel('X')
     plt.ylabel('Y')
