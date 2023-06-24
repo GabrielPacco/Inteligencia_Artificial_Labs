@@ -1,0 +1,909 @@
+X={0.06116558871293011,-1.6776683688418805,0.16178802145890547,0.20682541383076125,0.17029377268047158,-0.23338772757380463,-0.4240064067194987,-1.453014175665068,1.554129407151013,0.19950025191388845,2.439271386756131,0.18875180373763334,-0.10843849835619734,0.39839776081160677,-0.31128801694648456,0.38627214184633774,-1.2320468264926923,-0.6395956820664873,0.16341272848484664,0.929222701533827,0.26406666201807133,-1.5450746078929878,-0.6567858997203282,0.4494083257387828,0.29798877556500497,1.6744816544011791,0.36580513907766216,0.7044343867797574,1.3807862756089215,1.017568439264041,-0.29685707650491266,-1.2819011861747969,1.1595026380329982,0.6392469770344557,-0.2777470541867282,-0.33163568599896753,0.5406825317282125,-0.5824041164536521,0.6873007705535372,0.6133080248490604,-0.9970553474875787,-0.20646317468632894,-2.1963112468545454,-1.9922269667318417,0.9768675918792697,-1.1958651460380945,-1.3975024811950199,1.1927249717119712,-0.42393222795605745,0.024082383450917937}
+Y={2.975989818810607,-103.92734694086406,-7.6353648334969835,0.2217829468991006,1.25731417956953,-31.95911859228775,-6.528625290725554,-30.823246641787847,57.74724087962732,10.22377648635379,80.09452897826529,1.3929100960610201,-14.562670424159673,7.419603182061703,-18.42398428820176,16.91190329993639,-59.83342832489736,-47.52046045444466,-0.42657241250747546,47.858410577709705,12.452776684503355,-58.497527255314196,4.800251294852739,39.57329557187107,12.972565379850725,82.3096649734791,17.724717609425753,1.63928330909161,38.02125153556748,24.034426033889005,7.096017966888889,-18.475541204998066,75.61026068689225,23.354716625421716,-0.8249619213120987,-21.206885877578664,36.45996098690608,-18.708181664263726,14.092438850488723,15.200946585054135,-38.24263499323121,-3.6168139763067453,-79.1046402693724,-58.372312333628344,35.22829830340004,-29.75472794078754,-82.597114330654,59.41070307112216,-15.954854153105394,2.9235088050073412}
+
+Gradiente Descendiente
+
+Intercepto Inicial = 10.75
+Pendiente Inicial = 20.35
+Tasa de Aprendizaje = 0.001
+
+Iteracion 1
+Anterior Intercepto = 10.75
+Anterior Pendiente = 20.35
+Derivada Intercepto = 54299.51690384076
+Derivada Pendiente = 95803.03615538732
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -43.54951690384076
+Nuevo Pendiente = -75.45303615538731
+
+Iteracion 2
+Anterior Intercepto = -43.54951690384076
+Anterior Pendiente = -75.45303615538731
+Derivada Intercepto = -211316.51426542207
+Derivada Pendiente = -355092.61104404647
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 167.76699736158133
+Nuevo Pendiente = 279.6395748886591
+
+Iteracion 3
+Anterior Intercepto = 167.76699736158133
+Anterior Pendiente = 279.6395748886591
+Derivada Intercepto = 823466.1619869855
+Derivada Pendiente = 1315528.4205439708
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -655.6991646254041
+Nuevo Pendiente = -1035.8888456553116
+
+Iteracion 4
+Anterior Intercepto = -655.6991646254041
+Anterior Pendiente = -1035.8888456553116
+Derivada Intercepto = -3213101.543778222
+Derivada Pendiente = -4871208.44868797
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 2557.402379152818
+Nuevo Pendiente = 3835.319603032658
+
+Iteracion 5
+Anterior Intercepto = 2557.402379152818
+Anterior Pendiente = 3835.319603032658
+Derivada Intercepto = 12553352.26701782
+Derivada Pendiente = 18027305.30139435
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -9995.949887865003
+Nuevo Pendiente = -14191.985698361692
+
+Iteracion 6
+Anterior Intercepto = -9995.949887865003
+Anterior Pendiente = -14191.985698361692
+Derivada Intercepto = -49106674.228124745
+Derivada Pendiente = -66674555.65051821
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 39110.724340259745
+Nuevo Pendiente = 52482.56995215651
+
+Iteracion 7
+Anterior Intercepto = 39110.724340259745
+Anterior Pendiente = 52482.56995215651
+Derivada Intercepto = 192333403.29802433
+Derivada Pendiente = 246433551.0134784
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -153222.67895776458
+Nuevo Pendiente = -193950.9810613219
+
+Iteracion 8
+Anterior Intercepto = -153222.67895776458
+Anterior Pendiente = -193950.9810613219
+Derivada Intercepto = -754204530.2771225
+Derivada Pendiente = -910169649.0893221
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 600981.851319358
+Nuevo Pendiente = 716218.6680280002
+
+Iteracion 9
+Anterior Intercepto = 600981.851319358
+Anterior Pendiente = 716218.6680280002
+Derivada Intercepto = 2960940859.1401606
+Derivada Pendiente = 3358899093.9226418
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -2359959.0078208027
+Nuevo Pendiente = -2642680.4258946413
+
+Iteracion 10
+Anterior Intercepto = -2359959.0078208027
+Anterior Pendiente = -2642680.4258946413
+Derivada Intercepto = -11637553435.178932
+Derivada Pendiente = -12384810220.385342
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 9277594.427358128
+Nuevo Pendiente = 9742129.794490699
+
+Iteracion 11
+Anterior Intercepto = 9277594.427358128
+Anterior Pendiente = 9742129.794490699
+Derivada Intercepto = 45789883745.3078
+Derivada Pendiente = 45620613227.73857
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -36512289.317949675
+Nuevo Pendiente = -35878483.43324788
+
+Iteracion 12
+Anterior Intercepto = -36512289.317949675
+Anterior Pendiente = -35878483.43324788
+Derivada Intercepto = -180358787934.75174
+Derivada Pendiente = -167868440096.63434
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 143846498.61680207
+Nuevo Pendiente = 131989956.66338645
+
+Iteracion 13
+Anterior Intercepto = 143846498.61680207
+Anterior Pendiente = 131989956.66338645
+Derivada Intercepto = 711129349064.8794
+Derivada Pendiente = 616970561173.8452
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -567282850.4480773
+Nuevo Pendiente = -484980604.5104587
+
+Iteracion 14
+Anterior Intercepto = -567282850.4480773
+Anterior Pendiente = -484980604.5104587
+Derivada Intercepto = -2806640253566.447
+Derivada Pendiente = -2264603101903.1416
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 2239357403.1183696
+Nuevo Pendiente = 1779622497.3926828
+
+Iteracion 15
+Anterior Intercepto = 2239357403.1183696
+Anterior Pendiente = 1779622497.3926828
+Derivada Intercepto = 11087532184963.531
+Derivada Pendiente = 8300213168869.32
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -8848174781.845161
+Nuevo Pendiente = -6520590671.476638
+
+Iteracion 16
+Anterior Intercepto = -8848174781.845161
+Anterior Pendiente = -6520590671.476638
+Derivada Intercepto = -43840560895997.83
+Derivada Pendiente = -30372750789677.727
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 34992386114.152664
+Nuevo Pendiente = 23852160118.201088
+
+Iteracion 17
+Anterior Intercepto = 34992386114.152664
+Anterior Pendiente = 23852160118.201088
+Derivada Intercepto = 173497595433757.25
+Derivada Pendiente = 110941559943988.4
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -138505209319.6046
+Nuevo Pendiente = -87089399825.78732
+
+Iteracion 18
+Anterior Intercepto = -138505209319.6046
+Anterior Pendiente = -87089399825.78732
+Derivada Intercepto = -687179442022451.5
+Derivada Pendiente = -404412272523325.2
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 548674232702.8469
+Nuevo Pendiente = 317322872697.53784
+
+Iteracion 19
+Anterior Intercepto = 548674232702.8469
+Anterior Pendiente = 317322872697.53784
+Derivada Intercepto = 2723890033482743.0
+Derivada Pendiente = 1470832939007880.8
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -2175215800779.8962
+Nuevo Pendiente = -1153510066310.343
+
+Iteracion 20
+Anterior Intercepto = -2175215800779.8962
+Anterior Pendiente = -1153510066310.343
+Derivada Intercepto = -1.0805262553115328e+16
+Derivada Pendiente = -5335575360653396.0
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 8630046752335.432
+Nuevo Pendiente = 4182065294343.0537
+
+Iteracion 21
+Anterior Intercepto = 8630046752335.432
+Anterior Pendiente = 4182065294343.0537
+Derivada Intercepto = 4.289348782617728e+16
+Derivada Pendiente = 1.929853386277625e+16
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -34263441073841.85
+Nuevo Pendiente = -15116468568433.195
+
+Iteracion 22
+Anterior Intercepto = -34263441073841.85
+Anterior Pendiente = -15116468568433.195
+Derivada Intercepto = -1.7038917302372163e+17
+Derivada Pendiente = -6.956793435154048e+16
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 136125731949879.78
+Nuevo Pendiente = 54451465783107.29
+
+Iteracion 23
+Anterior Intercepto = 136125731949879.78
+Anterior Pendiente = 54451465783107.29
+Derivada Intercepto = 6.772857677718815e+17
+Derivada Pendiente = 2.4981270458999123e+17
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -541160035822001.75
+Nuevo Pendiente = -195361238806883.97
+
+Iteracion 24
+Anterior Intercepto = -541160035822001.75
+Anterior Pendiente = -195361238806883.97
+Derivada Intercepto = -2.693806534705151e+18
+Derivada Pendiente = -8.93039752375938e+17
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 2152646498883149.2
+Nuevo Pendiente = 697678513569054.1
+
+Iteracion 25
+Anterior Intercepto = 2152646498883149.2
+Anterior Pendiente = 697678513569054.1
+Derivada Intercepto = 1.0720400517859092e+19
+Derivada Pendiente = 3.175735003092248e+18
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -8567754018975943.0
+Nuevo Pendiente = -2478056489523194.0
+
+Iteracion 26
+Anterior Intercepto = -8567754018975943.0
+Anterior Pendiente = -2478056489523194.0
+Derivada Intercepto = -4.268663690545074e+19
+Derivada Pendiente = -1.1223171875634864e+19
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 3.41188828864748e+16
+Nuevo Pendiente = 8745115386111670.0
+
+Iteracion 27
+Anterior Intercepto = 3.41188828864748e+16
+Anterior Pendiente = 8745115386111670.0
+Derivada Intercepto = 1.7005753308958042e+20
+Derivada Pendiente = 3.936842693950095e+19
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -1.3593865020310562e+17
+Nuevo Pendiente = -3.062331155338928e+16
+
+Iteracion 28
+Anterior Intercepto = -1.3593865020310562e+17
+Anterior Pendiente = -3.062331155338928e+16
+Derivada Intercepto = -6.778132204039617e+20
+Derivada Pendiente = -1.368481912355558e+20
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 5.418745702008561e+17
+Nuevo Pendiente = 1.0622487968216653e+17
+
+Iteracion 29
+Anterior Intercepto = 5.418745702008561e+17
+Anterior Pendiente = 1.0622487968216653e+17
+Derivada Intercepto = 2.70285147838381e+21
+Derivada Pendiente = 4.70375270665858e+20
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -2.160976908182954e+18
+Nuevo Pendiente = -3.6415039098369146e+17
+
+Iteracion 30
+Anterior Intercepto = -2.160976908182954e+18
+Anterior Pendiente = -3.6415039098369146e+17
+Derivada Intercepto = -1.078252856935142e+22
+Derivada Pendiente = -1.5938726978880725e+21
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 8.621551661168466e+18
+Nuevo Pendiente = 1.229722306904381e+18
+
+Iteracion 31
+Anterior Intercepto = 8.621551661168466e+18
+Anterior Pendiente = 1.229722306904381e+18
+Derivada Intercepto = 4.303226302256196e+22
+Derivada Pendiente = 5.301164735319096e+21
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -3.441071136139349e+19
+Nuevo Pendiente = -4.0714424284147154e+18
+
+Iteracion 32
+Anterior Intercepto = -3.441071136139349e+19
+Anterior Pendiente = -4.0714424284147154e+18
+Derivada Intercepto = -1.7180360224587093e+23
+Derivada Pendiente = -1.7191309504617084e+22
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 1.3739289088447745e+20
+Nuevo Pendiente = 1.311986707620237e+19
+
+Iteracion 33
+Anterior Intercepto = 1.3739289088447745e+20
+Anterior Pendiente = 1.311986707620237e+19
+Derivada Intercepto = 6.86158997714025e+23
+Derivada Pendiente = 5.377014608024485e+22
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -5.4876610682954763e+20
+Nuevo Pendiente = -4.065027900404248e+19
+
+Iteracion 34
+Anterior Intercepto = -5.4876610682954763e+20
+Anterior Pendiente = -4.065027900404248e+19
+Derivada Intercepto = -2.741334926552751e+24
+Derivada Pendiente = -1.5904451074477196e+23
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 2.1925688197232035e+21
+Nuevo Pendiente = 1.1839423174072948e+20
+
+Iteracion 35
+Anterior Intercepto = 2.1925688197232035e+21
+Anterior Pendiente = 1.1839423174072948e+20
+Derivada Intercepto = 1.0955575623437643e+25
+Derivada Pendiente = 4.267339490504353e+23
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -8.76300680371444e+21
+Nuevo Pendiente = -3.083397173097058e+20
+
+Iteracion 36
+Anterior Intercepto = -8.76300680371444e+21
+Anterior Pendiente = -3.083397173097058e+20
+Derivada Intercepto = -4.379610438366667e+25
+Derivada Pendiente = -9.23945815857806e+23
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 3.5033097579952228e+22
+Nuevo Pendiente = 6.156060985481002e+20
+
+Iteracion 37
+Anterior Intercepto = 3.5033097579952228e+22
+Anterior Pendiente = 6.156060985481002e+20
+Derivada Intercepto = 1.751276945243478e+26
+Derivada Pendiente = 7.680053031133349e+23
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -1.4009459694439559e+23
+Nuevo Pendiente = -1.5239920456523475e+20
+
+Iteracion 38
+Anterior Intercepto = -1.4009459694439559e+23
+Anterior Pendiente = -1.5239920456523475e+20
+Derivada Intercepto = -7.004636286087679e+26
+Derivada Pendiente = 7.8781394186741e+24
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 5.603690316643722e+23
+Nuevo Pendiente = -8.030538623239334e+21
+
+Iteracion 39
+Anterior Intercepto = 5.603690316643722e+23
+Anterior Pendiente = -8.030538623239334e+21
+Derivada Intercepto = 2.8023381702684216e+27
+Derivada Pendiente = -7.2477301914923825e+25
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -2.2419691386040492e+24
+Nuevo Pendiente = 6.444676329168449e+22
+
+Iteracion 40
+Anterior Intercepto = -2.2419691386040492e+24
+Anterior Pendiente = 6.444676329168449e+22
+Derivada Intercepto = -1.1213802217695687e+28
+Derivada Pendiente = 4.4319956051873796e+26
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 8.971833079091638e+24
+Nuevo Pendiente = -3.7875279722705345e+23
+
+Iteracion 41
+Anterior Intercepto = 8.971833079091638e+24
+Anterior Pendiente = -3.7875279722705345e+23
+Derivada Intercepto = 4.48824178399811e+28
+Derivada Pendiente = -2.3465738463187207e+27
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -3.591058476088947e+25
+Nuevo Pendiente = 1.9678210490916673e+24
+
+Iteracion 42
+Anterior Intercepto = -3.591058476088947e+25
+Anterior Pendiente = 1.9678210490916673e+24
+Derivada Intercepto = -1.79673732548594e+29
+Derivada Pendiente = 1.1534622141350456e+28
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 1.4376314778770454e+26
+Nuevo Pendiente = -9.566801092258788e+24
+
+Iteracion 43
+Anterior Intercepto = 1.4376314778770454e+26
+Anterior Pendiente = -9.566801092258788e+24
+Derivada Intercepto = 7.194030653247255e+29
+Derivada Pendiente = -5.418482900904276e+28
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -5.7563991753702095e+26
+Nuevo Pendiente = 4.461802791678397e+25
+
+Iteracion 44
+Anterior Intercepto = -5.7563991753702095e+26
+Anterior Pendiente = 4.461802791678397e+25
+Derivada Intercepto = -2.8809387838744206e+30
+Derivada Pendiente = 2.4688641862113855e+29
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 2.3052988663373998e+27
+Nuevo Pendiente = -2.0226839070435457e+26
+
+Iteracion 45
+Anterior Intercepto = 2.3052988663373998e+27
+Anterior Pendiente = -2.0226839070435457e+26
+Derivada Intercepto = 1.1538912020923954e+31
+Derivada Pendiente = -1.1005387090255546e+30
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -9.233613154586554e+27
+Nuevo Pendiente = 8.982703183212e+26
+
+Iteracion 46
+Anterior Intercepto = -9.233613154586554e+27
+Anterior Pendiente = 8.982703183212e+26
+Derivada Intercepto = -4.622321250952789e+31
+Derivada Pendiente = 4.825824155791511e+30
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 3.6989599354941344e+28
+Nuevo Pendiente = -3.927553837470311e+27
+
+Iteracion 47
+Anterior Intercepto = 3.6989599354941344e+28
+Anterior Pendiente = -3.927553837470311e+27
+Derivada Intercepto = 1.851891177073709e+32
+Derivada Pendiente = -2.089251094681868e+31
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -1.4819951835242954e+29
+Nuevo Pendiente = 1.6964957109348372e+28
+
+Iteracion 48
+Anterior Intercepto = -1.4819951835242954e+29
+Anterior Pendiente = 1.6964957109348372e+28
+Derivada Intercepto = -7.42039106773804e+32
+Derivada Pendiente = 8.953393123391463e+31
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 5.938395884213745e+29
+Nuevo Pendiente = -7.256897412456627e+28
+
+Iteracion 49
+Anterior Intercepto = 5.938395884213745e+29
+Anterior Pendiente = -7.256897412456627e+28
+Derivada Intercepto = 2.973653106681948e+33
+Derivada Pendiente = -3.805270534446027e+32
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -2.3798135182605735e+30
+Nuevo Pendiente = 3.0795807932003647e+29
+
+Iteracion 50
+Anterior Intercepto = -2.3798135182605735e+30
+Anterior Pendiente = 3.0795807932003647e+29
+Derivada Intercepto = -1.1917973796635738e+34
+Derivada Pendiente = 1.6062179409673043e+33
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 9.538160278375165e+30
+Nuevo Pendiente = -1.2982598616472678e+30
+
+Iteracion 51
+Anterior Intercepto = 9.538160278375165e+30
+Anterior Pendiente = -1.2982598616472678e+30
+Derivada Intercepto = 4.777050434227064e+34
+Derivada Pendiente = -6.740984176564401e+33
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -3.823234406389547e+31
+Nuevo Pendiente = 5.442724314917133e+30
+
+Iteracion 52
+Anterior Intercepto = -3.823234406389547e+31
+Anterior Pendiente = 5.442724314917133e+30
+Derivada Intercepto = -1.914958608092974e+35
+Derivada Pendiente = 2.8152656212360853e+34
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 1.5326351674540191e+32
+Nuevo Pendiente = -2.2709931897443723e+31
+
+Iteracion 53
+Anterior Intercepto = 1.5326351674540191e+32
+Anterior Pendiente = -2.2709931897443723e+31
+Derivada Intercepto = 7.67711795031667e+35
+Derivada Pendiente = -1.1708336647287577e+35
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -6.144482782862651e+32
+Nuevo Pendiente = 9.437343457543204e+31
+
+Iteracion 54
+Anterior Intercepto = -6.144482782862651e+32
+Anterior Pendiente = 9.437343457543204e+31
+Derivada Intercepto = -3.078035178481793e+36
+Derivada Pendiente = 4.851733608247784e+35
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 2.4635869001955282e+33
+Nuevo Pendiente = -3.907999262493464e+32
+
+Iteracion 55
+Anterior Intercepto = 2.4635869001955282e+33
+Anterior Pendiente = -3.907999262493464e+32
+Derivada Intercepto = 1.2341926544524783e+37
+Derivada Pendiente = -2.0041375256639464e+36
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -9.878339644329255e+33
+Nuevo Pendiente = 1.6133375994146e+33
+
+Iteracion 56
+Anterior Intercepto = -9.878339644329255e+33
+Anterior Pendiente = 1.6133375994146e+33
+Derivada Intercepto = -4.949074446843779e+37
+Derivada Pendiente = 8.25574092177274e+36
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 3.961240482410853e+34
+Nuevo Pendiente = -6.642403322358141e+33
+
+Iteracion 57
+Anterior Intercepto = 3.961240482410853e+34
+Anterior Pendiente = -6.642403322358141e+33
+Derivada Intercepto = 1.9846981547121456e+38
+Derivada Pendiente = -3.3925397576693403e+37
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -1.5885741064710603e+35
+Nuevo Pendiente = 2.728299425433526e+34
+
+Iteracion 58
+Anterior Intercepto = -1.5885741064710603e+35
+Anterior Pendiente = 2.728299425433526e+34
+Derivada Intercepto = -7.959620146218556e+38
+Derivada Pendiente = 1.391089658170714e+38
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 6.371046039747496e+35
+Nuevo Pendiente = -1.1182597156273616e+35
+
+Iteracion 59
+Anterior Intercepto = 6.371046039747496e+35
+Anterior Pendiente = -1.1182597156273616e+35
+Derivada Intercepto = 3.192388255507705e+39
+Derivada Pendiente = -5.6931168057291e+38
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -2.5552836515329557e+36
+Nuevo Pendiente = 4.574857090101738e+35
+
+Iteracion 60
+Anterior Intercepto = -2.5552836515329557e+36
+Anterior Pendiente = 4.574857090101738e+35
+Derivada Intercepto = -1.2804504284082716e+40
+Derivada Pendiente = 2.3259430867533028e+39
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 1.024922063254976e+37
+Nuevo Pendiente = -1.8684573777431292e+36
+
+Iteracion 61
+Anterior Intercepto = 1.024922063254976e+37
+Anterior Pendiente = -1.8684573777431292e+36
+Derivada Intercepto = 5.136081175853341e+40
+Derivada Pendiente = -9.488104911510256e+39
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -4.111159112598365e+37
+Nuevo Pendiente = 7.619647533767128e+36
+
+Iteracion 62
+Anterior Intercepto = -4.111159112598365e+37
+Anterior Pendiente = 7.619647533767128e+36
+Derivada Intercepto = -2.0602574209343816e+41
+Derivada Pendiente = 3.865082621865314e+40
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 1.649141509674545e+38
+Nuevo Pendiente = -3.1031178684886014e+37
+
+Iteracion 63
+Anterior Intercepto = 1.649141509674545e+38
+Anterior Pendiente = -3.1031178684886014e+37
+Derivada Intercepto = 8.264758252846296e+41
+Derivada Pendiente = -1.5725200143012763e+41
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -6.615616743171751e+38
+Nuevo Pendiente = 1.2622082274524162e+38
+
+Iteracion 64
+Anterior Intercepto = -6.615616743171751e+38
+Anterior Pendiente = 1.2622082274524162e+38
+Derivada Intercepto = -3.3155573379301727e+42
+Derivada Pendiente = 6.390632012249657e+41
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 2.6539956636129976e+39
+Nuevo Pendiente = -5.12842378479724e+38
+
+Iteracion 65
+Anterior Intercepto = 2.6539956636129976e+39
+Anterior Pendiente = -5.12842378479724e+38
+Derivada Intercepto = 1.3301462808851344e+43
+Derivada Pendiente = -2.5944648088029237e+42
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -1.0647467145238349e+40
+Nuevo Pendiente = 2.0816224303231997e+39
+
+Iteracion 66
+Anterior Intercepto = -1.0647467145238349e+40
+Anterior Pendiente = 2.0816224303231997e+39
+Derivada Intercepto = -5.336513098059811e+43
+Derivada Pendiente = 1.0523229743403889e+43
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 4.2717663835359755e+40
+Nuevo Pendiente = -8.441607313080689e+39
+
+Iteracion 67
+Anterior Intercepto = 4.2717663835359755e+40
+Anterior Pendiente = -8.441607313080689e+39
+Derivada Intercepto = 2.1410656750966586e+44
+Derivada Pendiente = -4.264656956332441e+43
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -1.7138890367430611e+41
+Nuevo Pendiente = 3.4204962250243725e+40
+
+Iteracion 68
+Anterior Intercepto = -1.7138890367430611e+41
+Anterior Pendiente = 3.4204962250243725e+40
+Derivada Intercepto = -8.590444341819358e+44
+Derivada Pendiente = 1.7269730323591152e+44
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 6.8765553050762965e+41
+Nuevo Pendiente = -1.384923409856678e+41
+
+Iteracion 69
+Anterior Intercepto = 6.8765553050762965e+41
+Anterior Pendiente = -1.384923409856678e+41
+Derivada Intercepto = 3.4467799936408275e+45
+Derivada Pendiente = -6.9884788740719046e+44
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -2.759124463133198e+42
+Nuevo Pendiente = 5.603555464215227e+41
+
+Iteracion 70
+Anterior Intercepto = -2.759124463133198e+42
+Anterior Pendiente = 5.603555464215227e+41
+Derivada Intercepto = -1.3830023741481639e+46
+Derivada Pendiente = 2.826192218564021e+45
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 1.1070899278348441e+43
+Nuevo Pendiente = -2.2658366721424983e+42
+
+Iteracion 71
+Anterior Intercepto = 1.1070899278348441e+43
+Anterior Pendiente = -2.2658366721424983e+42
+Derivada Intercepto = 5.549360095256054e+46
+Derivada Pendiente = -1.1422636816519643e+46
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -4.4422701674212105e+43
+Nuevo Pendiente = 9.156800144377146e+42
+
+Iteracion 72
+Anterior Intercepto = -4.4422701674212105e+43
+Anterior Pendiente = 9.156800144377146e+42
+Derivada Intercepto = -2.226756639219196e+47
+Derivada Pendiente = 4.6142176380368e+46
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 1.7825296224770751e+44
+Nuevo Pendiente = -3.698537623599085e+43
+
+Iteracion 73
+Anterior Intercepto = 1.7825296224770751e+44
+Anterior Pendiente = -3.698537623599085e+43
+Derivada Intercepto = 8.935354226119266e+47
+Derivada Pendiente = -1.8630142925521766e+47
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -7.152824603642191e+44
+Nuevo Pendiente = 1.4931605301922684e+44
+
+Iteracion 74
+Anterior Intercepto = -7.152824603642191e+44
+Anterior Pendiente = 1.4931605301922684e+44
+Derivada Intercepto = -3.5855791337616913e+48
+Derivada Pendiente = 7.518622347559177e+47
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 2.8702966733974725e+45
+Nuevo Pendiente = -6.025461817366909e+44
+
+Iteracion 75
+Anterior Intercepto = 2.8702966733974725e+45
+Anterior Pendiente = -6.025461817366909e+44
+Derivada Intercepto = 1.4388474966167366e+49
+Derivada Pendiente = -3.033055018111689e+48
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -1.1518178292769895e+46
+Nuevo Pendiente = 2.4305088363749977e+45
+
+Iteracion 76
+Anterior Intercepto = -1.1518178292769895e+46
+Anterior Pendiente = 2.4305088363749977e+45
+Derivada Intercepto = -5.774010560112855e+49
+Derivada Pendiente = 1.2230853400024443e+49
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 4.622192730835866e+46
+Nuevo Pendiente = -9.800344563649445e+45
+
+Iteracion 77
+Anterior Intercepto = 4.622192730835866e+46
+Anterior Pendiente = -9.800344563649445e+45
+Derivada Intercepto = 2.31711300661346e+50
+Derivada Pendiente = -4.930386026152938e+49
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -1.8548937335298733e+47
+Nuevo Pendiente = 3.950351569787993e+46
+
+Iteracion 78
+Anterior Intercepto = -1.8548937335298733e+47
+Anterior Pendiente = 3.950351569787993e+46
+Derivada Intercepto = -9.298720721071813e+50
+Derivada Pendiente = 1.9868489731447212e+50
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 7.44382698754194e+47
+Nuevo Pendiente = -1.591813816165922e+47
+
+Iteracion 79
+Anterior Intercepto = 7.44382698754194e+47
+Anterior Pendiente = -1.591813816165922e+47
+Derivada Intercepto = 3.7316859793399734e+51
+Derivada Pendiente = -8.004230655339601e+50
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -2.9873032805857795e+48
+Nuevo Pendiente = 6.4124168391736786e+47
+
+Iteracion 80
+Anterior Intercepto = -2.9873032805857795e+48
+Anterior Pendiente = 6.4124168391736786e+47
+Derivada Intercepto = -1.4975883601772665e+52
+Derivada Pendiente = 3.2237045919562165e+51
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 1.1988580321186886e+49
+Nuevo Pendiente = -2.5824629080388484e+48
+
+Iteracion 81
+Anterior Intercepto = 1.1988580321186886e+49
+Anterior Pendiente = -2.5824629080388484e+48
+Derivada Intercepto = 6.010144452876246e+52
+Derivada Pendiente = -1.298018949147864e+52
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -4.811286420757557e+49
+Nuevo Pendiente = 1.0397726583439791e+49
+
+Iteracion 82
+Anterior Intercepto = -4.811286420757557e+49
+Anterior Pendiente = 1.0397726583439791e+49
+Derivada Intercepto = -2.4120265971766055e+53
+Derivada Pendiente = 5.225230553979577e+52
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 1.93089795510085e+50
+Nuevo Pendiente = -4.185457895635599e+49
+
+Iteracion 83
+Anterior Intercepto = 1.93089795510085e+50
+Anterior Pendiente = -4.185457895635599e+49
+Derivada Intercepto = 9.680185196959562e+53
+Derivada Pendiente = -2.1029855739536666e+53
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -7.749287241858713e+50
+Nuevo Pendiente = 1.684439784390107e+50
+
+Iteracion 84
+Anterior Intercepto = -7.749287241858713e+50
+Anterior Pendiente = 1.684439784390107e+50
+Derivada Intercepto = -3.884984757133626e+54
+Derivada Pendiente = 8.462149349572144e+53
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 3.1100560329477544e+51
+Nuevo Pendiente = -6.777709565182038e+50
+
+Iteracion 85
+Anterior Intercepto = 3.1100560329477544e+51
+Anterior Pendiente = -6.777709565182038e+50
+Derivada Intercepto = 1.5591889973777981e+55
+Derivada Pendiente = -3.40443622863504e+54
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -1.2481833940830227e+52
+Nuevo Pendiente = 2.7266652721168365e+51
+
+Iteracion 86
+Anterior Intercepto = -1.2481833940830227e+52
+Anterior Pendiente = 2.7266652721168365e+51
+Derivada Intercepto = -6.257656551861547e+55
+Derivada Pendiente = 1.3694175459373494e+55
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 5.009473157778523e+52
+Nuevo Pendiente = -1.0967510187256658e+52
+
+Iteracion 87
+Anterior Intercepto = 5.009473157778523e+52
+Anterior Pendiente = -1.0967510187256658e+52
+Derivada Intercepto = 2.5114697680313835e+56
+Derivada Pendiente = -5.50754813613746e+55
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -2.010522452253531e+53
+Nuevo Pendiente = 4.410797117411795e+52
+
+Iteracion 88
+Anterior Intercepto = -2.010522452253531e+53
+Anterior Pendiente = 4.410797117411795e+52
+Derivada Intercepto = -1.0079691088414372e+57
+Derivada Pendiente = 2.214713571754794e+56
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 8.069168636160842e+53
+Nuevo Pendiente = -1.7736338600136143e+53
+
+Iteracion 89
+Anterior Intercepto = 8.069168636160842e+53
+Anterior Pendiente = -1.7736338600136143e+53
+Derivada Intercepto = 4.045473035797062e+57
+Derivada Pendiente = -8.904681817833035e+56
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -3.2385561721809774e+54
+Nuevo Pendiente = 7.13104795781942e+53
+
+Iteracion 90
+Anterior Intercepto = -3.2385561721809774e+54
+Anterior Pendiente = 7.13104795781942e+53
+Derivada Intercepto = -1.6236559889929475e+58
+Derivada Pendiente = 3.579852823128408e+57
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 1.2998003717748496e+55
+Nuevo Pendiente = -2.8667480273464665e+54
+
+Iteracion 91
+Anterior Intercepto = 1.2998003717748496e+55
+Anterior Pendiente = -2.8667480273464665e+54
+Derivada Intercepto = 6.516601438324244e+58
+Derivada Pendiente = -1.439003607191719e+58
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -5.216801066549395e+55
+Nuevo Pendiente = 1.1523288044570724e+55
+
+Iteracion 92
+Anterior Intercepto = -5.216801066549395e+55
+Anterior Pendiente = 1.1523288044570724e+55
+Derivada Intercepto = -2.615474926333697e+59
+Derivada Pendiente = 5.783786395008918e+58
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 2.093794819678758e+56
+Nuevo Pendiente = -4.631457590551846e+55
+
+Iteracion 93
+Anterior Intercepto = 2.093794819678758e+56
+Anterior Pendiente = -4.631457590551846e+55
+Derivada Intercepto = 1.0497407607393064e+60
+Derivada Pendiente = -2.3244471934478486e+59
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -8.403612787714307e+56
+Nuevo Pendiente = 1.8613014343926642e+56
+
+Iteracion 94
+Anterior Intercepto = -8.403612787714307e+56
+Anterior Pendiente = 1.8613014343926642e+56
+Derivada Intercepto = -4.213233321568449e+60
+Derivada Pendiente = 9.340870752046258e+59
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 3.372872042797019e+57
+Nuevo Pendiente = -7.479569317653594e+56
+
+Iteracion 95
+Anterior Intercepto = 3.372872042797019e+57
+Anterior Pendiente = -7.479569317653594e+56
+Derivada Intercepto = 1.6910278890200126e+61
+Derivada Pendiente = -3.753342566721976e+60
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -1.3537406847403108e+58
+Nuevo Pendiente = 3.005385634956616e+57
+
+Iteracion 96
+Anterior Intercepto = -1.3537406847403108e+58
+Anterior Pendiente = 3.005385634956616e+57
+Derivada Intercepto = -6.787154129084704e+61
+Derivada Pendiente = 1.5080471177297454e+61
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 5.433413444344394e+58
+Nuevo Pendiente = -1.207508554234084e+58
+
+Iteracion 97
+Anterior Intercepto = 5.433413444344394e+58
+Anterior Pendiente = -1.207508554234084e+58
+Derivada Intercepto = 2.7241198755201963e+62
+Derivada Pendiente = -6.058707446591633e+61
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -2.180778531085757e+59
+Nuevo Pendiente = 4.8511988923575494e+58
+
+Iteracion 98
+Anterior Intercepto = -2.180778531085757e+59
+Anterior Pendiente = 4.8511988923575494e+58
+Derivada Intercepto = -1.093367520329115e+63
+Derivada Pendiente = 2.4339728574378748e+62
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 8.752896672205392e+59
+Nuevo Pendiente = -1.9488529682021197e+59
+
+Iteracion 99
+Anterior Intercepto = 8.752896672205392e+59
+Anterior Pendiente = -1.9488529682021197e+59
+Derivada Intercepto = 4.388412761410763e+63
+Derivada Pendiente = -9.777420548148843e+62
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = -3.5131230941902236e+60
+Nuevo Pendiente = 7.828567579946723e+59
+
+Iteracion 100
+Anterior Intercepto = -3.5131230941902236e+60
+Anterior Pendiente = 7.828567579946723e+59
+Derivada Intercepto = -1.7613676722162817e+64
+Derivada Pendiente = 3.9274227966655e+63
+Tasa de Aprendizaje = 0.001
+Nuevo Intercepto = 1.410055362797259e+61
+Nuevo Pendiente = -3.1445660386708276e+60
+

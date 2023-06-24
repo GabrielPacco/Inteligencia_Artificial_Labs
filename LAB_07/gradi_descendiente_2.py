@@ -1,6 +1,5 @@
 import numpy as np
 from sklearn import datasets
-import matplotlib.pyplot as plt
 
 # Generar 50 puntos aleatorios
 X, Y = datasets.make_regression(n_samples=50, n_features=1, noise=20)
@@ -14,7 +13,7 @@ num_iteraciones = 100
 # Crear archivo de texto
 with open('resultado.txt', 'w') as archivo:
     # Escribir los valores de los puntos
-    archivo.write("X={" + ','.join(str(x) for x in np.squeeze(X)) + "}\n")
+    archivo.write("X={" + ','.join(str(x[0]) for x in X) + "}\n")
     archivo.write("Y={" + ','.join(str(y) for y in Y) + "}\n\n")
 
     # Escribir parámetros del algoritmo
@@ -51,13 +50,7 @@ with open('resultado.txt', 'w') as archivo:
         anterior_intercepto = nuevo_intercepto
         anterior_pendiente = nuevo_pendiente
 
-
-# Graficar los puntos de la regresión lineal obtenida
-plt.scatter(X, Y)
-plt.plot(X, anterior_intercepto + anterior_pendiente * X, color='red')
-plt.title('Regresión Lineal')
-plt.xlabel('X')
-plt.ylabel('Y')
-
-# Guardar la imagen en formato PNG
-plt.savefig('regresion_lineal.png')
+    # Escribir resultados finales en el archivo
+    archivo.write("Resultados Finales\n")
+    archivo.write("Anterior Intercepto = {}\n".format(anterior_intercepto))
+    archivo.write("Anterior Pendiente = {}\n".format(anterior_pendiente))
