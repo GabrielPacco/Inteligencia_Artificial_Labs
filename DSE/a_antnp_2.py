@@ -110,7 +110,7 @@ arbol_genealogico[pablo.nombre] = pablo
 arbol_genealogico[jose.nombre] = jose
 
 # Consultas
-nombre_persona = "Maria"
+nombre_persona = "Pedro"
 print("Hermanos de", nombre_persona + ":", obtener_hermanos(nombre_persona))
 print("Primos de", nombre_persona + ":", obtener_primos(nombre_persona))
 print("Tíos políticos de", nombre_persona + ":", obtener_tios_politicos(nombre_persona))

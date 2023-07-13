@@ -1,62 +1,137 @@
-padres = {("Juan", "Pérez"): [("Pedro", "Pérez"), ("María", "Pérez")], ("Ana", "García"): [("Pedro", "Pérez"), ("María", "Pérez"), ("Luis", "García")], ("Carlos", "García"): [("Luis", "García")]}
-madres = {("María", "Pérez"): [("Pedro", "Pérez"), ("Juan", "Pérez")], ("Luisa", "García"): [("Luis", "García")]}
+class Persona:
+    def __init__(self, nombre, genero):
+        self.nombre = nombre
+        self.genero = genero
+        self.padre = None
+        self.madre = None
+        self.pareja = None
+
+def asignar_padre(padre, hijo):
+    hijo.padre = padre
+
+def asignar_madre(madre, hijo):
+    hijo.madre = madre
 
 def son_hermanos(persona1, persona2):
-    hijos_padre1 = padres.get(persona1, [])
-    hijos_padre2 = padres.get(persona2, [])
-    hijos_madre1 = madres.get(persona1, [])
-    hijos_madre2 = madres.get(persona2, [])
-    return (persona1 != persona2) and ((persona1 in hijos_padre2) or (persona1 in hijos_madre2) or (persona2 in hijos_padre1) or (persona2 in hijos_madre1))
+    return (
+        persona1.padre == persona2.padre and
+        persona1.madre == persona2.madre and
+        persona1 != persona2
+    )
 
 def son_primos(persona1, persona2):
-    padres_persona1 = padres.get(persona1, [])
-    padres_persona2 = padres.get(persona2, [])
-    madres_persona1 = madres.get(persona1, [])
-    madres_persona2 = madres.get(persona2, [])
-    ancestros_en_comun = set(padres_persona1 + madres_persona1) & set(padres_persona2 + madres_persona2)
-    return len(ancestros_en_comun) > 0
+    return (
+        persona1.padre != persona2.padre and
+        persona1.madre != persona2.madre and
+        (persona1.padre == persona2.padre.padre or persona1.madre == persona2.madre.madre)
+    )
 
-def es_tio_o_tia_politica(tio_o_tia, sobrino_o_sobrina):
-    hermanos = []
-    if tio_o_tia in padres:
-        hermanos = padres[tio_o_tia]
-    elif tio_o_tia in madres:
-        hermanos = madres[tio_o_tia]
-    for hermano_o_hermana in hermanos:
-        if son_hermanos(hermano_o_hermana, sobrino_o_sobrina):
+def es_tio_politico(tio, persona):
+    hermanos_padre = obtener_hermanos(persona.padre.nombre)
+    hermanos_madre = obtener_hermanos(persona.madre.nombre)
+    hermanos = hermanos_padre + hermanos_madre
+    
+    for hermano in hermanos:
+        if tio.nombre == arbol_genealogico[hermano].pareja:
             return True
+    
     return False
 
-def obtener_hermanos(nombre, apellido):
+def es_tia_politica(tia, persona):
+    return es_tio_politico(tia, persona)
+
+def obtener_hermanos(nombre):
+    persona = arbol_genealogico.get(nombre)
+    if persona is None:
+        return []
+    
     hermanos = []
-    for persona, hijos in padres.items():
-        if persona != (nombre, apellido) and (nombre, apellido) in hijos:
-            hermanos.append(persona)
-    for persona, hijos in madres.items():
-        if persona != (nombre, apellido) and (nombre, apellido) in hijos:
-            hermanos.append(persona)
+    for persona_actual in arbol_genealogico.values():
+        if son_hermanos(persona_actual, persona):
+            hermanos.append(persona_actual.nombre)
+    
     return hermanos
 
-def obtener_primos(nombre, apellido):
+def obtener_primos(nombre):
+    persona = arbol_genealogico.get(nombre)
+    if persona is None:
+        return []
+    
     primos = []
-    for persona, hijos in padres.items():
-        if (nombre, apellido) in hijos:
-            for hermano_o_hermana in hijos:
-                primos.extend([hijo for hijo in padres.get(hermano_o_hermana, []) if hijo != (nombre, apellido)])
-                primos.extend([hijo for hijo in madres.get(hermano_o_hermana, []) if hijo != (nombre, apellido)])
-    for persona, hijos in madres.items():
-        if (nombre, apellido) in hijos:
-            for hermano_o_hermana in hijos:
-                primos.extend([hijo for hijo in padres.get(hermano_o_hermana, []) if hijo != (nombre, apellido)])
-                primos.extend([hijo for hijo in madres.get(hermano_o_hermana, []) if hijo != (nombre, apellido)])
+    for persona_actual in arbol_genealogico.values():
+        if son_primos(persona_actual, persona):
+            primos.append(persona_actual.nombre)
+    
     return primos
 
-# Ejemplos de uso
-print(son_hermanos(("Pedro", "Pérez"), ("María", "Pérez"))) # True
-print(son_hermanos(("Juan", "Pérez"), ("Luis", "García"))) # False
-print(son_primos(("Pedro", "Pérez"), ("Luis", "García"))) # True
-print(son_primos(("Juan", "Pérez"), ("Luisa", "García"))) # False
-print(es_tio_o_tia_politica(("Juan", "Pérez"), ("Luis", "García"))) # True
-print(es_tio_o_tia_politica(("Ana", "García"), ("Luis", "García"))) # False
-print(obtener_hermanos("Pedro", "Pérez")) # [("María", "Pérez")]
-print(obtener_primos("Pedro", "Pérez")) # [("Luis", "García")]
+def obtener_tios_politicos(nombre):
+    persona = arbol_genealogico.get(nombre)
+    if persona is None:
+        return []
+    
+    tios_politicos = []
+    for persona_actual in arbol_genealogico.values():
+        if es_tio_politico(persona_actual, persona):
+            tios_politicos.append(persona_actual.nombre)
+    
+    return tios_politicos
+
+def obtener_tias_politicas(nombre):
+    persona = arbol_genealogico.get(nombre)
+    if persona is None:
+        return []
+    
+    tias_politicas = []
+    for persona_actual in arbol_genealogico.values():
+        if es_tia_politica(persona_actual, persona):
+            tias_politicas.append(persona_actual.nombre)
+    
+    return tias_politicas
+
+def obtener_padre(nombre):
+    padre = arbol_genealogico.get(nombre).padre
+    if padre is None:
+        return "No se ha asignado un padre a esta Persona"
+    
+    return padre.nombre
+
+def obtener_madre(nombre):
+    madre = arbol_genealogico.get(nombre).madre
+    if madre is None:
+        return "No se ha asignado una madre a esta Persona"
+    
+    return madre.nombre
+
+# Crear árbol genealógico
+arbol_genealogico = {}
+juan = Persona("Juan", "Hombre")
+ana = Persona("Ana", "Mujer")
+maria = Persona("Maria", "Mujer")
+pedro = Persona("Pedro", "Hombre")
+pablo = Persona("Pablo", "Hombre")
+jose = Persona("Jose", "Hombre")
+
+asignar_padre(juan, pedro)
+asignar_madre(ana, pedro)
+asignar_padre(juan, maria)
+asignar_madre(ana, maria)
+asignar_padre(pedro, pablo)
+asignar_madre(maria, pablo)
+asignar_padre(pedro, jose)
+asignar_madre(maria, jose)
+
+arbol_genealogico[juan.nombre] = juan
+arbol_genealogico[ana.nombre] = ana
+arbol_genealogico[maria.nombre] = maria
+arbol_genealogico[pedro.nombre] = pedro
+arbol_genealogico[pablo.nombre] = pablo
+arbol_genealogico[jose.nombre] = jose
+
+# Consultas
+nombre_persona = "Maria"
+print("Hermanos de", nombre_persona + ":", obtener_hermanos(nombre_persona))
+print("Primos de", nombre_persona + ":", obtener_primos(nombre_persona))
+print("Tíos políticos de", nombre_persona + ":", obtener_tios_politicos(nombre_persona))
+print("Tías políticas de", nombre_persona + ":", obtener_tias_politicas(nombre_persona))
+print("Padre de", nombre_persona + ":", obtener_padre(nombre_persona))
+print("Madre de", nombre_persona + ":", obtener_madre(nombre_persona))
