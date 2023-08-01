@@ -1,0 +1,22 @@
+Nombre del alumno: [Gabriel Pacco Huaraca]
+Algoritmo utilizado: ID3
+Conjunto de entrenamiento: virus_train.csv
+Conjunto de prueba: virus_test.csv
+
+Ganancia de informacion en cada paso:
+fever: 0.0207
+cough: 1.0000
+fatigue_mild: 0.1957
+fatigue_moderate: 0.1909
+fatigue_severe: 0.0271
+pain_mild: 0.3113
+pain_moderate: 0.0817
+pain_severe: 0.0271
+disease_SARS-CoV1: 1.0000
+
+Predicciones para cada elemento del conjunto de prueba:
+Instancia 1: fever=1, cough=nan, fatigue_mild=False, fatigue_moderate=True, fatigue_severe=0, pain_mild=0, pain_moderate=False, pain_severe=True, disease_SARS-CoV1=True, Clase real: False, Clase pronosticada: False
+Instancia 2: fever=1, cough=nan, fatigue_mild=True, fatigue_moderate=False, fatigue_severe=0, pain_mild=0, pain_moderate=True, pain_severe=False, disease_SARS-CoV1=False, Clase real: True, Clase pronosticada: False
+Instancia 3: fever=0, cough=nan, fatigue_mild=True, fatigue_moderate=False, fatigue_severe=0, pain_mild=0, pain_moderate=False, pain_severe=True, disease_SARS-CoV1=True, Clase real: False, Clase pronosticada: False
+
+Tasa de acierto del arbol de decision: 0.67

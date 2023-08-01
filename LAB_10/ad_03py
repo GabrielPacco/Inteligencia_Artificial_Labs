@@ -1,0 +1,78 @@
+import pandas as pd
+from math import log2
+
+# Clase para representar un nodo del árbol de decisión
+class Node:
+    def __init__(self, attribute, children):
+        self.attribute = attribute
+        self.children = children
+
+# Función para calcular la entropía de un conjunto de datos
+def entropy(data):
+    class_counts = data['disease_Covid-19'].value_counts()
+    total_instances = len(data)
+    entropy = 0
+    for count in class_counts:
+        probability = count / total_instances
+        entropy -= probability * log2(probability)
+    return entropy
+
+# Función para calcular la ganancia de información de un atributo
+def information_gain(data, attribute):
+    total_entropy = entropy(data)
+    attribute_values = data[attribute].unique()
+    weighted_entropy = 0
+    for value in attribute_values:
+        subset = data[data[attribute] == value]
+        subset_entropy = entropy(subset)
+        subset_probability = len(subset) / len(data)
+        weighted_entropy += subset_probability * subset_entropy
+    return total_entropy - weighted_entropy
+
+# Función para seleccionar el mejor atributo para dividir el conjunto de datos
+def select_best_attribute(data):
+    attributes = data.columns.drop('disease_Covid-19')
+    best_attribute = None
+    best_gain = -1
+    for attribute in attributes:
+        gain = information_gain(data, attribute)
+        if gain > best_gain:
+            best_gain = gain
+            best_attribute = attribute
+    return best_attribute
+
+# Función para construir el árbol de decisión usando el algoritmo ID3
+def build_tree(data):
+    if len(data['disease_Covid-19'].unique()) == 1:
+        return data['disease_Covid-19'].iloc[0]
+    
+    if len(data.columns) == 1:
+        return data['disease_Covid-19'].mode().iloc[0]
+    
+    best_attribute = select_best_attribute(data)
+    tree = Node(best_attribute, {})
+    
+    values = data[best_attribute].unique()
+    for value in values:
+        subset = data[data[best_attribute] == value]
+        tree.children[value] = build_tree(subset.drop(columns=[best_attribute]))
+    
+    return tree
+
+# Paso 1: Cargar los datos de entrenamiento
+train_data = pd.read_csv("virus_train.csv")
+
+# Convertir los valores "yes" y "no" en valores binarios 1 y 0
+binary_labels = {"yes": 1, "no": 0}
+train_data["fever"] = train_data["fever"].map(binary_labels)
+train_data["cough"] = train_data["cough"].map(binary_labels)
+
+# Codificar las columnas categóricas usando one-hot encoding
+train_data = pd.get_dummies(train_data, columns=["fatigue", "pain", "disease"])
+
+# Separar características (atributos) y etiquetas de clase
+X_train = train_data.drop("disease_Covid-19", axis=1)  # Características de entrenamiento
+y_train = train_data["disease_Covid-19"]  # Etiquetas de clase de entrenamiento
+
+# Paso 2: Crear el modelo de árbol de decisión con el algoritmo ID3 y entrenarlo
+tree = build_tree(pd.concat([X_train, y_train], axis=1))
