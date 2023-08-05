@@ -1,0 +1,67 @@
+Pesos iniciales: [0.2, 0.3, -0.1]
+
+Epoca 1
+Dato analizado: [0, 0], Salida esperada: 0, Salida estimada: 1
+Error: -1
+Nuevos pesos: [0.1, 0.3, -0.1]
+Dato analizado: [0, 1], Salida esperada: 0, Salida estimada: 0
+Dato analizado: [1, 0], Salida esperada: 0, Salida estimada: 1
+Error: -1
+Nuevos pesos: [0, 0.2, -0.1]
+Dato analizado: [1, 1], Salida esperada: 1, Salida estimada: 1
+
+Epoca 2
+Dato analizado: [0, 0], Salida esperada: 0, Salida estimada: 0
+Dato analizado: [0, 1], Salida esperada: 0, Salida estimada: 0
+Dato analizado: [1, 0], Salida esperada: 0, Salida estimada: 1
+Error: -1
+Nuevos pesos: [-0.1, 0.1, -0.1]
+Dato analizado: [1, 1], Salida esperada: 1, Salida estimada: 0
+Error: 1
+Nuevos pesos: [0, 0.2, 0]
+
+Epoca 3
+Dato analizado: [0, 0], Salida esperada: 0, Salida estimada: 0
+Dato analizado: [0, 1], Salida esperada: 0, Salida estimada: 0
+Dato analizado: [1, 0], Salida esperada: 0, Salida estimada: 1
+Error: -1
+Nuevos pesos: [-0.1, 0.1, 0]
+Dato analizado: [1, 1], Salida esperada: 1, Salida estimada: 0
+Error: 1
+Nuevos pesos: [0, 0.2, 0.1]
+
+Epoca 4
+Dato analizado: [0, 0], Salida esperada: 0, Salida estimada: 0
+Dato analizado: [0, 1], Salida esperada: 0, Salida estimada: 1
+Error: -1
+Nuevos pesos: [-0.1, 0.2, 0]
+Dato analizado: [1, 0], Salida esperada: 0, Salida estimada: 1
+Error: -1
+Nuevos pesos: [-0.2, 0.1, 0]
+Dato analizado: [1, 1], Salida esperada: 1, Salida estimada: 0
+Error: 1
+Nuevos pesos: [-0.1, 0.2, 0.1]
+
+Epoca 5
+Dato analizado: [0, 0], Salida esperada: 0, Salida estimada: 0
+Dato analizado: [0, 1], Salida esperada: 0, Salida estimada: 0
+Dato analizado: [1, 0], Salida esperada: 0, Salida estimada: 1
+Error: -1
+Nuevos pesos: [-0.2, 0.1, 0.1]
+Dato analizado: [1, 1], Salida esperada: 1, Salida estimada: 0
+Error: 1
+Nuevos pesos: [-0.1, 0.2, 0.2]
+
+Epoca 6
+Dato analizado: [0, 0], Salida esperada: 0, Salida estimada: 0
+Dato analizado: [0, 1], Salida esperada: 0, Salida estimada: 1
+Error: -1
+Nuevos pesos: [-0.2, 0.2, 0.1]
+Dato analizado: [1, 0], Salida esperada: 0, Salida estimada: 0
+Dato analizado: [1, 1], Salida esperada: 1, Salida estimada: 1
+
+Epoca 7
+Dato analizado: [0, 0], Salida esperada: 0, Salida estimada: 0
+Dato analizado: [0, 1], Salida esperada: 0, Salida estimada: 0
+Dato analizado: [1, 0], Salida esperada: 0, Salida estimada: 0
+Dato analizado: [1, 1], Salida esperada: 1, Salida estimada: 1
